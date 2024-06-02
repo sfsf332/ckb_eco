@@ -1,0 +1,24 @@
+{
+  "h1": "RGB++ is an asset issuance protocol on the Bitcoin mainnet. It maps Bitcoin UTXO to Cell on the Nervos CKB using Isomorphic Binding technology. This protocol utilizes scripts on both the CKB chain and Bitcoin chain to ensure the correctness of state computations and the validity of ownership changes. RGB++ brings Turing-complete smart contract capabilities and performance enhancements to Bitcoin without requiring cross-chain bridge or compromising security.",
+  "h3": "Isomorphic Binding",
+  "intro": "Isomorphic Binding technology, proposed by Cipher, the author of the RGB++ protocol, is a theoretical framework that maps different types of UTXOs in a isomorphic manner. This allows for trustless, self-controlled asset transfers. This is a significant innovation that opens up new possibilities for the development of the Bitcoin ecosystem.",
+  "s-title":"Advantages of RGB++",
+  "s-title-1":"An alternative data verification solution",
+  "s-intro-1":"Using CKB or UTXO Stack Chains as the DA layer, provides users with an additional option for data verification.",
+  "s-title-2":"More possibilities",
+  "s-intro-2":"Based on 'single-use seals' technology, and combined with CKB as an alternative for client-side validation, this approach opens up more possibilities such as blockchain-enhanced client validation, transaction folding, shared state and ownerless contracts, and non-interactive transfers",
+  "s-title-3":"Isomorphic Binding",
+  "s-intro-3":"All Bitcoin mainnet assets and assets from other UTXO chains can be mapped and bound to CKB or other Turing-complete UTXO chains using isomorphic binding technology. This significantly enhances the interoperability between different UTXO chains and provides more possibilities for the development of the Bitcoin ecosystem.",
+  "t-title":"Goals of RGB++",
+  "target":"Goals ",
+  "target_1_0":"Meet the",
+  "target_1_1":" asset issuance requirements ",
+  "target_1_2":" of the Bitcoin mainnet and achieve isomorphic mapping with the CKB chain.",
+  "target_2_0":"",
+  "target_2_1":"Isomorphically bind RGB++ assets ",
+  "target_2_2":" to other Turing-complete UTXO chains.",
+  "target_3_0":"Isomorphically bind other Bitcoin mainnet asset issuance protocols to Turing-complete ",
+  "target_3_1":"UTXO chains",
+  "target_3_2":"."
+
+}

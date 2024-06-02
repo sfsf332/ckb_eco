@@ -1,0 +1,117 @@
+[
+    {
+        "img": "images/eco/joyid.png",
+        "name": "JoyID Passkey",
+        "ico": "images/eco/icon_joyid.png",
+        "desc": "First Bitcoin Non-custodial Passkey Wallet",
+        "tag": [
+            "L1",
+            "Wallet"
+        ],
+        "type": "Wallet",
+        "link": "https://app.joy.id"
+    },
+    {
+        "img": "images/eco/huehub.jpg",
+        "name": "HueHub",
+        "ico": "images/eco/huehub_ico.jpeg",
+        "desc": "First DEX for RGB++ Assets on Bitcoin",
+        "tag": [
+            "DeFi",
+            "DEX"
+        ],
+        "type": "Dex",
+        "link": "https://huehub.xyz/"
+    },
+    {
+        "img": "images/eco/omiga.png",
+        "name": "Omiga",
+        "ico": "images/eco/logo_omiga.png",
+        "desc": "First UTXO DEX for RGB++ Assets on CKB",
+        "tag": [
+            "L2","DEX"
+        ],
+        "type": "Dex",
+        "link": "https://omiga.io/"
+    },
+    {
+        "img": "images/eco/dobby.png",
+        "name": "Dobby",
+        "ico": "images/eco/dobby_ico.jpeg",
+        "desc": "DOBs Marketplace",
+        "tag": [
+            "DOB",
+            "DEX"
+        ],
+        "type": "DEX",
+        "link": "https://app.dobby.market"
+    },
+    {
+        "img": "images/eco/world3.jpg",
+        "name": "World3",
+        "ico": "images/eco/world3_ico.jpg",
+        "desc": "AI Powered Autonomous World on Bitcoin",
+        "tag": [
+            "AW"
+        ],
+        "type": "AW",
+        "link": "https://world3.ai/"
+    },
+    {
+        "img": "images/eco/image-d.id.png",
+        "name": "d.id",
+        "ico": "images/eco/logo-d.id.png",
+        "desc": "Building protocols for all human",
+        "tag": [
+            "DID",
+            "ID protocol"
+        ],
+        "type": "did",
+        "link": "https://d.id/"
+    },
+    {
+        "img": "images/eco/image-bit.png",
+        "name": ".bit",
+        "ico": "images/eco/logo-.bit.png",
+        "desc": "Barrier-free Human DID",
+        "tag": [
+            "DID"
+        ],
+        "type": "did",
+        "link": "https://d.id/products/bit"
+    },
+    {
+        "img": "images/eco/utxoswap.jpg",
+        "name": "UTXOSwap",
+        "ico": "images/eco/utxoswap_ico.jpeg",
+        "desc": "AMM DEX",
+        "tag": [
+            "DeFi",
+            "DEX"
+        ],
+        "type": "Dex",
+        "link": "https://utxoswap.xyz/"
+    },
+    {
+        "img": "images/eco/nervape.png",
+        "name": "Nervape",
+        "ico": "images/eco/nervape_ico.png",
+        "desc": "Digital Objects Built on Bitcoin",
+        "tag": [
+            "DOBs"
+        ],
+        "type": "DOBs",
+        "link": "https://www.nervape.com/"
+    },
+    {
+        "img": "images/eco/unicorn.jpg",
+        "name": "Unicorn",
+        "ico": "https://unidob.xyz/loog.png",
+        "desc": "The First DOBs on CKB",
+        "tag": [
+            "DOBs"
+        ],
+        "type": "DOBs",
+        "link": "https://www.unidob.xyz/"
+    }
+]
