@@ -17,25 +17,25 @@ export default function Header() {
           </Link>
           <div className={"nav-main " + montserrat.className}>
             <Link
-              href="/build"
+              href="/"
               className={router.pathname === "/build" ? "sel" : ""}
             >
               Build
             </Link>
             <Link
-              href="/eco"
+              href="/"
               className={router.pathname === "/eco" ? "sel" : ""}
             >
               Ecosystem
             </Link>
             <Link
-              href="/community"
+              href="/"
               className={router.pathname === "/community" ? "sel" : ""}
             >
               Community
             </Link>
             <Link
-              href="/about"
+              href="/"
               className={router.pathname === "/about" ? "sel" : ""}
             >
               About
