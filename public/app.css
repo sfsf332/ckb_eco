@@ -894,10 +894,9 @@ height: 300px;
   height: 300px;
   padding: 24px;
 border-radius: 12px;
-background: linear-gradient(0deg, #000000, #000000),
-linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+background:#fff;
 
-color: #fff;
+color: #000;
 font-size: 16px;
 line-height: 20px;
 
