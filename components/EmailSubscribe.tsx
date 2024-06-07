@@ -9,7 +9,7 @@ const EmailSubscribe = (): JSX.Element => {
       return;
     }
     (window as any).CustomSubstackWidget = {
-      substackUrl: "eipfun.substack.com",
+      substackUrl: "ckbeco.substack.com",
       placeholder: "example@gmail.com",
       buttonText: "Subscribe",
       theme: "custom",

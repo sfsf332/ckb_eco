@@ -8,11 +8,16 @@ import Link from "next/link";
 import EmailSubscribe from "./EmailSubscribe";
 import FooterInfo from "./FooterInfo";
 import IconLinks from "./IconLinks";
+import localFont from "next/font/local";
+const RanadeFont = localFont({
+  src: "../public/font/Ranade-Variable.ttf",
+  display: "swap",
+});
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const Footer: FC = () => {
   return (
-    <footer>
+    <footer className={RanadeFont.className}>
       <EmailSubscribe />
       <FooterInfo />
       <div className="footer-main">

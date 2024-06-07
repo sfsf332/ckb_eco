@@ -2,8 +2,12 @@ import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import { useRouter } from "next/router";
 import IconLinks from "./IconLinks";
+import localFont from "next/font/local";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const RanadeFont = localFont({
+  src: "../public/font/Ranade-Variable.ttf",
+  display: "swap",
+});
 
 export default function Header() {
   const router = useRouter();
@@ -13,9 +17,9 @@ export default function Header() {
       <header>
         <div className="header-main">
           <Link href="/">
-            <img className="nav_logo" height={30} src="images/logo.png"  />
+            <img className="nav_logo" height={80} src="images/ckb-eco-fund-black-png.png"  />
           </Link>
-          <div className={"nav-main " + montserrat.className}>
+          <div className={"nav-main " + RanadeFont.className}>
             <Link
               href="/"
               className={router.pathname === "/build" ? "sel" : ""}

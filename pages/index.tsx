@@ -13,7 +13,11 @@ import AnimatedAccordion from "components/AnimatedAccordion";
 
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
-  src: "../public/font/SharpieHand-p4Pa.ttf",
+  src: "../public/font/Sharpie-Variable.ttf",
+  display: "swap",
+});
+const RanadeFont = localFont({
+  src: "../public/font/Ranade-Variable.ttf",
   display: "swap",
 });
 
@@ -21,7 +25,7 @@ const Homepage = () => {
   return (
     <>
       <Header />
-      <main className="index_main">
+      <main className={"index_main "+RanadeFont.className}>
         <div className={"main-snap main-index "}>
           <img src="images/ckb.png" className="index_title" />
         </div>
@@ -29,19 +33,19 @@ const Homepage = () => {
           <h2 className={sharpieFont.className}>
             Bitcoin, Isomorphic. Possibilities, Leaped.
           </h2>
-          <p>
+          <h4>
             CKB maps Bitcoin through RGB++, empowering users and developers to{" "}
             <br />
             leap into autonomous worlds of boundless possibilities.
-          </p>
-          <p>
+          </h4>
+          <div>
             <Link href="#" className="button_link">
               Docs
             </Link>
             <Link href="#" className="button_link">
               WHY CKB?
             </Link>
-          </p>
+          </div>
           <div className="status_box">
             <div className="status_card status_1">
               <h4>415.12 PH/s</h4>
