@@ -165,6 +165,7 @@ p{
   grid-gap: 10px;
   width: 1200px;
   margin: 20px auto;
+  z-index: 2;
 }
 
 .second-screen .status_box .status_card {

@@ -39,7 +39,7 @@ export default function Header() {
               Community
             </Link>
             <Link
-              href="/"
+              href="/about"
               className={router.pathname === "/about" ? "sel" : ""}
             >
               About
