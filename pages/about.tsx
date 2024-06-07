@@ -295,6 +295,32 @@ const AboutPage = () => {
             </dd>
           </dl>
         </div>
+        <div className={'about-block-4'}>
+          <h2  className={sharpieFont.className}>Media Kit</h2>
+          <div className="media-block">
+            <div className="logos">
+              <h3>Logo</h3>
+              <ul>
+                <li><img src="images/logo/ckb-eco-fund-black-png.png" /></li>
+                <li><img src="images/logo/ckb-eco-fund-white-png.png" /></li>
+                <li><img src="images/logo/ckb-black-png.png" /></li>
+                <li><img src="images/logo/ckb-white-png.png" /></li>
+              </ul>
+              <Link className="download" href={'images/logo/Logo-CKB & CKB Eco Fund.zip'}>
+              Download Logo Pack
+              </Link>
+            </div>
+            <div className="colors">
+              <h3>Color</h3>
+              <div className="color-list">
+                
+                  <p className="color-black">HEX: #000000 <br />RGB: 0, 0, 0 <br />CMYK: 20, 20, 20, 100</p>
+                  <p className="color-white">HEX: #FFFFFF <br />RGB: 255, 255, 255 <br />CMYK: 0, 0, 0, 0</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="footer-screen">
           <Footer />
         </div>
