@@ -21,7 +21,7 @@ export default function Header() {
           </Link>
           <div className={"nav-main " + RanadeFont.className}>
             <Link
-              href="/"
+              href="/build"
               className={router.pathname === "/build" ? "sel" : ""}
             >
               Build
