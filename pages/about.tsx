@@ -119,7 +119,7 @@ const AboutPage = () => {
           <img src="images/star_5.png" className="planet_2" />
           <div className="title_img">
             <img src="images/ckb_pink.png" className="title" />
-            <img src="images/bird.png" className="bird" />
+            <img src="images/bird.png" className="bird" width={240} />
           </div>
           <h6>
             CKB Ecosystem Fund is dedicated to fostering innovations on CKB. We
@@ -144,7 +144,7 @@ const AboutPage = () => {
             <h3>Other Key Players of CKB Ecosystem</h3>
             <div className="intro-list">
               <div className="intro-item">
-                <img src="images/logo_nervos.png" />
+                <img src="images/logo_nervos.png" width={150} />
                 <p>
                   <Link href={"#"}>
                     <img src="images/icon_website.png" />
@@ -162,7 +162,7 @@ const AboutPage = () => {
                 </h6>
               </div>
               <div className="intro-item">
-                <img src="images/logo_nervape.png" />
+                <img src="images/logo_nervape.png" width={150}  />
                 <p>
                   <Link href={"#"}>
                     <img src="images/icon_website.png" />
@@ -183,7 +183,7 @@ const AboutPage = () => {
                 </h6>
               </div>
               <div className="intro-item">
-                <img src="images/logo_cell.png" />
+                <img src="images/logo_cell.png"  width={150} />
                 <p>
                   <Link href={"#"}>
                     <img src="images/icon_website.png" />
@@ -206,7 +206,8 @@ const AboutPage = () => {
           </div>
         </div>
         <div className={"about-block-3"}>
-        
+          
+          
           <dl>
             <dt>
               <h2 className={sharpieFont.className}>Partners</h2>
@@ -294,6 +295,21 @@ const AboutPage = () => {
               })}
             </dd>
           </dl>
+          <div className="mask-fit">
+            <div className="fit-main">
+            <img src="images/star_4.png" className="bg-fit star_4" width={93} />
+            <img src="images/star_6.png" className="bg-fit star_3" width={108}  />
+            <img src="images/star_3.png" className="bg-fit star_5" width={40}  />
+            <img src="images/bg_current.png" className="bg-fit bird_1" />
+            <img src="images/rabbit.png" className="bg-fit rabbit" />
+            <img src="images/rabbit_1.png" className="bg-fit rabbit_1" />
+            <img src="images/rabbit_2.png" className="bg-fit rabbit_2" width={133} />
+            <img src="images/star.png" className="bg-fit star_1" />
+            <img src="images/star.png" className="bg-fit star_2" />
+            <img src="images/star.png" className="bg-fit star_6" />
+            <img src="images/star_7.png" className="bg-fit star_7" />
+            </div>
+          </div>
         </div>
         <div className={'about-block-4'}>
           <h2  className={sharpieFont.className}>Media Kit</h2>
@@ -301,10 +317,10 @@ const AboutPage = () => {
             <div className="logos">
               <h3>Logo</h3>
               <ul>
-                <li><img src="images/logo/ckb-eco-fund-black-png.png" /></li>
-                <li><img src="images/logo/ckb-eco-fund-white-png.png" /></li>
-                <li><img src="images/logo/ckb-black-png.png" /></li>
-                <li><img src="images/logo/ckb-white-png.png" /></li>
+                <li><img src="images/logo/ckb-eco-logo-black.png" /></li>
+                <li><img src="images/logo/ckb-eco-logo-white.png" /></li>
+                <li><img src="images/logo/ckb-logo-black.png" /></li>
+                <li><img src="images/logo/ckb-logo-white.png" /></li>
               </ul>
               <Link className="download" href={'images/logo/Logo-CKB & CKB Eco Fund.zip'}>
               Download Logo Pack

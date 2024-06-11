@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p ${PORT:=3000}",
+    "start": "next start -p 80",
     "typecheck": "tsc --project ./tsconfig.json --noEmit",
     "clean": "rimraf .next",
     "nuke:install": "rimraf ./node_modules ./package-lock.json",

@@ -20,8 +20,20 @@ const RanadeFont = localFont({
   src: "../public/font/Ranade-Variable.ttf",
   display: "swap",
 });
+const fetchData = async () => {
+  const res = await fetch('https://mainnet-api.explorer.nervos.org/api/v1/statistics');
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+  console.log(res)
 
+  let data = await res.json();
+  return data.data;
+};
 const Homepage = () => {
+  // console.log(1111111111)
+  // const staticData = await fetchData();
+
   return (
     <>
       <Header />
