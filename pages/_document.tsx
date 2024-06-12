@@ -32,9 +32,9 @@ class MyDocument extends Document<Props> {
           ></link>
           <meta
             name="description"
-            content="RGB++ is an asset issuance protocol on the Bitcoin mainnet. RGB++ Fans focus on promoting protocol within the Bitcoin ecosystem and building global RGB++ community."
+            content="CKB Eco Fund is dedicated to fostering innovations on CKB. We invest in startups that drive adoption, scalability, and accessibility of CKB."
           />
-          <title>RGB++ Fans</title>
+          <title>CKB Eco Fund</title>
          <meta property="og:title" content="RGB++ Fans" />
           <meta property="og:type" content="website" />
           <meta
