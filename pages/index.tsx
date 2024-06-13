@@ -1,12 +1,7 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
-import type { GetStaticProps, InferGetStaticPropsType, Metadata } from "next";
-import { useTranslation, Trans } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import Header from "../components/Header";
 import { Footer } from "../components/Footer";
-import { Montserrat } from "next/font/google";
-import { useEffect } from "react";
 
 import localFont from "next/font/local";
 import AnimatedAccordion from "components/AnimatedAccordion";

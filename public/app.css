@@ -123,7 +123,10 @@ h6 {
 }
 
 
-p {}
+p {
+  font-size: 12px;
+  line-height: 16px;
+}
 
 .main-snap {
   scroll-snap-align: start;
@@ -1200,15 +1203,18 @@ footer {
   font-size: 16px;
 
 }
-.build-block-3 .block-2{
+
+.build-block-3 .block-2 {
   margin-top: 230px;
 }
-.build-block-3 .process-block{
+
+.build-block-3 .process-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.build-block-3 .process-block a{
+
+.build-block-3 .process-block a {
   display: block;
   text-decoration: none;
   color: #000;
@@ -1220,49 +1226,187 @@ footer {
   position: relative;
   width: 252px;
   height: 252px;
-  padding:24px;
+  padding: 24px;
 }
-.build-block-3 .process-block a img{
+
+.build-block-3 .process-block a img {
   position: absolute;
-  bottom:24px;
+  bottom: 24px;
   right: 24px;
   pointer-events: none;
 }
-.build-block-3 .process-block p{
+
+.build-block-3 .process-block p {
   margin-top: 20px;
 }
-.build-block-3  .bg-hill{
- margin-top: -290px;
- pointer-events: none;
+
+.build-block-3 .bg-hill {
+  margin-top: -290px;
+  pointer-events: none;
 }
-.build-block-3 .build_faq_list{
+
+.build-block-3 .build_faq_list {
   padding-left: 50%;
   background: url(images/bg_build_4.png) bottom left no-repeat;
   min-height: 500px;
   background-size: 980px 470px;
 }
-.build-block-4{
+
+.build-block-4 {
   min-height: 100vh;
   background: url(images/bg_build_5.png) bottom center no-repeat;
   background-size: 100% auto;
- 
+
 }
-.build-block-4 .content{
+
+.build-block-4 .content {
   width: 1260px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
   text-align: center;
 }
-.build-block-4 .content h2{
+
+.build-block-4 .content h2 {
   margin-top: 150px;
 }
-.build-block-4 .content p{
+
+.build-block-4 .content p {
   margin: 10px 0;
 }
-.build-block-4 .content a{
+
+.build-block-4 .content a {
   color: #000;
+}
+
+.eco-main {
+  background: linear-gradient(174.87deg, #D9D8FA 0%, rgba(102, 100, 234, 0.8) 100%);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.eco-block-1 {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.eco-links {
+  margin-top: 36px;
+  ;
+}
+
+.eco-list {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.eco-block-2 {
+  min-height: 100vh;
+   background-image: url(images/bg_eco_l.png),  url(images/bg_eco_r.png);
+   background-position: left bottom,right bottom;
+   /* background-attachment: fixed,fixed; */
+   background-size:auto 550px ;
+   background-repeat: no-repeat;
+   width: 100%;
+
+}
+.eco-block-2 .block-main{
+  width: 1260px;
+  margin: 0 auto;
+  
+}
+.eco-block-2 .eco-item {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.5) 100%);
+  border: 1px solid #FFFFFF80;
+  padding: 24px;
+  border-radius: 24px;
+  width: 252px;
+  position: relative;
+}
+.eco-block-2 .eco-item .rgbpp{
+  position: absolute;
+  top:24px;
+  right: 24px;
+  width: 55px;
+}
+.eco-block-2 .eco-item .eco-logo{
+  width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 198px;
+
+}
+.eco-block-2 .eco-item .eco-logo img{
+  width: 150px;
+}
+.eco-block-2 .eco-item .eco-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+}
+.eco-block-2 .eco-item .eco-title a{
+  margin: 0 8px;
+  color: #000;
+}
+.eco-block-2 .eco-item .tags {
+  margin:12px 0
+}
+.eco-block-2 .eco-item .tags span{
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 0 6px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #000;
+  margin-right: 6px;
+}
+.eco-block-2 .eco-search {
+  border: 0;
+  box-shadow: 0px 4px 4px 0px #6664EA80;
+  width: 600px;
+  height: 46px;
+  line-height: 46px;
+  text-indent: 40px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  background: url(images/icon_search.png) 16px center no-repeat #fff;
+}
+.eco-block-2 .eco-search:focus { outline: none; }
+.eco-block-2 .tabs-title{
+  padding: 20px 0;
+  width: 1260px;
+  text-align: center;
+}
+.eco-block-2 .tabs-title span{
+  display: inline-block;
+  border: 1px solid #6664EA;
+  box-shadow: 0px 4px 4px 0px #6664EA80;
+  background: #fff;
+  padding: 0 8px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 6px;
+  font-size: 16px;
+  color: #000;
+  border-radius: 6px;
+
 }
 @media(max-device-width: 750px) {}
