@@ -1285,20 +1285,29 @@ footer {
   background: linear-gradient(174.87deg, #D9D8FA 0%, rgba(102, 100, 234, 0.8) 100%);
   min-height: 100vh;
   overflow: auto;
+
 }
 
 .eco-block-1 {
-  text-align: center;
   position: relative;
   z-index: 10;
+  background: url(images/bg_eco.png) top center no-repeat;
+  background-size: 100% auto;
+  height: 100vh;
+  min-height: 100vh;
+
+}
+
+.eco-block-1 .block-main {
+  height: 100vh;
+  width: 1040px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
-  min-height: 100vh;
-  width: 1040px;
-  margin: 0 auto;
+  text-align: center;
+
 }
 
 .eco-links {
@@ -1429,25 +1438,47 @@ footer {
   background: linear-gradient(167.35deg, #FDDB92 0%, #D1FDFF 100%);
   min-height: 100vh;
   overflow: auto;
+  scroll-snap-type: y mandatory;
+
+}
+
+.comm-main .tag {
+  display: inline-block;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 0px 10px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #000;
+  border-radius: 50px;
+
 }
 
 .comm-block-1 {
-  text-align: center;
-  position: relative;
   z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  background: url(images/bg_comm.png) center bottom no-repeat, url(images/bg_comm_l.png) left 100px no-repeat;
+  background-size: auto 810px, 560px auto;
   height: 100vh;
   min-height: 100vh;
+
+}
+
+.comm-block-1 .block-main {
+  padding-top: 120px;
   width: 1040px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url;
 }
 
 .comm-block-2 {
   min-height: 100vh;
-  background-image: url(images/cloud_about_3.png), url(images/cloud_about_2.png);
+  background-image: url(images/cloud_about_4.png), url(images/cloud_about_3.png);
   background-position: left bottom, right bottom;
   /* background-attachment: fixed,fixed; */
   background-size: auto 350px, auto 250px;
@@ -1458,6 +1489,7 @@ footer {
 .comm-block-2 .block-main {
   width: 1260px;
   margin: 0 auto;
+  padding-top: 120px;
 
 }
 
@@ -1485,59 +1517,207 @@ footer {
   text-decoration: none;
 
 }
+
 .news-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
 }
-.news-list .news-item{
+
+.news-list .news-item {
   width: 300px;
   border-radius: 12px;
   overflow: hidden;
 }
-.news-list .news-item .news-head{
+
+.news-list .news-item .news-head {
   width: 300px;
   height: 100px;
   overflow: hidden;
 }
-.news-list .news-item .news-head:hover{
+
+.news-list .news-item .news-head:hover {
   transform: scale(1.1);
   transition: all 0.3s;
 }
-.news-list .news-item img{
+
+.news-list .news-item img {
   width: 300px;
 }
-.news-list .news-content{
+
+.news-list .news-content {
   background: #fff;
   padding: 0 12px 12px 12px;
 }
-.news-list .news-time{
+
+.news-list .news-time {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
-  padding:12px 0
+  padding: 12px 0
 }
-.news-list .news-time .tag{
-  display: inline-block;
-  border: 1px solid #000;
-  background: #fff;
-  padding:0px 10px;
-  height: 26px;
-  line-height: 26px;
-  font-size: 12px;
-  color: #000;
-  border-radius: 50px;
 
-}
-.news-list .more{
+
+.news-list .more {
   text-align: right;
 
   margin-top: 12px;
 }
-.news-list .more a{
+
+.news-list .more a {
   text-decoration: none;
   color: #000;
   font-size: 12px;
+}
+
+.comm-block-3 {
+  min-height: 100vh;
+  background-image: url(images/cloud_small.png);
+  background-position: 30% 80%;
+  /* background-attachment: fixed,fixed; */
+  background-size: auto 213px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.comm-block-3 .block-main {
+  width: 1260px;
+  margin: 0 auto;
+  padding-top: 120px;
+
+}
+
+.event-switch {
+  margin-top: 60px;
+}
+
+.switch-box {
+  width: auto;
+  background: #FFEAC2;
+  box-shadow: 0px 4px 4px 0px #FF990040;
+  height: 28px;
+  line-height: 28px;
+  display: inline-flex;
+  padding: 3px;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.switch-box span {
+  padding: 0 12px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.switch-box span:hover,
+.switch-box span.sel {
+  background: #FF9900;
+
+}
+
+.event-list {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.event-list .event-item {
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  width: 276px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 126px 150px;
+}
+
+.event-list .event-item .event-head {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.event-list .event-item .event-head:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.event-info div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.event-info a svg {
+
+  flex-shrink: 0;
+
+}
+
+.event-info div p {
+  padding-left: 8px;
+}
+
+.event-info a {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 12px;
+  margin: 5px 0;
+  text-decoration: none;
+  height: 24px;
+  line-height: 24px;
+}
+
+.event-info a svg {
+  margin-right: 8px;
+}
+.comm-block-4{
+ position: relative;
+ width: 100%;
+ min-height: 100vh;
+}
+.comm-block-4 .bg{
+  position: absolute;
+  top:0;
+  left: 0; 
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/bg_comm_1.png) right bottom no-repeat;
+  background-size: auto 687px;
+  mix-blend-mode: soft-light;
+}
+.comm-block-4 .block-main{
+  width: 1260px;
+  margin: 0 auto;
+  padding-top: 120px;
+
+}
+.comm-block-4 .block-main h3{
+  margin-top:56px
+}
+.comm-block-4 .block-main div.list{
+  margin-top:12px;
+}
+.comm-block-4 .block-main a{
+  display: inline-block;
+  background: #FF9900;
+  box-shadow: 0px 4px 4px 0px #FF990040;
+  padding: 12px;
+  border-radius: 12px;
+  height: 25px;
+  line-height: 25px;
+  color: #000;
+  text-decoration: none;
+  margin-right: 12px;
 }
 @media(max-device-width: 750px) {}

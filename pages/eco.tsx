@@ -27,8 +27,7 @@ const Eco = () => {
     setShowType(type);
   };
   useEffect(() => {
-    let list = EcoList;
-    let tagList: [string] = ["All"];
+    let tagList: [string] = [''];
     EcoList.map((item) => {
       item.tag.map((tagName) => {
         tagList.push(tagName);
@@ -43,6 +42,7 @@ const Eco = () => {
       <Header />
       <main className={"eco-main " + RanadeFont.className}>
         <div className="eco-block-1">
+          <div className="block-main">
           <h2 className={sharpieFont.className}>
             CKB Ecosystem: <br />A Nexus of Blockchain Evolution
           </h2>
@@ -56,6 +56,7 @@ const Eco = () => {
             <Link href="#" className="button_link eco_link_1">
               Submit Projects
             </Link>
+          </div>
           </div>
         </div>
         <div className="eco-block-2">
