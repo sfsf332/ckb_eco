@@ -27,13 +27,13 @@ export default function Header() {
               Build
             </Link>
             <Link
-              href="/"
+              href="/eco"
               className={router.pathname === "/eco" ? "sel" : ""}
             >
               Ecosystem
             </Link>
             <Link
-              href="/"
+              href="/community"
               className={router.pathname === "/community" ? "sel" : ""}
             >
               Community

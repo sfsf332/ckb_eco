@@ -1,21 +1,25 @@
 import React, { useEffect } from "react";
 
 import Link from "next/link";
+import { FaXTwitter,FaDiscord } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
+
+import { SiSubstack } from "react-icons/si";
 
 const IconLinks = (): JSX.Element => {
   return (
     <div  className="nav-links">
-    <Link href={"#"}>
-      <img src="images/logo_x.png" alt="" />
+    <Link href={"https://twitter.com/CKBEcoFund"}>
+      <FaXTwitter />
     </Link>
     <Link href={"#"}>
-      <img src="images/logo_doc.png" alt="" />
+      <SiSubstack />
     </Link>
     <Link href={"#"}>
-      <img src="images/logo_tg.png" alt="" />
+      <FaTelegramPlane />
     </Link>
-    <Link href={"#"}>
-      <img src="images/logo_dc.png" alt="" />
+    <Link href={"https://discord.com/invite/FKh8Zzvwqa "}>
+      <FaDiscord />
     </Link>
   </div>
   );

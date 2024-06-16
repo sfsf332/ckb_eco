@@ -1,0 +1,34 @@
+[
+    {
+        "title": "1. What is CKB?",
+        "content": "CKB is a highly flexible and interoperable blockchain built on RISC-V and secured by Proof-of-Work. As the foundation of the Nervos network, CKB ensures outstanding security, decentralization, and modularity. By mapping Bitcoin through RGB++, CKB empowers users and developers to explore boundless possibilities in autonomous worlds (AW)."
+    },
+    {
+        "title": "2. What makes CKB secure and flexible?",
+        "content": "The security and flexibility of CKB come from its innovative features: 1. PoW consensus, the same mechanism that secures Bitcoin, with Eaglesong hash function, ensuring robustness and decentralization. 2. Cell model, enabling flexible state storage and scalability. 3. RISC-V powered CKB-VM, supporting versatile smart contracts. 4. Protocol-level account abstraction, enhancing user experiences. These features lay a solid foundation for the decentralized economy and AW."
+    },
+    {
+        "title": "3. What is the relationship between CKB and RGB++?",
+        "content": "RGB++ is a new L1 asset standard that enables the seamless leap of Bitcoin L1 assets to CKB without the need for a cross-chain bridge. CKB's unique architecture empowers RGB++, extending Bitcoin's capabilities with smart contract functionality and scalability."
+    },
+    {
+        "title": "4. What is CKB's tokenomics model?",
+        "content": "CKB's tokenimics is designed to ensure the network's long-term sustainability and security. The native token, CKByte, serves three key functions: paying for computation, transaction fees, and state rent. The model includes two issuance mechanisms: Base Issuance, which subsidizes security early on with a predictable halving schedule, and Secondary Issuance, a small, fixed annual inflation incentivizing miners, compensates Nervos DAO participants and supports ongoing development. By holding CKBytes in Nervos DAO, users can offset the inflationary effects of Secondary Issuance and earn interest while contributing to the network's security and stability."
+    },
+    {
+        "title":"5. What types of applications can be built on CKB?",
+        "content":"CKB's flexibility allows developers to build various decentralized applications, including DeFi protocols, games, social networks, and wallets. Visit the Ecosystem page to explore the growing range of applications on CKB."
+    },
+    {
+        "title":"6. What is the vision of the CKB Ecosystem Fund?",
+        "content":"The CKB Ecosystem Fund is dedicated to fostering innovations on CKB. It aims to invest in startups that drive adoption, scalability, and accessibility of CKB, cultivating a vibrant and sustainable ecosystem."
+    },
+    {
+        "title":"7. How can I participate in the CKB ecosystem?",
+        "content":"There are many ways to get involved: you can mine CKB, build applications on CKB, trade CKB tokens on exchanges, or join the Nervos DAO to earn rewards. Choose your path and become a part of the CKB community."
+    },
+    {
+        "title":"8. Where can I buy CKB tokens?",
+        "content":"CKB is available on more than 30 mainstream exchanges, including Binance, Huobi, Gate.io, KuCoin, and MEXC. Visit CoinMarketCap for a complete list of CKB markets."
+    }
+]

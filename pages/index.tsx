@@ -2,9 +2,11 @@ import Link from "next/link";
 
 import Header from "../components/Header";
 import { Footer } from "../components/Footer";
+import faqList from "../public/json/faq.json";
 
 import localFont from "next/font/local";
 import AnimatedAccordion from "components/AnimatedAccordion";
+import AnimatedAccordionList from "components/AnimatedAccordionList";
 
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
@@ -46,10 +48,10 @@ const Homepage = () => {
             leap into autonomous worlds of boundless possibilities.
           </h4>
           <div>
-            <Link href="#" className="button_link">
+            <Link href="https://docs.nervos.org/" target="_blank" className="button_link">
               Docs
             </Link>
-            <Link href="#" className="button_link">
+            <Link href="https://twitter.com/busyforking/status/1739823909598589312" target="_blank" className="button_link">
               WHY CKB?
             </Link>
           </div>
@@ -131,64 +133,64 @@ const Homepage = () => {
         <div className="main-snap partner-screen">
           <h2 className={sharpieFont.className}>Partners</h2>
           <div className="partner_list">
-            <Link href={"#"}>
+            <Link href={"https://www.cmbchina.com/"} target="_blank">
               <img src="images/partner/partners-logo-1-1.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.hongshan.com/"} target="_blank">
               <img src="images/partner/partners-logo-1-2.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.matrixpartners.com.cn/"} target="_blank">
               <img src="images/partner/partners-logo-1-3.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://hashkey.capital/"} target="_blank">
               <img src="images/partner/partners-logo-1-4.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"http://www.ceyuan.com/"} target="_blank">
               <img src="images/partner/partners-logo-1-5.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://polychain.capital/"} target="_blank">
               <img src="images/partner/partners-logo-2-1.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.blockchaincapital.com/"} target="_blank">
               <img src="images/partner/partners-logo-2-2.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://multicoin.capital/"} target="_blank">
               <img src="images/partner/partners-logo-2-3.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.bitmain.com/"} target="_blank">
               <img src="images/partner/partners-logo-2-4.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.okx.com/zh-hans/ventures"} target="_blank">
               <img src="images/partner/partners-logo-2-5.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://snzholding.com/"} target="_blank">
               <img src="images/partner/partners-logo-3-1.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.utxo.management/"} target="_blank">
               <img src="images/partner/partners-logo-3-2.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.abcde.com/"} target="_blank">
               <img src="images/partner/partners-logo-3-3.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://waterdrip.io/"} target="_blank">
               <img src="images/partner/partners-logo-3-4.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://1kx.network/"} target="_blank">
               <img src="images/partner/partners-logo-3-5.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://token.im/"} target="_blank">
               <img src="images/partner/partners-logo-4-1.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.1confirmation.com/"} target="_blank">
               <img src="images/partner/partners-logo-4-2.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://www.matrixport.com/"} target="_blank">
               <img src="images/partner/partners-logo-4-3.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://y2z.io/"} target="_blank">
               <img src="images/partner/partners-logo-4-4.png" />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://drklab.net/"} target="_blank">
               <img src="images/partner/partners-logo-4-5.png" />
             </Link>
           </div>
@@ -196,54 +198,7 @@ const Homepage = () => {
         <div className="main-snap faq-screen">
           <h2 className={sharpieFont.className}>FAQ</h2>
           <div className="faq_list">
-            <AnimatedAccordion
-              title={"1. What is CKB?"}
-              content={
-                "CKB is a highly flexible and interoperable blockchain built on RISC-V and secured by Proof-of-Work. As the foundation of the Nervos network, CKB ensures outstanding security, decentralization, and modularity. By mapping Bitcoin through RGB++, CKB empowers users and developers to explore boundless possibilities in autonomous worlds (AW)."
-              }
-            />
-            <AnimatedAccordion
-              title={"2. What makes CKB secure and flexible?"}
-              content={
-                "The security and flexibility of CKB come from its innovative features: 1. PoW consensus, the same mechanism that secures Bitcoin, with Eaglesong hash function, ensuring robustness and decentralization. 2. Cell model, enabling flexible state storage and scalability. 3. RISC-V powered CKB-VM, supporting versatile smart contracts. 4. Protocol-level account abstraction, enhancing user experiences. These features lay a solid foundation for the decentralized economy and AW."
-              }
-            />
-            <AnimatedAccordion
-              title={"3. What is the relationship between CKB and RGB++?"}
-              content={
-                "RGB++ is a new L1 asset standard that enables the seamless leap of Bitcoin L1 assets to CKB without the need for a cross-chain bridge. CKB's unique architecture empowers RGB++, extending Bitcoin's capabilities with smart contract functionality and scalability."
-              }
-            />
-            <AnimatedAccordion
-              title={"4. What is CKB's tokenomics model?"}
-              content={
-                "CKB's tokenimics is designed to ensure the network's long-term sustainability and security. The native token, CKByte, serves three key functions: paying for computation, transaction fees, and state rent. The model includes two issuance mechanisms: Base Issuance, which subsidizes security early on with a predictable halving schedule, and Secondary Issuance, a small, fixed annual inflation incentivizing miners, compensates Nervos DAO participants and supports ongoing development. By holding CKBytes in Nervos DAO, users can offset the inflationary effects of Secondary Issuance and earn interest while contributing to the network's security and stability."
-              }
-            />
-            <AnimatedAccordion
-              title={"5. What types of applications can be built on CKB?"}
-              content={
-                "CKB's flexibility allows developers to build various decentralized applications, including DeFi protocols, games, social networks, and wallets. Visit the Ecosystem page to explore the growing range of applications on CKB."
-              }
-            />
-            <AnimatedAccordion
-              title={"6. What is the vision of the CKB Ecosystem Fund?"}
-              content={
-                "The CKB Ecosystem Fund is dedicated to fostering innovations on CKB. It aims to invest in startups that drive adoption, scalability, and accessibility of CKB, cultivating a vibrant and sustainable ecosystem."
-              }
-            />
-            <AnimatedAccordion
-              title={"7. How can I participate in the CKB ecosystem?"}
-              content={
-                "There are many ways to get involved: you can mine CKB, build applications on CKB, trade CKB tokens on exchanges, or join the Nervos DAO to earn rewards. Choose your path and become a part of the CKB community."
-              }
-            />
-            <AnimatedAccordion
-              title={"8. Where can I buy CKB tokens?"}
-              content={
-                "CKB is available on more than 30 mainstream exchanges, including Binance, Huobi, Gate.io, KuCoin, and MEXC. Visit CoinMarketCap for a complete list of CKB markets."
-              }
-            />
+            <AnimatedAccordionList list={faqList} />
           </div>
         </div>
         <div className="main-snap footer-screen">

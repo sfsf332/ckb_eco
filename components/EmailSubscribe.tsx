@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import Script from "next/script";
 import Link from "next/link";
+import { MdEmail } from "react-icons/md";
 
 const EmailSubscribe = (): JSX.Element => {
   useEffect(() => {
@@ -28,7 +29,7 @@ const EmailSubscribe = (): JSX.Element => {
 
       <div className="contentleft">
         <div>
-          <img src="images/logo.png" height={32} />
+         <img src="images/logo.png" height={32} />
           <p>
             CKB Ecosystem Fund is dedicated to fostering innovations on CKB.<br />
             We invest in early and growth-stage startups that drive the adoption,
@@ -36,7 +37,7 @@ const EmailSubscribe = (): JSX.Element => {
           </p>
         </div>
         <Link href="https://eipfun.substack.com" target="_blank">
-          <img src="images/icon_mail.png" /> contact@ckbeco.fund
+          <MdEmail /> contact@ckbeco.fund
         </Link>
       </div>
       <div className="contentRight">
