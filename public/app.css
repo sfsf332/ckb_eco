@@ -621,7 +621,6 @@ footer {
   width: 1280px;
   margin: 0 auto
 }
-
 .about-block-1 {
   background: #FFFFFF80;
   border-radius: 48px;
@@ -942,7 +941,9 @@ footer {
   font-size: 14px;
   line-height: 20px;
 }
-
+.about-block-3 .user-block a{
+  color: #000;
+}
 .about-block-4 {
   position: relative;
 
@@ -1115,10 +1116,11 @@ footer {
   margin-bottom: 10px;
 }
 
-.build-block-2 .content p {
+.build-main  p {
   margin: 10px;
   color: #2B2B2B;
   line-height: 22px;
+  font-size: 16px;
 }
 
 .build-block-3 {
@@ -1215,7 +1217,7 @@ footer {
   justify-content: space-between;
 }
 
-.build-block-3 .process-block a {
+.build-block-3 .process-block div {
   display: block;
   text-decoration: none;
   color: #000;
@@ -1230,7 +1232,7 @@ footer {
   padding: 24px;
 }
 
-.build-block-3 .process-block a img {
+.build-block-3 .process-block div img {
   position: absolute;
   bottom: 24px;
   right: 24px;
@@ -1559,7 +1561,16 @@ footer {
   padding: 12px 0
 }
 
-
+.news-list .news-content p{
+  line-height: 16px;
+  height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+}
 .news-list .more {
   text-align: right;
 

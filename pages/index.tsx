@@ -50,7 +50,7 @@ const Homepage = () => {
             <Link href="https://docs.nervos.org/" target="_blank" className="button_link">
               Docs
             </Link>
-            <Link href="https://twitter.com/busyforking/status/1739823909598589312" target="_blank" className="button_link">
+            <Link href="https://substack.com/home/post/p-145538638" target="_blank" className="button_link">
               WHY CKB?
             </Link>
           </div>
@@ -142,19 +142,19 @@ const Homepage = () => {
               <img src="images/partner/partners-logo-1-3.png" />
             </Link>
             <Link href={"https://hashkey.capital/"} target="_blank">
-              <img src="images/partner/partners-logo-1-4.png" />
+              <img src="images/partner/partners-logo-1-5.png" />
             </Link>
             <Link href={"http://www.ceyuan.com/"} target="_blank">
-              <img src="images/partner/partners-logo-1-5.png" />
+              <img src="images/partner/partners-logo-1-4.png" />
             </Link>
             <Link href={"https://polychain.capital/"} target="_blank">
               <img src="images/partner/partners-logo-2-1.png" />
             </Link>
             <Link href={"https://www.blockchaincapital.com/"} target="_blank">
-              <img src="images/partner/partners-logo-2-2.png" />
+              <img src="images/partner/partners-logo-2-3.png" />
             </Link>
             <Link href={"https://multicoin.capital/"} target="_blank">
-              <img src="images/partner/partners-logo-2-3.png" />
+              <img src="images/partner/partners-logo-2-2.png" />
             </Link>
             <Link href={"https://www.bitmain.com/"} target="_blank">
               <img src="images/partner/partners-logo-2-4.png" />

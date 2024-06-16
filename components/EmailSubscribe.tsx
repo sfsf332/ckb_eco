@@ -36,7 +36,7 @@ const EmailSubscribe = (): JSX.Element => {
             scalability, and accessibility of CKB.
           </p>
         </div>
-        <Link href="https://eipfun.substack.com" target="_blank">
+        <Link href="mailto:contact@ckbeco.fund" target="_blank">
           <MdEmail /> contact@ckbeco.fund
         </Link>
       </div>

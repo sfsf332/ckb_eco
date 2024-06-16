@@ -9,16 +9,16 @@ import { SiSubstack } from "react-icons/si";
 const IconLinks = (): JSX.Element => {
   return (
     <div  className="nav-links">
-    <Link href={"https://twitter.com/CKBEcoFund"}>
+    <Link href={"https://twitter.com/CKBEcoFund"} target="_blank">
       <FaXTwitter />
     </Link>
-    <Link href={"#"}>
+    <Link href={"https://substack.com/@ckbecofund"} target="_blank">
       <SiSubstack />
     </Link>
-    <Link href={"#"}>
+    <Link href={"https://t.me/ckb_community"} target="_blank">
       <FaTelegramPlane />
     </Link>
-    <Link href={"https://discord.com/invite/FKh8Zzvwqa "}>
+    <Link href={"https://discord.com/invite/FKh8Zzvwqa"}  target="_blank">
       <FaDiscord />
     </Link>
   </div>

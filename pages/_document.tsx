@@ -35,19 +35,19 @@ class MyDocument extends Document<Props> {
             content="CKB Eco Fund is dedicated to fostering innovations on CKB. We invest in startups that drive adoption, scalability, and accessibility of CKB."
           />
           <title>CKB Eco Fund</title>
-         <meta property="og:title" content="RGB++ Fans" />
+         <meta property="og:title" content="CKB Eco Fund" />
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://www.rgbppfans.com/images/rgb++.png"
+            content="images/rgb.png"
           />
-          <meta property="og:site_name" content="RGB++ Fans" />
+          <meta property="og:site_name" content="CKB Eco Fund" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@rgbppfans" />
-          <meta name="twitter:creator" content="@rgbppfans" />
-          <meta name="twitter:title" content="RGB++ Fans" />
-          <meta name="twitter:description" content="RGB++ is an asset issuance protocol on the Bitcoin mainnet. RGB++ Fans focus on promoting protocol within the Bitcoin ecosystem and building global RGB++ community." />
-          <meta name="twitter:image" content="https://www.rgbppfans.com/images/rgbppfuns.png"></meta>
+          <meta name="twitter:site" content="@CKBEcoFund" />
+          <meta name="twitter:creator" content="@CKBEcoFund" />
+          <meta name="twitter:title" content="CKB Eco Fund" />
+          <meta name="twitter:description" content="CKB Eco Fund focuses on innovations in Nervos network. We support projects with funding, resources, and guidance to build a robust, sustainable ecosystem and enhance the value of CKB. " />
+          <meta name="twitter:image" content="images/rgb.png"></meta>
           <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=0, user-scalable=yes,shrink-to-fit=no" />
 
         </Head>

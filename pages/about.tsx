@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaXTwitter,FaDiscord } from "react-icons/fa6";
 
 import Header from "../components/Header";
 import { Footer } from "../components/Footer";
@@ -19,19 +20,19 @@ const PartnerList = [
   {
     name: "Terry",
     avatar: "images/head/Terry.png",
-    link: "https://x.con/cipher",
+    link: "https://twitter.com/poshboytl",
     title: "Founding Partner",
   },
   {
     name: "Baiyu",
     avatar: "images/head/Baiyu.png",
-    link: "https://x.con/baiyu",
+    link: "https://twitter.com/baiyu2140",
     title: "Partner",
   },
   {
     name: "Jane",
     avatar: "images/head/Jane.png",
-    link: "https://x.con/jane",
+    link: "https://twitter.com/janewuco ",
     title: "Partner",
   },
 ];
@@ -39,19 +40,19 @@ const EcoList = [
   {
     name: "Benjen",
     avatar: "images/head/Benjen.png",
-    link: "https://x.con/jane",
+    // link: "https://x.con/jane",
     title: "Ecosystem Lead",
   },
   {
     name: "Hongzhou",
     avatar: "images/head/Hongzhou.png",
-    link: "https://x.con/Hongzhou",
+    link: "https://twitter.com/c_hongzhou",
     title: "Research Lead",
   },
   {
     name: "Mike",
     avatar: "images/head/Mike.png",
-    link: "https://x.con/Mike",
+    link: "https://twitter.com/mikemu_eth",
     title: "Korea Ambassador",
   },
 ];
@@ -59,26 +60,26 @@ const MarketList = [
   {
     name: "Grace",
     avatar: "images/head/Grace.png",
-    link: "https://x.con/Mike",
+    link: "https://twitter.com/gracegui43 ",
     title: "Events Lead",
   },
 
   {
     name: "Kelly",
     avatar: "images/head/Kelly.png",
-    link: "https://x.con/Mike",
+    link: "https://twitter.com/HelloKellyup",
     title: "PR Manager",
   },
   {
     name: "Jacky",
     avatar: "images/head/Jacky.png",
-    link: "https://x.con/Mike",
+    link: "https://twitter.com/JackyLHH",
     title: "Content Manager",
   },
   {
     name: "Yifan",
     avatar: "images/head/Yifan.png",
-    link: "https://x.con/Yifan",
+    link: "https://twitter.com/yllcode",
     title: "Community Manager",
     type: "marketing",
   },
@@ -87,25 +88,25 @@ const DevList = [
   {
     name: "Hanssen",
     avatar: "images/head/Hanssen.png",
-    link: "https://x.con/Yifan",
+    link: "https://twitter.com/Hanssen0",
     title: "DevRel Lead",
   },
   {
     name: "Saku",
     avatar: "images/head/Saku.png",
-    link: "https://x.con/Saku",
+    link: "https://twitter.com/woquinocoin",
     title: "DevRel",
   },
   {
     name: "Francis",
     avatar: "images/head/Francis.png",
-    link: "https://x.con/Yifan",
+    link: "https://x.com/francis_404?s=21&t=X2bHMwcZiaGxpuGxiQM3DQ",
     title: "DevRel",
   },
   {
     name: "Lucas",
     avatar: "images/head/Lucas.png",
-    link: "https://x.con/Yifan",
+    link: "https://twitter.com/Crymongogo",
     title: "DevRel",
   },
 ];
@@ -205,9 +206,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className={"about-block-3"}>
-          
-          
+        <div className={"about-block-3"}  id="team">
           <dl>
             <dt>
               <h2 className={sharpieFont.className}>Partners</h2>
@@ -220,7 +219,7 @@ const AboutPage = () => {
                     <h5>
                       {item.name}
                       <Link href={item.link}>
-                        <img src={"images/logo_x.png"} />
+                        <FaXTwitter />
                       </Link>
                     </h5>
                     <p>{item.title}</p>
@@ -240,9 +239,10 @@ const AboutPage = () => {
                     <img src={item.avatar} alt={item.name} className="avatar" />
                     <h5>
                       {item.name}
-                      <Link href={item.link}>
-                        <img src={"images/logo_x.png"} />
+                      {item.link&&<Link href={item.link}>
+                      <FaXTwitter />
                       </Link>
+                      }
                     </h5>
                     <p>{item.title}</p>
                   </div>
@@ -262,7 +262,7 @@ const AboutPage = () => {
                     <h5>
                       {item.name}
                       <Link href={item.link}>
-                        <img src={"images/logo_x.png"} />
+                      <FaXTwitter />
                       </Link>
                     </h5>
                     <p>{item.title}</p>
@@ -286,7 +286,7 @@ const AboutPage = () => {
                     <h5>
                       {item.name}
                       <Link href={item.link}>
-                        <img src={"images/logo_x.png"} />
+                      <FaXTwitter />
                       </Link>
                     </h5>
                     <p>{item.title}</p>
@@ -311,7 +311,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className={'about-block-4'}>
+        <div className={'about-block-4'} id="media">
           <h2  className={sharpieFont.className}>Media Kit</h2>
           <div className="media-block">
             <div className="logos">

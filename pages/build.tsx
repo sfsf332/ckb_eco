@@ -60,7 +60,7 @@ const BuildPage = () => {
             height={271}
           />
         </div>
-        <div className="build-block-2">
+        <div className="build-block-2" id="grant">
           <img
             src="images/cloud_about_3.png"
             className="cloud cloud_4"
@@ -129,12 +129,12 @@ const BuildPage = () => {
           </div>
           <h3 className="big block-2">Application Process</h3>
           <div className="process-block">
-            <Link href="#">
+            <div >
               <h3>A. Application Submission</h3>
               <p>Craft a comprehensive proposal.</p>
               <img src="images/arrow.png" height={72} />
-            </Link>
-            <Link href="#">
+            </div>
+            <div>
               <h3>B. Review and Voting</h3>
               <p>
                 The fund team will review the application and be voted on by the
@@ -142,19 +142,19 @@ const BuildPage = () => {
               </p>
               <img src="images/arrow.png" height={72} />
 
-            </Link>
-            <Link href="#">
+            </div>
+            <div>
               <h3>C. Grant Agreement</h3>
               <p>Signed agreement outlining the milestones to be achieved.</p>
               <img src="images/arrow.png" height={72} />
 
-            </Link>
-            <Link href="#">
+            </div>
+            <div >
               <h3>D. Grant Disbursement</h3>
               <p>With all the steps complete, the grants will be disbursed.</p>
               <img src="images/arrow.png" height={72} />
 
-            </Link>
+            </div>
           </div>
           <img src="images/bg_build_3.png" width={'100%'} className="bg-hill" /> 
           <h3 className="big">Faq</h3>

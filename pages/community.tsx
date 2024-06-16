@@ -6,7 +6,6 @@ import { Footer } from "../components/Footer";
 import localFont from "next/font/local";
 import AnimatedAccordion from "components/AnimatedAccordion";
 import React, { useEffect } from "react";
-import ReportList from "../public/json/report.json";
 import Events from "../public/json/event.json";
 import News from "../public/json/news.json";
 import { FaTwitter, FaGlobe,FaLink } from "react-icons/fa";
@@ -22,13 +21,13 @@ const RanadeFont = localFont({
 });
 
 const Community = () => {
-  const [showNews, setShowNews] = React.useState(ReportList);
+  const [showNews, setShowNews] = React.useState(News);
   const [showEvents, setShowEvents] = React.useState(Events);
   return (
     <>
       <Header />
       <main className={"comm-main " + RanadeFont.className}>
-        <div className="comm-block-1 main-snap">
+        <div className="comm-block-1 main-snap" >
           <div className="block-main">
             <h2 className={sharpieFont.className}>
               One Community,
@@ -41,7 +40,7 @@ const Community = () => {
             </h4>
           </div>
         </div>
-        <div className="comm-block-2 main-snap">
+        <div className="comm-block-2 main-snap"  id="news">
           <div className="block-main">
             <div className="comm-title">
               <h2 className={sharpieFont.className}>News</h2>
@@ -74,7 +73,7 @@ const Community = () => {
             </div>
           </div>
         </div>
-        <div className="comm-block-3 main-snap">
+        <div className="comm-block-3 main-snap"  id="event">
           <div className="block-main">
             <div className="comm-title">
               <h2 className={sharpieFont.className}>Events</h2>
@@ -109,7 +108,7 @@ const Community = () => {
             </div>
           </div>
         </div>
-        <div className="comm-block-4 main-snap">
+        <div className="comm-block-4 main-snap" id="hub">
             <div className="bg"></div>
             <div className="block-main">
                 <h2 className={sharpieFont.className}>Community Hub</h2>

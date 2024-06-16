@@ -8,10 +8,10 @@ const FooterInfo = (): JSX.Element => {
       <dl>
         <dt>Build</dt>
         <dd>
-          <Link href={"#"}>Doc</Link>
+          <Link href={"https://docs.nervos.org/"}>Doc</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Grants</Link>
+          <Link href={"/build#grant"}>Grants</Link>
         </dd>
         <dd>
           <Link href={"#"}>Support</Link>
@@ -20,10 +20,10 @@ const FooterInfo = (): JSX.Element => {
       <dl>
         <dt>Ecosystem</dt>
         <dd>
-          <Link href={"#"}>Ecosystem Hub</Link>
+          <Link href={"/eco"}>Ecosystem Hub</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Explorer</Link>
+          <Link href={"https://explorer.nervos.org/"}>Explorer</Link>
         </dd>
         <dd>
           <Link href={"#"}>Submit Project</Link>
@@ -32,25 +32,25 @@ const FooterInfo = (): JSX.Element => {
       <dl>
         <dt>Community</dt>
         <dd>
-          <Link href={"#"}>News</Link>
+          <Link href={"/community#news"}>News</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Events</Link>
+          <Link href={"/community#event"}>Events</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Community Hub</Link>
+          <Link href={"/community#hub"}>Community Hub</Link>
         </dd>
       </dl>
       <dl>
         <dt>About</dt>
         <dd>
-          <Link href={"#"}>Intro</Link>
+          <Link href={"/about"}>Intro</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Team</Link>
+          <Link href={"/about#team"}>Team</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Media Kit</Link>
+          <Link href={"/about#media"}>Media Kit</Link>
         </dd>
       </dl>
     </div>
