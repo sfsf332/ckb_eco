@@ -5,7 +5,6 @@ import { Footer } from "../components/Footer";
 import faqList from "../public/json/faq.json";
 
 import localFont from "next/font/local";
-import AnimatedAccordion from "components/AnimatedAccordion";
 import AnimatedAccordionList from "components/AnimatedAccordionList";
 
 // Font files can be colocated inside of `app`

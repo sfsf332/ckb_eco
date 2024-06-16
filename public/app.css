@@ -580,10 +580,9 @@ footer {
 
 .accordion .accordion-title {
   font-size: 16px;
-  height: 30px;
   line-height: 30px;
   background: url(images/icon_plus.png) right center no-repeat;
-  padding: 16px 0;
+  padding: 16px 20px 16px 0;
   transition: all;
 }
 

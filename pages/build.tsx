@@ -4,7 +4,8 @@ import Header from "../components/Header";
 import { Footer } from "../components/Footer";
 
 import localFont from "next/font/local";
-import AnimatedAccordion from "components/AnimatedAccordion";
+import AnimatedAccordionList from "components/AnimatedAccordionList";
+import faqList from "../public/json/buildfaq.json";
 
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
@@ -158,36 +159,7 @@ const BuildPage = () => {
           <img src="images/bg_build_3.png" width={'100%'} className="bg-hill" /> 
           <h3 className="big">Faq</h3>
           <div className="build_faq_list">
-          <AnimatedAccordion
-              title={"1. Who can apply for the grant?"}
-              content={
-                "Anyone can apply for a grant, including individuals, teams, nonprofits and companies"
-              }
-            />
-            <AnimatedAccordion
-              title={"2. How long does the review process take?"}
-              content={
-                "Anyone can apply for a grant, including individuals, teams, nonprofits and companies"
-              }
-            />
-            <AnimatedAccordion
-              title={"3. What size are the grants?"}
-              content={
-                "Anyone can apply for a grant, including individuals, teams, nonprofits and companies"
-              }
-            />
-            <AnimatedAccordion
-              title={"4. Are there any restrictions on how grants can be used?"}
-              content={
-                "Anyone can apply for a grant, including individuals, teams, nonprofits and companies"
-              }
-            />
-            <AnimatedAccordion
-              title={"5. What stage should my project be at to qualify for a grant?"}
-              content={
-                "Anyone can apply for a grant, including individuals, teams, nonprofits and companies"
-              }
-            />
+          <AnimatedAccordionList list={faqList} />
           </div>
         </div>
         </div>
