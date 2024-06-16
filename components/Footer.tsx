@@ -22,7 +22,7 @@ export const Footer: FC = () => {
       <FooterInfo />
       <div className="footer-main">
         <p className={montserrat.className}>
-          @ 2024 CKB Eco Fun. All rights reserved.
+          @ 2024 CKB Eco Fund. All rights reserved.
         </p>
         <IconLinks />
       </div>
