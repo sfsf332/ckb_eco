@@ -107,7 +107,8 @@ const Homepage = () => {
             <div className="label_season">Q2</div>
             <ul>
               <li>RGB++ Ecosystem Early Stage Onboarding</li>
-              <li>Co-host HK Web3 Festival Bitcoin Stage </li>
+              <li>Co-host HK Web3 Festival Bitcoin Stage</li>
+              <li>Speak at Bitcoin Asia and Bitcoin Seoul</li>
             </ul>
           </div>
           <div className="season season_3">
@@ -116,7 +117,6 @@ const Homepage = () => {
               <li>UTXO Stack Staking</li>
               <li>CKB Lightning Network Testing </li>
               <li>Eco Fund Grants Program Kickoff </li>
-              <li>Host CKB US Meetup Tour </li>
             </ul>
             <img className="bg_current" src="images/bg_current.png" />
           </div>
@@ -125,7 +125,7 @@ const Homepage = () => {
             <ul>
               <li>UTXO Stack Launch</li>
               <li>CKB Lightning Network Launch</li>
-              <li>Common Knowledge Con</li>
+              <li>Host Common Knowledge Con</li>
             </ul>
           </div>
         </div>

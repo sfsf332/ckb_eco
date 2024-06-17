@@ -14,7 +14,7 @@ const FooterInfo = (): JSX.Element => {
           <Link href={"/build#grant"}>Grants</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Support</Link>
+          <Link href={"/build"}>Support</Link>
         </dd>
       </dl>
       <dl>
@@ -26,7 +26,7 @@ const FooterInfo = (): JSX.Element => {
           <Link href={"https://explorer.nervos.org/"}>Explorer</Link>
         </dd>
         <dd>
-          <Link href={"#"}>Submit Project</Link>
+          <Link href={"https://forms.gle/CVCgHXaeBZadRxa7A"}>Submit Project</Link>
         </dd>
       </dl>
       <dl>

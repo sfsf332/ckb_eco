@@ -28,7 +28,7 @@ class MyDocument extends Document<Props> {
           <link
             rel="shortcut icon"
             type="image/x-icon"
-            href="images/favicon.ico"
+            href="images/fav.ico"
           ></link>
           <meta
             name="description"
@@ -39,7 +39,7 @@ class MyDocument extends Document<Props> {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="images/rgb.png"
+            content="images/site-social-image.png"
           />
           <meta property="og:site_name" content="CKB Eco Fund" />
           <meta name="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ class MyDocument extends Document<Props> {
           <meta name="twitter:creator" content="@CKBEcoFund" />
           <meta name="twitter:title" content="CKB Eco Fund" />
           <meta name="twitter:description" content="CKB Eco Fund focuses on innovations in Nervos network. We support projects with funding, resources, and guidance to build a robust, sustainable ecosystem and enhance the value of CKB. " />
-          <meta name="twitter:image" content="images/rgb.png"></meta>
+          <meta name="twitter:image" content="images/site-social-image.png"></meta>
           <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=0, user-scalable=yes,shrink-to-fit=no" />
 
         </Head>

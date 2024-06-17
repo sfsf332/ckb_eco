@@ -44,7 +44,7 @@ const Community = () => {
           <div className="block-main">
             <div className="comm-title">
               <h2 className={sharpieFont.className}>News</h2>
-              <Link className="link_more" href={"#"}>
+              <Link className="link_more" href={"https://substack.com/@ckbecofund"} target="_blank">
                 View all news
               </Link>
             </div>
@@ -114,24 +114,24 @@ const Community = () => {
                 <h2 className={sharpieFont.className}>Community Hub</h2>
                 <h3>Community</h3>
                 <div className="list">
-                    <Link href={'#'}>CKB Community</Link>
-                    <Link href={'#'}>CKB CN</Link>
-                    <Link href={'#'}>CKB Korea</Link>
-                    <Link href={'#'}>Nervos Network</Link>
-                    <Link href={'#'}>Nervos Nation</Link>
-                    <Link href={'#'}>RGB++ Fans</Link>
-                    <Link href={'#'}>Seal Community</Link>
+                    <Link href={'https://t.me/ckb_community'} target="_blank">CKB Community</Link>
+                    <Link href={'https://x.com/CKB_CN'} target="_blank">CKB CN</Link>
+                    <Link href={'https://linktr.ee/ckbkorea'} target="_blank">CKB Korea</Link>
+                    <Link href={'https://t.me/NervosNetwork'} target="_blank">Nervos Network</Link>
+                    <Link href={'https://x.com/NervosNation'} target="_blank">Nervos Nation</Link>
+                    <Link href={'https://x.com/rgbppfans'} target="_blank">RGB++ Fans</Link>
+                    <Link href={'https://t.me/sealrgbpp'} target="_blank">Seal Community</Link>
                 </div>
                 <h3>Forum</h3>
                 <div className="list">
-                    <Link href={'#'}>CKB Community</Link>
-                    <Link href={'#'}>Nervos Talk</Link>
+                    <Link href={'https://www.reddit.com/r/NervosNetwork/'} target="_blank">CKB Community</Link>
+                    <Link href={'https://talk.nervos.org/'} target="_blank">Nervos Talk</Link>
                     
                 </div>
                 <h3>Community-Contributed Resources</h3>
                 <div className="list">
-                    <Link href={'#'}>123 CKB</Link>
-                    <Link href={'#'}>CKBDapp</Link>
+                    <Link href={'https://www.notion.so/CKB-6836c451287f44cfa7c4375102f8d778?pvs=4'} target="_blank">123 CKB</Link>
+                    <Link href={'https://ckbdapps.com/'} target="_blank">CKBDapp</Link>
                     
                 </div>
             </div>

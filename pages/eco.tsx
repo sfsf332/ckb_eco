@@ -19,7 +19,7 @@ const RanadeFont = localFont({
 });
 
 const Eco = () => {
-  const [showType, setShowType] = React.useState("all");
+  const [showType, setShowType] = React.useState("");
   const [showList, setShowList] = React.useState(EcoList);
   const [typeList, setTypeList] = React.useState([""]);
 
@@ -53,7 +53,7 @@ const Eco = () => {
             Lightning Network.
           </h4>
           <div className="eco-links">
-            <Link href="#" className="button_link eco_link_1">
+            <Link href="https://forms.gle/CVCgHXaeBZadRxa7A" target="_blank" className="button_link eco_link_1">
               Submit Projects
             </Link>
           </div>

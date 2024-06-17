@@ -3,9 +3,9 @@ import { FaXTwitter,FaDiscord } from "react-icons/fa6";
 
 import Header from "../components/Header";
 import { Footer } from "../components/Footer";
+import { FaTwitter, FaGlobe,FaLink } from "react-icons/fa";
 
 import localFont from "next/font/local";
-import AnimatedAccordion from "components/AnimatedAccordion";
 
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
@@ -50,11 +50,18 @@ const EcoList = [
     title: "Research Lead",
   },
   {
+    name: "Dawns",
+    avatar: "images/head/Dawns.png",
+    link: "https://x.com/DawnsXu",
+    title: "BD Lead",
+  },
+  {
     name: "Mike",
     avatar: "images/head/Mike.png",
     link: "https://twitter.com/mikemu_eth",
     title: "Korea Ambassador",
   },
+  
 ];
 const MarketList = [
   {
@@ -147,11 +154,11 @@ const AboutPage = () => {
               <div className="intro-item">
                 <img src="images/logo_nervos.png" width={150} />
                 <p>
-                  <Link href={"#"}>
-                    <img src="images/icon_website.png" />
+                  <Link href={"https://www.nervos.org/foundation"} target="_blank">
+                  <FaGlobe />
                   </Link>
                   <Link href={"#"}>
-                    <img src="images/logo_x.png" />
+                    <FaTwitter />
                   </Link>
                 </p>
                 <h6>
@@ -166,10 +173,10 @@ const AboutPage = () => {
                 <img src="images/logo_nervape.png" width={150}  />
                 <p>
                   <Link href={"#"}>
-                    <img src="images/icon_website.png" />
+                  <FaGlobe />
                   </Link>
                   <Link href={"#"}>
-                    <img src="images/logo_x.png" />
+                  <FaTwitter />
                   </Link>
                 </p>
                 <h6>
@@ -187,10 +194,10 @@ const AboutPage = () => {
                 <img src="images/logo_cell.png"  width={150} />
                 <p>
                   <Link href={"#"}>
-                    <img src="images/icon_website.png" />
+                    <FaGlobe />
                   </Link>
                   <Link href={"#"}>
-                    <img src="images/logo_x.png" />
+                   <FaTwitter />
                   </Link>
                 </p>
                 <h6>
@@ -317,10 +324,11 @@ const AboutPage = () => {
             <div className="logos">
               <h3>Logo</h3>
               <ul>
+              <li><img src="images/logo/ckb-logo-black.png" /></li>
+              <li><img src="images/logo/ckb-logo-white.png" /></li>
                 <li><img src="images/logo/ckb-eco-logo-black.png" /></li>
                 <li><img src="images/logo/ckb-eco-logo-white.png" /></li>
-                <li><img src="images/logo/ckb-logo-black.png" /></li>
-                <li><img src="images/logo/ckb-logo-white.png" /></li>
+               
               </ul>
               <Link className="download" href={'images/logo/Logo-CKB & CKB Eco Fund.zip'}>
               Download Logo Pack
