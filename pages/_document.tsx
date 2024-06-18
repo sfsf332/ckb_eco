@@ -48,7 +48,7 @@ class MyDocument extends Document<Props> {
           <meta name="twitter:title" content="CKB Eco Fund" />
           <meta name="twitter:description" content="CKB Eco Fund focuses on innovations in Nervos network. We support projects with funding, resources, and guidance to build a robust, sustainable ecosystem and enhance the value of CKB. " />
           <meta name="twitter:image" content="images/site-social-image.png"></meta>
-          <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=0, user-scalable=yes,shrink-to-fit=no" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,shrink-to-fit=no" />
 
         </Head>
         <body>

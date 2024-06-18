@@ -1,11 +1,12 @@
 import Link from "next/link";
-
-import Header from "../components/Header";
 import { Footer } from "../components/Footer";
 import faqList from "../public/json/faq.json";
-
 import localFont from "next/font/local";
 import AnimatedAccordionList from "components/AnimatedAccordionList";
+import dynamic from 'next/dynamic';
+
+const Header = dynamic(() => import('../components/Header'), { ssr: false });
+const StatusBox = dynamic(() => import('../components/StatusBox'), { ssr: false });
 
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
@@ -54,41 +55,15 @@ const Homepage = () => {
               WHY CKB?
             </Link>
           </div>
-          <div className="status_box">
-            <div className="status_card status_1">
-              <h4>415.12 PH/s</h4>
-              <p>HASH RATE</p>
-            </div>
-            <div className="status_card status_2">
-              <h4>17.5M+</h4>
-              <p>LIVE CELL</p>
-            </div>
-            <div className="status_img">
-              <img src="images/ckb_status.png" />
-            </div>
-            <div className="status_card status_3">
-              <h4>27,380</h4>
-              <p>RGB++ TRANSLATIONS</p>
-            </div>
-            <div className="status_card status_4">
-              <h4>3.81M+</h4>
-              <p>UNIQUE ADDRESSES</p>
-            </div>
-          </div>
-          <div className="status_cloud">
-            <img src="images/cloud_1.png" />
-          </div>
-          <div className="status_cloud_1">
-            <img src="images/cloud_2.png" />
-          </div>
+          <StatusBox />
+          
+         
         </div>
         <div className="main-snap third-screen">
           <h2 className={sharpieFont.className}>
             The Role of CKB in the Bitcoin Ecosystem
           </h2>
-          <div className="img_box">
-            <img src="images/img_eco.png" className="img_eco" />
-          </div>
+          <Link className="img_box" href='images/img_eco.png' target="_blank"></Link>
           <div className="img_tree">
             <img src="images/tree.png" />
           </div>
