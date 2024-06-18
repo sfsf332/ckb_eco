@@ -6,8 +6,7 @@
         "tag": [
             "Infra"
         ],
-        "rgbpp":true,
-        
+        "rgbpp": true,
         "link": "https://app.joy.id",
         "xlink": "https://app.joy.id"
     },
@@ -18,8 +17,7 @@
         "tag": [
             "DAO"
         ],
-        "rgbpp":false,
-        
+        "rgbpp": false,
         "link": "https://app.joy.id",
         "xlink": "https://app.joy.id"
     },
@@ -31,16 +29,15 @@
             "Marketplace",
             "Wallet"
         ],
-        "rgbpp":true,
+        "rgbpp": true,
         "link": "https://app.joy.id",
         "xlink": "https://app.joy.id"
     },
     {
         "img": "images/eco/huehub.jpg",
         "name": "HueHub",
-        "ico": "images/eco/huehub_ico.jpeg",
         "desc": "First DEX for RGB++ Assets on Bitcoin",
-        "rgbpp":true,
+        "rgbpp": true,
         "tag": [
             "DeFi",
             "DEX"
@@ -51,11 +48,11 @@
     {
         "img": "images/eco/omiga.png",
         "name": "Omiga",
-        "rgbpp":true,
-        "ico": "images/eco/logo_omiga.png",
+        "rgbpp": true,
         "desc": "First UTXO DEX for RGB++ Assets on CKB",
         "tag": [
-            "L2","DEX"
+            "L2",
+            "DEX"
         ],
         "link": "https://omiga.io/",
         "xlink": "https://app.joy.id"
@@ -63,8 +60,7 @@
     {
         "img": "images/eco/dobby.png",
         "name": "Dobby",
-        "rgbpp":true,
-        "ico": "images/eco/dobby_ico.jpeg",
+        "rgbpp": true,
         "desc": "DOBs Marketplace",
         "tag": [
             "DOB",
@@ -76,8 +72,7 @@
     {
         "img": "images/eco/world3.jpg",
         "name": "World3",
-        "rgbpp":true,
-        "ico": "images/eco/world3_ico.jpg",
+        "rgbpp": true,
         "desc": "AI Powered Autonomous World on Bitcoin",
         "tag": [
             "AW"
@@ -88,8 +83,7 @@
     {
         "img": "images/eco/image-d.id.png",
         "name": "d.id",
-        "rgbpp":true,
-        "ico": "images/eco/logo-d.id.png",
+        "rgbpp": true,
         "desc": "Building protocols for all human",
         "tag": [
             "DID",
@@ -101,9 +95,8 @@
     {
         "img": "images/eco/image-bit.png",
         "name": ".bit",
-        "ico": "images/eco/logo-.bit.png",
         "desc": "Barrier-free Human DID",
-        "rgbpp":true,
+        "rgbpp": true,
         "tag": [
             "DID"
         ],
@@ -113,9 +106,8 @@
     {
         "img": "images/eco/utxoswap.jpg",
         "name": "UTXOSwap",
-        "ico": "images/eco/utxoswap_ico.jpeg",
         "desc": "AMM DEX",
-        "rgbpp":true,
+        "rgbpp": true,
         "tag": [
             "DeFi",
             "DEX"
@@ -126,8 +118,7 @@
     {
         "img": "images/eco/nervape.png",
         "name": "Nervape",
-        "rgbpp":true,
-        "ico": "images/eco/nervape_ico.png",
+        "rgbpp": true,
         "desc": "Digital Objects Built on Bitcoin",
         "tag": [
             "DOBs"
@@ -138,8 +129,7 @@
     {
         "img": "images/eco/unicorn.jpg",
         "name": "Unicorn",
-        "rgbpp":true,
-        "ico": "https://unidob.xyz/loog.png",
+        "rgbpp": true,
         "desc": "The First DOBs on CKB",
         "tag": [
             "DOBs"

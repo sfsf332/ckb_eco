@@ -106,7 +106,7 @@ h4 {
   font-size: 22px;
   line-height: 30px;
   color: #000;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h5 {
@@ -1175,7 +1175,7 @@ footer {
 
 .build-block-3 .hill {
   position: absolute;
-
+  height: auto;
   right: -20px;
   top: 500px;
   z-index: 0;
@@ -1267,6 +1267,7 @@ footer {
   bottom: 24px;
   right: 24px;
   pointer-events: none;
+  z-index: -2;
 }
 
 .build-block-3 .process-block p {
@@ -2332,5 +2333,200 @@ footer {
 
   .about-block-4 .media-block .colors h3 {
     padding: 30px 0;
+  }
+
+  .build-links {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .build-links .button_link {
+    margin: 10px 0;
+  }
+
+  .build-block-1 .cloud {
+    transform: scale(0.9);
+    z-index: -2
+  }
+
+  .build-block-1 .cloud_2 {
+    top: 30%;
+    right: -20px;
+    left: auto;
+  }
+
+  .build-block-1 .cloud_1 {
+    top: 50%;
+    left: -50px;
+    right: auto;
+  }
+
+  .build-block-1 .cloud_3 {
+
+    left: -45%;
+
+  }
+
+  .build-block-1 h4 {
+    padding: 10px 46px
+  }
+
+  .build-block-2 .content {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .build-block-2 .cloud {
+    right: -21%;
+    top: 0;
+    transform: scale(1.5)
+  }
+
+  .build-block-3 .cloud_6 {
+    top: 80px;
+    z-index: -2;
+    transform: scale(3);
+  }
+
+  .build-block-3 .content-block .project-list {
+    display: block;
+    /* gap: 24px; */
+
+  }
+
+  .build-block-3 .content-block .project-list span {
+    margin-top: 12px;
+  }
+
+  .build-block-3 .process-block {
+    flex-direction: column
+  }
+
+  .build-block-3 .process-block div {
+    width: 80%;
+    height: auto;
+    margin: 24px auto 0 auto;
+  }
+
+  .build-block-3 .process-block h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .build-block-3 .process-block p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+
+  .build-block-3 .bg-hill {
+    margin-top: -10px;
+  }
+
+  .build-block-3 .hill {
+    width: 60%;
+    top: 1400px;
+    right: -20px;
+  }
+
+  .build-block-3 .block-2 {
+    margin-top: 70px;
+  }
+
+  .build-block-3 h3.big {
+    margin-bottom: 30px;
+  }
+
+  .build-block-3 .build_faq_list {
+    min-height: auto;
+    padding: 0 0 180px 0;
+    background-position: bottom center;
+    background-size: 370px 179px;
+  }
+
+  .build-block-4 {
+    min-height: auto;
+  }
+
+  .build-block-4 .content {
+    width: 90%;
+  }
+
+  .eco-block-1 {
+
+    background: url(images/bg_eco_m.png) top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+
+  }
+
+  .eco-block-1 .block-main {
+    width: 90%
+  }
+
+  .eco-block-2 .eco-search {
+    width: 80%;
+  }
+
+  .eco-block-2 .tabs-title {
+    width: 100%;
+  }
+
+  .eco-block-2 .tabs-title span {
+    margin-top: 12px;
+  }
+  .eco-block-2 .eco-item-m {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.5) 100%);
+    border: 1px solid #FFFFFF80;
+    padding: 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  .eco-block-2 .eco-item-m .eco-logo {
+    width: 76px;
+    text-align: center;
+  
+  }
+  
+  .eco-block-2 .eco-item-m .eco-logo img {
+    width: 76px;
+  }
+  
+  .eco-block-2 .eco-item-m .eco-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22px;
+    line-height: 22px;
+  }
+  
+  .eco-block-2 .eco-item .eco-title a {
+    margin: 0 8px;
+    color: #000;
+  }
+  
+  .eco-block-2 .eco-item .tags {
+    margin: 12px 0
+  }
+  
+  .eco-block-2 .eco-item .tags span {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 0 6px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #000;
+    margin-right: 6px;
+  }
+  .eco-list{
+    display: block;
   }
 }

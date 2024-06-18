@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { FaXTwitter, FaDiscord } from "react-icons/fa6";
-
 import { Footer } from "../components/Footer";
 import { FaTwitter, FaGlobe, FaLink } from "react-icons/fa";
 
@@ -163,7 +161,7 @@ const AboutPage = () => {
                   >
                     <FaGlobe />
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"https://x.com/RunningCKB"} target="_blank">
                     <FaTwitter />
                   </Link>
                 </p>
@@ -178,10 +176,10 @@ const AboutPage = () => {
               <div className="intro-item">
                 <img src="images/logo_nervape.png" width={150} />
                 <p>
-                  <Link href={"#"}>
+                  <Link href={"https://cryptape.com/#/home"} target="_blank">
                     <FaGlobe />
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"https://x.com/cryptape"} target="_blank">
                     <FaTwitter />
                   </Link>
                 </p>
@@ -199,10 +197,10 @@ const AboutPage = () => {
               <div className="intro-item">
                 <img src="images/logo_cell.png" width={150} />
                 <p>
-                  <Link href={"#"}>
+                  <Link href={"https://cell.studio/"} target="_blank">
                     <FaGlobe />
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"https://x.com/ckbcell"} target="_blank">
                     <FaTwitter />
                   </Link>
                 </p>

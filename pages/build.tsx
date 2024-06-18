@@ -1,13 +1,13 @@
 import Link from "next/link";
-
-import Header from "../components/Header";
 import { Footer } from "../components/Footer";
 
 import localFont from "next/font/local";
 import AnimatedAccordionList from "components/AnimatedAccordionList";
 import faqList from "../public/json/buildfaq.json";
 import { useState } from "react";
+import dynamic from "next/dynamic";
 
+const Header = dynamic(() => import("../components/Header"), { ssr: false });
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
   src: "../public/font/Sharpie-Variable.ttf",
@@ -60,7 +60,8 @@ const BuildPage = () => {
           </h2>
           <h4>
             Build with CKB, unleash the potential of assets on Bitcoin with
-            RGB++, <br />
+            RGB++,
+            <br />
             and build the autonomous world on DOBs through the Spore protocol.
           </h4>
           <div className="build-links">
