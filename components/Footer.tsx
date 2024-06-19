@@ -10,11 +10,9 @@ const RanadeFont = localFont({
   src: "../public/font/Ranade-Variable.ttf",
   display: "swap",
 });
-import useVH from 'react-viewport-height';
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const Footer: FC = () => {
-  useVH()
   return (
     <footer className={RanadeFont.className}>
       <EmailSubscribe />

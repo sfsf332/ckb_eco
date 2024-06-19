@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useSpring, animated } from "@react-spring/web";
 
 const AnimatedAccordion: React.FC<{ title: string; content: string }> = ({
   title,

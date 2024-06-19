@@ -1775,13 +1775,13 @@ footer {
 
 .navMobile {
   display: flex;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
-  height: 75px;
+  background:rgba(255, 255, 255, .2);
+  height: 45px;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  width: 90%;
-  backdrop-filter: blur(3px);
+  width: 80%;
+  border-radius: 12px;
 }
 
 .navMobile a {
@@ -1857,6 +1857,7 @@ footer {
 
   main {
     min-width: 100% !important;
+    overflow-x: hidden;
   }
 
   .main-index {
@@ -2528,5 +2529,9 @@ footer {
   }
   .eco-list{
     display: block;
+  }
+  .main-index,.second-screen ,.third-screen,.roadmap-screen,.partner-screen,.faq-screen{
+    min-height: 100dvh;
+    height: 100dvh;
   }
 }
