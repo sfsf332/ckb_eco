@@ -2534,4 +2534,20 @@ footer {
     min-height: 100dvh;
     height: 100dvh;
   }
+  .build-dev-box-m{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    background: #FFFFFF80;
+    padding: 12px 24px;
+    border-radius: 50px;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 999;
+    font-weight: 700;
+  }
+  
 }

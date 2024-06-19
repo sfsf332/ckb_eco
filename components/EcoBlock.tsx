@@ -9,8 +9,8 @@ interface EcoProp {
     img: string;
     name: string;
     tag: string[];
-    link: string;
-    xlink: string;
+    link?: string;
+    xlink?: string;
     rgbpp: boolean;
     desc: string;
   };
@@ -28,12 +28,12 @@ const EcoBlock: React.FC<EcoProp> = ({ item, index }) => {
             <img src={item.img} className="eco-img" />
             <span>
               {" "}
-              <Link href={item.link}>
+              {item.link&&<Link href={item.link}>
                 <FaGlobe size={14} />
-              </Link>
-              <Link href={item.xlink}>
+              </Link>}
+              {item.xlink&&<Link href={item.xlink}>
                 <FaTwitter size={14} />
-              </Link>
+              </Link>}
             </span>
           </div>
           <div>
@@ -67,12 +67,12 @@ const EcoBlock: React.FC<EcoProp> = ({ item, index }) => {
             <h5>{item.name}</h5>
             <span>
               {" "}
-              <Link href={item.link}>
+              {item.link&&<Link href={item.link}>
                 <FaGlobe size={14} />
-              </Link>
-              <Link href={item.xlink}>
+              </Link>}
+              {item.xlink&&<Link href={item.xlink}>
                 <FaTwitter size={14} />
-              </Link>
+              </Link>}
             </span>
           </div>
           <div className="tags">

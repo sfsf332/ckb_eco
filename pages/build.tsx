@@ -8,6 +8,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
+const DevBox = dynamic(() => import("../components/DevBox"), { ssr: false });
 // Font files can be colocated inside of `app`
 const sharpieFont = localFont({
   src: "../public/font/Sharpie-Variable.ttf",
@@ -19,39 +20,11 @@ const RanadeFont = localFont({
 });
 
 const BuildPage = () => {
-  const [devOpen, setDevOpen] = useState(true);
   return (
     <>
       <Header />
       <main className={"build-main " + RanadeFont.className}>
-        {devOpen && (
-          <div className="build-dev-box">
-            <img
-              src="images/icon_close.png"
-              onClick={() => setDevOpen(false)}
-              className="close"
-            />
-            <h4>Dev Support</h4>
-            <h6>Please join our dev group: </h6>
-            <div className="build-links">
-              <Link
-                href="https://t.me/ckbrgben/6"
-                target="_blank"
-                className="button_link button_link_1"
-              >
-                CN
-              </Link>
-              <Link
-                href="https://t.me/ckbrgben/1"
-                target="_blank"
-                className="button_link button_link_1"
-              >
-                EN
-              </Link>
-            </div>
-          </div>
-        )}
-
+        <DevBox />
         <div className="build-block-1">
           <h2 className={sharpieFont.className}>
             Empower the Bitcoin Ecosystem with

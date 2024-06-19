@@ -3,10 +3,12 @@ import Link from "next/link";
 import { Footer } from "../components/Footer";
 
 import localFont from "next/font/local";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import EcoList from "../public/json/eco.json";
 import dynamic from "next/dynamic";
 import EcoBlock from "components/EcoBlock";
+import Fuse from "fuse.js";
+import { debounce } from "lodash";
 
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
 const sharpieFont = localFont({
@@ -17,15 +19,63 @@ const RanadeFont = localFont({
   src: "../public/font/Ranade-Variable.ttf",
   display: "swap",
 });
+interface EcoProp {
+
+    img: string;
+    name: string;
+    tag: string[];
+    link?: string;
+    xlink?: string;
+    rgbpp: boolean;
+    desc: string;
+ 
+}
 
 const Eco = () => {
   const [showType, setShowType] = React.useState("");
-  const [showList, setShowList] = React.useState(EcoList);
+  const [showList, setShowList] = React.useState<EcoProp[]>(EcoList);
   const [typeList, setTypeList] = React.useState([""]);
-
+  const [inputValue, setInputValue] =  React.useState<string>('');
+ 
   const toggleShow = (type: string) => {
     setShowType(type);
   };
+  async function search(criteria: string) {
+    console.log(criteria)
+    const options = {
+      keys: [
+        "desc",
+        "name",
+        "tag"
+      ],
+      threshold:0.1
+    };
+    if(criteria!==''){
+      let fuse = new Fuse(EcoList, options);
+      let filterList = fuse.search(criteria)
+      if(filterList&&filterList.length>0){
+        let newList: EcoProp[] = []
+        filterList.map(item=>{
+          newList.push(item.item)
+        })
+        console.log(newList)
+        return newList
+      }
+    }else{
+      return EcoList
+    }
+  }
+  const debouncedSearch = React.useRef(
+    debounce(async (criteria) => {
+      let data = await search(criteria)
+      setShowList(data||[]);
+    }, 300)
+  ).current;
+  async function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+  
+    debouncedSearch(e.target.value);
+  }
+  
   useEffect(() => {
     let tagList: [string] = [""];
     EcoList.map((item) => {
@@ -34,9 +84,11 @@ const Eco = () => {
       });
     });
     let showTypes = [...new Set(tagList)];
-    console.log(showTypes);
     setTypeList(showTypes);
   }, [showType]);
+
+
+
   return (
     <>
       <Header />
@@ -69,6 +121,7 @@ const Eco = () => {
               type="text"
               placeholder="CKB Eco Fund"
               className="eco-search"
+              onChange={handleChange}
             />
 
             <div className="tabs-title">

@@ -7,8 +7,8 @@
             "Infra"
         ],
         "rgbpp": true,
-        "link": "https://app.joy.id",
-        "xlink": "https://app.joy.id"
+        "link": "https://cell.studio",
+        "xlink": "https://x.com/ckbcell"
     },
     {
         "img": "images/eco/SeeDAO.png",
@@ -18,8 +18,8 @@
             "DAO"
         ],
         "rgbpp": false,
-        "link": "https://app.joy.id",
-        "xlink": "https://app.joy.id"
+        "link": "https://seedao.xyz/",
+        "xlink": "https://x.com/see_dao"
     },
     {
         "img": "images/eco/JoyID.png",
@@ -31,110 +31,129 @@
         ],
         "rgbpp": true,
         "link": "https://app.joy.id",
-        "xlink": "https://app.joy.id"
+        "xlink": "https://x.com/joy_protocol"
     },
     {
-        "img": "images/eco/huehub.jpg",
+        "img": "images/eco/Stable++.png",
+        "name": "Stable++",
+        "desc": "Stablecoin for Nervos & RGB++",
+        "tag": [
+            "DeFi"
+        ],
+        "rgbpp": true,
+        "link": "https://www.stablepp.xyz/ ",
+        "xlink": "https://x.com/stablepp"
+    },
+    {
+        "img": "images/eco/huehub.png",
         "name": "HueHub",
         "desc": "First DEX for RGB++ Assets on Bitcoin",
         "rgbpp": true,
         "tag": [
-            "DeFi",
-            "DEX"
+            "Marketplace",
+            "Launchpad"
         ],
         "link": "https://huehub.xyz/",
-        "xlink": "https://app.joy.id"
+        "xlink": "https://x.com/HueHubOfficial"
     },
     {
-        "img": "images/eco/omiga.png",
-        "name": "Omiga",
+        "img": "images/eco/UTXOswap.png",
+        "name": "UTXOSwap",
+        "desc": "AMM DEX on CKB",
         "rgbpp": true,
-        "desc": "First UTXO DEX for RGB++ Assets on CKB",
         "tag": [
-            "L2",
-            "DEX"
+            "Marketplace",
+            "DeFi"
         ],
-        "link": "https://omiga.io/",
-        "xlink": "https://app.joy.id"
+        "link": "https://utxoswap.xyz/",
+        "xlink": "https://x.com/UTXOSwap"
     },
     {
-        "img": "images/eco/dobby.png",
-        "name": "Dobby",
+        "img": "images/eco/UTXOstack.png",
+        "name": "UTXO Stack",
+        "desc": "An BTC and RGB++ based “OP Stack”",
         "rgbpp": true,
-        "desc": "DOBs Marketplace",
         "tag": [
-            "DOB",
-            "DEX"
+            "Infra"
         ],
-        "link": "https://app.dobby.market",
-        "xlink": "https://app.joy.id"
+       "link": "https://cell.studio",
+        "xlink": "https://x.com/ckbcell"
     },
     {
-        "img": "images/eco/world3.jpg",
-        "name": "World3",
+        "img": "images/eco/Nervape.png",
+        "name": "Nervape",
+        "desc": "Multi-chain Composable Digital Objects Built on Bitcoin",
         "rgbpp": true,
-        "desc": "AI Powered Autonomous World on Bitcoin",
         "tag": [
-            "AW"
+            "DOBs"
         ],
-        "link": "https://world3.ai/",
-        "xlink": "https://app.joy.id"
+       "link": "https://www.nervape.com/nervape",
+        "xlink": "https://x.com/Nervapes"
     },
     {
-        "img": "images/eco/image-d.id.png",
+        "img": "images/eco/did.png",
         "name": "d.id",
-        "rgbpp": true,
-        "desc": "Building protocols for all human",
-        "tag": [
-            "DID",
-            "ID protocol"
-        ],
-        "link": "https://d.id/",
-        "xlink": "https://app.joy.id"
-    },
-    {
-        "img": "images/eco/image-bit.png",
-        "name": ".bit",
-        "desc": "Barrier-free Human DID",
+        "desc": "A Decentralized Identity Protocol",
         "rgbpp": true,
         "tag": [
             "DID"
         ],
-        "link": "https://d.id/products/bit",
-        "xlink": "https://app.joy.id"
+       "link": "https://d.id/",
+        "xlink": "https://x.com/DIDbased"
     },
     {
-        "img": "images/eco/utxoswap.jpg",
-        "name": "UTXOSwap",
-        "desc": "AMM DEX",
+        "img": "images/eco/SEAL.png",
+        "name": "SEAL",
         "rgbpp": true,
+        "desc": "The First RGB++ Asset",
         "tag": [
-            "DeFi",
-            "DEX"
+            "Meme"
         ],
-        "link": "https://utxoswap.xyz/",
-        "xlink": "https://app.joy.id"
+        "xlink": "https://x.com/btckbseal"
     },
     {
-        "img": "images/eco/nervape.png",
-        "name": "Nervape",
-        "rgbpp": true,
-        "desc": "Digital Objects Built on Bitcoin",
-        "tag": [
-            "DOBs"
-        ],
-        "link": "https://www.nervape.com/",
-        "xlink": "https://app.joy.id"
-    },
-    {
-        "img": "images/eco/unicorn.jpg",
+        "img": "images/eco/Unicorn.png",
         "name": "Unicorn",
         "rgbpp": true,
-        "desc": "The First DOBs on CKB",
+        "desc": "The First Tradable Asset and the First DOBs (Digital Objects) on CKB Mainnet",
         "tag": [
             "DOBs"
         ],
-        "link": "https://www.unidob.xyz/",
-        "xlink": "https://app.joy.id"
+        "link":"http://unidob.xyz",
+        "xlink": "https://x.com/unicorn_dobs"
+    },
+    {
+        "img": "images/eco/World3.png",
+        "name": "World3",
+        "rgbpp": true,
+        "desc": "AW (Autonomous Worlds) game based on the RGB++ protocol and DOBs.",
+        "tag": [
+            "AW"
+        ],
+        "link":"https://world3.ai/",
+        "xlink": "https://x.com/WORLD3_AI"
+    },
+    {
+        "img": "images/eco/Dobby.png",
+        "name": "Dobby",
+        "rgbpp": true,
+        "desc": "Marketplace for Digital Objects on Bitcoin",
+        "tag": [
+            "Marketplace",
+            "DEX"
+        ],
+        "link": "https://app.dobby.market/cluster/1"
+    },
+    {
+        "img": "images/eco/Metaforo.jpg",
+        "name": "Metaforo",
+        "rgbpp": true,
+        "desc": "Voting Governance Module Supporting the RGB++ Protocol",
+        "tag": [
+            "Infra"
+        ],
+        "link": "https://metaforo.io/",
+        "xlink": "https://x.com/realmetaforo"
     }
+    
 ]
