@@ -1,16 +1,15 @@
 import Link from "next/link";
 
-import Header from "../components/Header";
 import { Footer } from "../components/Footer";
 
 import localFont from "next/font/local";
-import AnimatedAccordion from "components/AnimatedAccordion";
 import React, { useEffect } from "react";
 import Events from "../public/json/event.json";
 import News from "../public/json/news.json";
 import { FaTwitter, FaGlobe,FaLink } from "react-icons/fa";
 import { MdAccessTimeFilled,MdLocationOn } from "react-icons/md";
-
+import dynamic from "next/dynamic";
+const Header = dynamic(() => import("../components/Header"), { ssr: false });
 const sharpieFont = localFont({
   src: "../public/font/Sharpie-Variable.ttf",
   display: "swap",
@@ -38,6 +37,29 @@ const Community = () => {
               Stay up-to-date with the latest news, participate in events, and
               connect with fellow CKB enthusiasts through our community.
             </h4>
+            <div className="build-links">
+            <Link
+              href="https://www.nervos.org/"
+              target="_blank"
+              className="button_link button_link_2"
+            >
+             Nervos Official Website
+            </Link>
+            <Link
+              href="https://github.com/ckb-cell/rgbpp-sdk"
+              target="_blank"
+              className="button_link button_link_2"
+            >
+              Messari Report
+            </Link>
+            <Link
+              href="https://academy.binance.com/en/learn-and-earn/course/what-is-nervos-ckb-BN997395611028492289"
+              target="_blank"
+              className="button_link button_link_2"
+            >
+              Binance Academy
+            </Link>
+          </div>
           </div>
         </div>
         <div className="comm-block-2 main-snap"  id="news">

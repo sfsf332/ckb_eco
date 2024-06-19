@@ -311,8 +311,20 @@ p {
 
 .button_link_1:hover {
   background: #4AE2AB;
+  color: #fff;
+}
+.button_link_2 {
+  color: #FF9900;
+
+  border-color: #FF9900;
+  box-shadow: 0px 4px 4px 0px #FF990040;
+
 }
 
+.button_link_2:hover {
+  background: #FF9900;
+  color: #fff;
+}
 .roadmap-screen {
   margin: 0 auto;
   width: 100%;
@@ -1515,7 +1527,6 @@ footer {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  background: url;
 }
 
 .comm-block-2 {
@@ -2553,9 +2564,50 @@ footer {
     color: #000;
     margin-right: 6px;
   }
-  .main-index,.second-screen ,.third-screen,.roadmap-screen,.partner-screen,.faq-screen{
+  .main-index,.second-screen ,.third-screen,.roadmap-screen,.partner-screen,.faq-screen,.comm-block-1,.comm-main,.comm-block-4{
     min-height: 100dvh;
     height: 100dvh;
+  }
+  .comm-block-1 {
+    z-index: 10;
+    background: url(images/bg_comm_m.png) center bottom no-repeat, url(images/bg_comm_l.png) left 100px no-repeat;
+    background-size: cover, 70% auto;
+  
+  }
+  .comm-block-1 .block-main{
+    width: 90%;
+    padding-top: 60%;
+  }
+  .comm-title{
+    padding-bottom: 30px;
+  }
+  .comm-title h2{
+    padding: 0;
+    margin: 0;
+  }
+  .news-list,.event-list{
+    display: block;
+    padding: 0 21px;
+  }
+  .news-list .news-item,.event-list .event-item{
+    width: 100%;
+    margin-top: 24px;
+  }
+  .news-list .news-item img,.news-list .news-item .news-head{
+    width: 100%;
+  }
+  .comm-block-4 .block-main {
+    padding-top: 120px;
+    width: 90%;
+  }
+  .comm-block-4 .block-main h2{
+    text-align: left;
+  }
+  .comm-block-4 .block-main h3{
+    margin-top: 20px;
+  }
+  .comm-block-4 .block-main a{
+    margin-top: 12px;
   }
   .build-dev-box-m{
     position: fixed;

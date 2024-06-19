@@ -5,11 +5,11 @@ import { Footer } from "../components/Footer";
 import localFont from "next/font/local";
 import React, { useEffect, useMemo } from "react";
 import EcoList from "../public/json/eco.json";
-import dynamic from "next/dynamic";
+
 import EcoBlock from "components/EcoBlock";
 import Fuse from "fuse.js";
 import { debounce } from "lodash";
-
+import dynamic from "next/dynamic";
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
 const sharpieFont = localFont({
   src: "../public/font/Sharpie-Variable.ttf",
