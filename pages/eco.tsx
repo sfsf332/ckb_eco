@@ -3,10 +3,8 @@ import Link from "next/link";
 import { Footer } from "../components/Footer";
 
 import localFont from "next/font/local";
-import AnimatedAccordion from "components/AnimatedAccordion";
 import React, { useEffect } from "react";
 import EcoList from "../public/json/eco.json";
-import { FaTwitter, FaGlobe } from "react-icons/fa";
 import dynamic from "next/dynamic";
 import EcoBlock from "components/EcoBlock";
 

@@ -1,8 +1,5 @@
 import type { FC } from "react";
-import { FaGithub } from "react-icons/fa";
-// import { FaTwitter } from "react-icons/fa";
-// import { FaTelegram } from "react-icons/fa";
-// import { FaDiscord } from "react-icons/fa";
+
 import { Montserrat } from "next/font/google";
 import Link from "next/link";
 import EmailSubscribe from "./EmailSubscribe";
@@ -13,9 +10,11 @@ const RanadeFont = localFont({
   src: "../public/font/Ranade-Variable.ttf",
   display: "swap",
 });
+import useVH from 'react-viewport-height';
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const Footer: FC = () => {
+  useVH()
   return (
     <footer className={RanadeFont.className}>
       <EmailSubscribe />
