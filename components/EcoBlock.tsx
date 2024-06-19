@@ -26,7 +26,7 @@ const EcoBlock: React.FC<EcoProp> = ({ item, index }) => {
         <div key={index} className="eco-item-m">
           <div className="eco-logo">
             <img src={item.img} className="eco-img" />
-            <span>
+            <div>
               {" "}
               {item.link&&<Link href={item.link}>
                 <FaGlobe size={14} />
@@ -34,9 +34,9 @@ const EcoBlock: React.FC<EcoProp> = ({ item, index }) => {
               {item.xlink&&<Link href={item.xlink}>
                 <FaTwitter size={14} />
               </Link>}
-            </span>
+            </div>
           </div>
-          <div>
+          <div className="eco-info">
             <div className="eco-title">
               <h5>{item.name}</h5>
               {item.rgbpp ? (

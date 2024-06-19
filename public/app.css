@@ -1468,7 +1468,12 @@ footer {
   font-size: 16px;
   color: #000;
   border-radius: 6px;
+  cursor: pointer;
 
+}
+.eco-block-2 .tabs-title span.sel{
+  background: #333;
+  color: #fff;
 }
 
 .comm-main {
@@ -2485,19 +2490,35 @@ footer {
     border-radius: 24px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20 px;
   }
   
  
   .eco-block-2 .eco-item-m .eco-logo {
     width: 76px;
     text-align: center;
-  
+    margin-right: 12px;
+    flex-grow: 0;
   }
-  
+  .eco-block-2 .eco-item-m .eco-info {
+    
+    flex-grow: 1;
+  }
   .eco-block-2 .eco-item-m .eco-logo img {
     width: 76px;
   }
-  
+  .eco-block-2 .eco-item-m .eco-logo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    margin-top: 6px;
+  }
+  .eco-block-2 .eco-item-m .eco-logo div a{
+    margin:0 12px;
+    color: #000;
+    font-size: 24px;
+  }
   .eco-block-2 .eco-item-m .eco-title {
     display: flex;
     justify-content: space-between;
@@ -2505,17 +2526,22 @@ footer {
     height: 22px;
     line-height: 22px;
   }
-  
-  .eco-block-2 .eco-item .eco-title a {
-    margin: 0 8px;
-    color: #000;
+  .eco-block-2 .eco-item-m h6{
+    font-size: 16px;
+    line-height: 22px;
   }
-  
-  .eco-block-2 .eco-item .tags {
+ 
+  .eco-block-2 .eco-item-m .rgbpp{
+    height: 20px;
+  }
+  .eco-list{
+    display: block;
+  }
+  .eco-block-2 .eco-item-m .tags {
     margin: 12px 0
   }
   
-  .eco-block-2 .eco-item .tags span {
+  .eco-block-2 .eco-item-m .tags span {
     background: #fff;
     border: 1px solid #000;
     border-radius: 6px;
@@ -2523,12 +2549,9 @@ footer {
     padding: 0 6px;
     height: 22px;
     line-height: 22px;
-    font-size: 12px;
+    font-size: 11px;
     color: #000;
     margin-right: 6px;
-  }
-  .eco-list{
-    display: block;
   }
   .main-index,.second-screen ,.third-screen,.roadmap-screen,.partner-screen,.faq-screen{
     min-height: 100dvh;

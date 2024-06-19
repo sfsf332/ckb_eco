@@ -35,13 +35,15 @@ const Eco = () => {
   const [showType, setShowType] = React.useState("");
   const [showList, setShowList] = React.useState<EcoProp[]>(EcoList);
   const [typeList, setTypeList] = React.useState([""]);
-  const [inputValue, setInputValue] =  React.useState<string>('');
  
   const toggleShow = (type: string) => {
+    let showListNew = EcoList.filter(item=>{
+      return item.tag.includes(type)
+    })
     setShowType(type);
+    setShowList(showListNew);
   };
   async function search(criteria: string) {
-    console.log(criteria)
     const options = {
       keys: [
         "desc",
@@ -58,7 +60,6 @@ const Eco = () => {
         filterList.map(item=>{
           newList.push(item.item)
         })
-        console.log(newList)
         return newList
       }
     }else{
@@ -72,7 +73,8 @@ const Eco = () => {
     }, 300)
   ).current;
   async function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-  
+    setShowType('')
+
     debouncedSearch(e.target.value);
   }
   
@@ -85,7 +87,7 @@ const Eco = () => {
     });
     let showTypes = [...new Set(tagList)];
     setTypeList(showTypes);
-  }, [showType]);
+  }, []);
 
 
 
@@ -143,7 +145,7 @@ const Eco = () => {
             </div>
             <div className="eco-list">
               {showList.map((item, index) => {
-                return <EcoBlock item={item} index={index} />;
+                return <EcoBlock item={item} index={index} />
               })}
             </div>
           </div>

@@ -45,7 +45,7 @@
         "xlink": "https://x.com/stablepp"
     },
     {
-        "img": "images/eco/huehub.png",
+        "img": "images/eco/HueHub.png",
         "name": "HueHub",
         "desc": "First DEX for RGB++ Assets on Bitcoin",
         "rgbpp": true,
@@ -123,7 +123,7 @@
         "xlink": "https://x.com/unicorn_dobs"
     },
     {
-        "img": "images/eco/World3.png",
+        "img": "images/eco/world3.png",
         "name": "World3",
         "rgbpp": true,
         "desc": "AW (Autonomous Worlds) game based on the RGB++ protocol and DOBs.",
@@ -145,7 +145,7 @@
         "link": "https://app.dobby.market/cluster/1"
     },
     {
-        "img": "images/eco/Metaforo.jpg",
+        "img": "images/eco/metaforo.jpg",
         "name": "Metaforo",
         "rgbpp": true,
         "desc": "Voting Governance Module Supporting the RGB++ Protocol",
