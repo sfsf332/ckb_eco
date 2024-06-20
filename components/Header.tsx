@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { Montserrat } from "next/font/google";
 import { useRouter } from "next/router";
 import IconLinks from "./IconLinks";
 import localFont from "next/font/local";
@@ -52,9 +51,7 @@ export default function Header() {
               className="drawer"
             >
               <Link href="/build">Build</Link>
-              <Link href="/#" onClick={()=>{
-                location.href ='/build'
-              }}>Build</Link>
+             
               <Link href="/eco">Ecosystem</Link>
               <Link href="/community">Community</Link>
               <Link href="/about">About</Link>

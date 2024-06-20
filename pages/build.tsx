@@ -4,7 +4,6 @@ import { Footer } from "../components/Footer";
 import localFont from "next/font/local";
 import AnimatedAccordionList from "components/AnimatedAccordionList";
 import faqList from "../public/json/buildfaq.json";
-import { useState } from "react";
 import dynamic from "next/dynamic";
 
 const Header = dynamic(() => import("../components/Header"), { ssr: false });

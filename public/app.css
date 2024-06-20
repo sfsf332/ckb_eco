@@ -2690,7 +2690,7 @@ footer {
     line-height: 16px;
     text-decoration: none;
     display: inline-block;
-    z-index: 999;
+    z-index: 99;
     font-weight: 700;
   }
 
