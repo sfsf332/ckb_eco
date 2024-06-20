@@ -1682,7 +1682,7 @@ footer {
 .event-list {
   margin-top: 24px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
 }
 
@@ -1690,19 +1690,22 @@ footer {
   background: #fff;
   padding: 12px;
   border-radius: 12px;
-  width: 276px;
   border-radius: 12px;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 126px 150px;
+  grid-template-columns: auto 150px;
 }
 
 .event-list .event-item .event-head {
   width: 150px;
   height: 150px;
   overflow: hidden;
-}
 
+}
+.event-list .event-item .event-head img{
+  object-fit: contain;
+
+}
 .event-list .event-item .event-head:hover {
   transform: scale(1.1);
   transition: all 0.3s;
@@ -1713,32 +1716,28 @@ footer {
   align-items: center;
   font-size: 12px;
   margin: 5px 0;
-}
-
-.event-info a svg {
-
-  flex-shrink: 0;
-
-}
-
-.event-info div p {
-  padding-left: 8px;
-}
-
-.event-info a {
-  display: flex;
-  align-items: center;
-  color: #000;
-  font-size: 12px;
-  margin: 5px 0;
-  text-decoration: none;
   height: 24px;
   line-height: 24px;
+  align-items: center;
+}
+.event-info h5{
+  padding: 8px 0;
+}
+.event-info a{
+  color: #000;
+  text-decoration: none;
+}
+.event-info li{
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+}
+.event-info li svg{
+  padding:0 8px
 }
 
-.event-info a svg {
-  margin-right: 8px;
-}
 
 .comm-block-4 {
   position: relative;

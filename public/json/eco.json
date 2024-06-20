@@ -11,15 +11,38 @@
         "xlink": "https://x.com/ckbcell"
     },
     {
-        "img": "images/eco/SeeDAO.png",
-        "name": "SeeDAO",
-        "desc": "A Network Polis Connecting 1 Million Crypto Nomads",
+        "img": "images/eco/did.png",
+        "name": "d.id",
+        "desc": "A Decentralized Identity Protocol",
+        "rgbpp": true,
         "tag": [
-            "DAO"
+            "DID"
         ],
-        "rgbpp": false,
-        "link": "https://seedao.xyz/",
-        "xlink": "https://x.com/see_dao"
+        "link": "https://d.id/",
+        "xlink": "https://x.com/DIDbased"
+    },
+    {
+        "img": "images/eco/Dobby.png",
+        "name": "Dobby",
+        "rgbpp": true,
+        "desc": "Marketplace for Digital Objects on Bitcoin",
+        "tag": [
+            "Marketplace",
+            "DEX"
+        ],
+        "link": "https://app.dobby.market/cluster/1"
+    },
+    {
+        "img": "images/eco/HueHub.png",
+        "name": "HueHub",
+        "desc": "First DEX for RGB++ Assets on Bitcoin",
+        "rgbpp": true,
+        "tag": [
+            "Marketplace",
+            "Launchpad"
+        ],
+        "link": "https://huehub.xyz/",
+        "xlink": "https://x.com/HueHubOfficial"
     },
     {
         "img": "images/eco/JoyID.png",
@@ -34,6 +57,49 @@
         "xlink": "https://x.com/joy_protocol"
     },
     {
+        "img": "images/eco/Metaforo.png",
+        "name": "Metaforo",
+        "rgbpp": true,
+        "desc": "Voting Governance Module Supporting the RGB++ Protocol",
+        "tag": [
+            "Infra"
+        ],
+        "link": "https://metaforo.io/",
+        "xlink": "https://x.com/realmetaforo"
+    },
+    {
+        "img": "images/eco/Nervape.png",
+        "name": "Nervape",
+        "desc": "Multi-chain Composable Digital Objects Built on Bitcoin",
+        "rgbpp": true,
+        "tag": [
+            "DOBs"
+        ],
+        "link": "https://www.nervape.com/nervape",
+        "xlink": "https://x.com/Nervapes"
+    },
+    {
+        "img": "images/eco/SEAL.png",
+        "name": "SEAL",
+        "rgbpp": true,
+        "desc": "The First RGB++ Asset",
+        "tag": [
+            "Meme"
+        ],
+        "xlink": "https://x.com/btckbseal"
+    },
+    {
+        "img": "images/eco/SeeDAO.png",
+        "name": "SeeDAO",
+        "desc": "A Network Polis Connecting 1 Million Crypto Nomads",
+        "tag": [
+            "DAO"
+        ],
+        "rgbpp": false,
+        "link": "https://seedao.xyz/",
+        "xlink": "https://x.com/see_dao"
+    },
+    {
         "img": "images/eco/Stable++.png",
         "name": "Stable++",
         "desc": "Stablecoin for Nervos & RGB++",
@@ -45,16 +111,15 @@
         "xlink": "https://x.com/stablepp"
     },
     {
-        "img": "images/eco/HueHub.png",
-        "name": "HueHub",
-        "desc": "First DEX for RGB++ Assets on Bitcoin",
+        "img": "images/eco/Unicorn.png",
+        "name": "Unicorn",
         "rgbpp": true,
+        "desc": "The First Tradable Asset and the First DOBs (Digital Objects) on CKB Mainnet",
         "tag": [
-            "Marketplace",
-            "Launchpad"
+            "DOBs"
         ],
-        "link": "https://huehub.xyz/",
-        "xlink": "https://x.com/HueHubOfficial"
+        "link": "http://unidob.xyz",
+        "xlink": "https://x.com/unicorn_dobs"
     },
     {
         "img": "images/eco/UTXOswap.png",
@@ -76,51 +141,8 @@
         "tag": [
             "Infra"
         ],
-       "link": "https://cell.studio",
+        "link": "https://cell.studio",
         "xlink": "https://x.com/ckbcell"
-    },
-    {
-        "img": "images/eco/Nervape.png",
-        "name": "Nervape",
-        "desc": "Multi-chain Composable Digital Objects Built on Bitcoin",
-        "rgbpp": true,
-        "tag": [
-            "DOBs"
-        ],
-       "link": "https://www.nervape.com/nervape",
-        "xlink": "https://x.com/Nervapes"
-    },
-    {
-        "img": "images/eco/did.png",
-        "name": "d.id",
-        "desc": "A Decentralized Identity Protocol",
-        "rgbpp": true,
-        "tag": [
-            "DID"
-        ],
-       "link": "https://d.id/",
-        "xlink": "https://x.com/DIDbased"
-    },
-    {
-        "img": "images/eco/SEAL.png",
-        "name": "SEAL",
-        "rgbpp": true,
-        "desc": "The First RGB++ Asset",
-        "tag": [
-            "Meme"
-        ],
-        "xlink": "https://x.com/btckbseal"
-    },
-    {
-        "img": "images/eco/Unicorn.png",
-        "name": "Unicorn",
-        "rgbpp": true,
-        "desc": "The First Tradable Asset and the First DOBs (Digital Objects) on CKB Mainnet",
-        "tag": [
-            "DOBs"
-        ],
-        "link":"http://unidob.xyz",
-        "xlink": "https://x.com/unicorn_dobs"
     },
     {
         "img": "images/eco/world3.png",
@@ -130,30 +152,29 @@
         "tag": [
             "AW"
         ],
-        "link":"https://world3.ai/",
+        "link": "https://world3.ai/",
         "xlink": "https://x.com/WORLD3_AI"
     },
     {
-        "img": "images/eco/Dobby.png",
-        "name": "Dobby",
-        "rgbpp": true,
-        "desc": "Marketplace for Digital Objects on Bitcoin",
+        "img": "images/eco/world3.png",
+        "name": "Neuron",
+        "rgbpp": false,
+        "desc": "Desktop Wallet",
         "tag": [
-            "Marketplace",
-            "DEX"
+            "Wallet"
         ],
-        "link": "https://app.dobby.market/cluster/1"
+        "link": "https://world3.ai/",
+        "xlink": "https://x.com/WORLD3_AI"
     },
     {
-        "img": "images/eco/Metaforo.png",
-        "name": "Metaforo",
-        "rgbpp": true,
-        "desc": "Voting Governance Module Supporting the RGB++ Protocol",
+        "img": "images/eco/world3.png",
+        "name": "Neuron",
+        "rgbpp": false,
+        "desc": "Desktop Wallet",
         "tag": [
-            "Infra"
+            "Wallet"
         ],
-        "link": "https://metaforo.io/",
-        "xlink": "https://x.com/realmetaforo"
+        "link": "https://neuron.magickbase.com/"
     }
     
 ]

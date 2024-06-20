@@ -1,0 +1,85 @@
+[
+    {
+        
+        "timeStart":"2024/6/7 9:00",
+        "timeEnd":"2024/6/7 17:30",
+        "locationName":"HCMC, Vietnam",
+        "title":"GM Vietnam",
+        "eventLink":"https://gmvietnam.io/",
+        "type":"Conference",
+        "eventImg":"https://gmvietnam.io/img/top-bg-xl.png"
+    },
+    {
+        "timeStart":"2024/5/29",
+        "timeEnd":"2024/5/31",
+        "locationName":"Seoul, South Korea",
+        "title":"Bitcoin Seoul",
+        "eventLink":"https://www.bitcoinseoul.kr/",
+        "type":"Conference",
+        "eventImg":"https://framerusercontent.com/images/JdTVTBXqfF6OvZ6BFJ4yrxO6owU.jpeg"
+    },
+    {
+        "timeStart":"2024/5/10 13:30",
+        "timeEnd":"19:00",
+        "locationName":"Hongkong, China",
+        "title":"Bitcoin RGB++ Meetup",
+        "eventLink":"https://lu.ma/pjxzew9s",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=800,height=450/editor-images/vb/9c3c48a8-1e4f-4a8d-9fec-f8b79c2c961e"
+    },
+    {
+        "timeStart":"2024/5/8 14:30",
+        "timeEnd":"23:00",
+        "locationName":"Hongkong, China",
+        "title":"BTC Summer",
+        "eventLink":"https://lu.ma/BTCSummer",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,quality=75,width=400,height=400/event-covers/xk/5cec4f1a-e5af-4a06-b074-cf72567079b5"
+    },
+    {
+        "timeStart":"2024/4/18 18:30",
+        "timeEnd":"22:00",
+        "locationName":"Dubai, UAE",
+        "title":"Bitcoin POW Night (Dubai Edition)",
+        "eventLink":"https://lu.ma/1sbx9dz9",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,quality=75,width=400,height=400/event-covers/n1/95dd915c-5b15-43a0-b444-2cb497b283c9"
+    },
+    {
+        "timeStart":"2024/4/15 9:00",
+        "timeEnd":"2024/4/17 20:00",
+        "locationName":"Dubai, UAE",
+        "title":"Blockchain Life",
+        "eventLink":"https://blockchain-life.com/asia/en/",
+        "type":"Conference",
+        "eventImg":"https://blockchain-life.com/wp-content/webp-express/webp-images/uploads/2024/04/1-min.jpg.webp"
+    },
+    {
+        "timeStart":"2024/4/6 10:00",
+        "timeEnd":"2024/4/9 18:00",
+        "locationName":"Hongkong, China",
+        "title":"Hongkong Web3 Festival 2024",
+        "eventLink":"https://www.web3festival.org/",
+        "type":"Conference",
+        "eventImg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJH114vkDFcoknkF7Mp2X1Do8GV2ioH3gnNg&s"
+    },
+    {
+        "timeStart":"2024/4/7 19:00",
+        "timeEnd":"22:00",
+        "locationName":"Hongkong, China",
+        "title":"CKB 和她的朋友们（香港站）",
+        "eventLink":"https://lu.ma/dk4219i8",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,quality=75,width=400,height=400/event-covers/v5/5757e8ad-6759-4397-9edc-196607cce68b"
+    },
+    {
+        "timeStart":"2024/3/97 10:00",
+        "timeEnd":"20:30",
+        "locationName":"Singapore",
+        "title":"Bitcoin Singapore",
+        "eventLink":"https://btc-singapore.com/",
+        "type":"Conference",
+        "eventImg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3BZ95cO0YWqB02aXSbeUvZllFRXMLT-CDQ&s"
+    }
+      
+]
