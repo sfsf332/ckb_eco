@@ -1,13 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 import Script from "next/script";
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
 
 const EmailSubscribe = (): JSX.Element => {
+
   useEffect(() => {
     if ((window as any).CustomSubstackWidget) {
-      return;
+      delete((window as any).CustomSubstackWidget)
     }
     (window as any).CustomSubstackWidget = {
       substackUrl: "ckbeco.substack.com",
@@ -25,8 +26,7 @@ const EmailSubscribe = (): JSX.Element => {
 
   return (
     <div className="substack">
-      <Script src="https://substackapi.com/widget.js" async></Script>
-
+      <Script src="https://substackapi.com/widget.js"></Script>
       <div className="contentleft">
         <div>
           <img src="images/logo.png" height={32} />
@@ -41,7 +41,9 @@ const EmailSubscribe = (): JSX.Element => {
         </Link>
       </div>
       <div className="contentRight">
-        <div id="custom-substack-embed"></div>
+        <div id="custom-substack-embed">
+        {/* <form className="custom-substack-widget csw-theme-custom"><input placeholder="example@gmail.com" value="" /><button type="submit">Subscribe</button></form> */}
+        </div>
       </div>
     </div>
   );

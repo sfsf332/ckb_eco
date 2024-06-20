@@ -139,7 +139,7 @@ p {
   width: 100%;
   min-height: 100vh;
   background: url(images/bg_index_1.jpg) center 60px no-repeat #4AE2AB;
-  background-size: 100% auto;
+  background-size: cover;
   text-align: center;
   color: #fff;
   overflow-x: hidden;
@@ -313,6 +313,7 @@ p {
   background: #4AE2AB;
   color: #fff;
 }
+
 .button_link_2 {
   color: #FF9900;
 
@@ -325,6 +326,7 @@ p {
   background: #FF9900;
   color: #fff;
 }
+
 .roadmap-screen {
   margin: 0 auto;
   width: 100%;
@@ -359,13 +361,13 @@ p {
   position: relative;
 }
 
-.roadmap-screen .season_3 .bg_current {
+.roadmap-screen .bg_current {
   position: absolute;
   pointer-events: none;
   right: 20px;
   top: 12px;
   height: 81px;
-  z-index: -2;
+  z-index: 0;
 }
 
 .roadmap-screen .season_4 {
@@ -892,15 +894,6 @@ footer {
 
 }
 
-.about-block-3 dl:nth-child(1) .user-block:last-child {
-  margin-right: 138px;
-
-}
-
-.about-block-3 dl:nth-child(2) .user-block:first-child {
-  margin-left: 138px;
-
-}
 
 .about-block-3 dl:nth-child(even) {
   flex-direction: row;
@@ -1333,7 +1326,8 @@ footer {
 
 .build-block-4 .content a {
   color: #000;
-  text-underline-offset:4px;
+  font-weight: 600;
+  text-underline-offset: 4px;
 }
 
 .eco-main {
@@ -1485,7 +1479,8 @@ footer {
   cursor: pointer;
 
 }
-.eco-block-2 .tabs-title span.sel{
+
+.eco-block-2 .tabs-title span.sel {
   background: #333;
   color: #fff;
 }
@@ -1793,7 +1788,7 @@ footer {
 
 .navMobile {
   display: flex;
-  background:rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .2);
   height: 45px;
   justify-content: space-between;
   align-items: center;
@@ -1821,14 +1816,17 @@ footer {
   font-size: 20px;
   color: #333;
 }
-.drawer .nav-links{
+
+.drawer .nav-links {
   width: 80%;
   margin: 0 auto;
 }
-.drawer .nav-links  a{
+
+.drawer .nav-links a {
   text-indent: 0;
   text-align: center;
 }
+
 @media(max-device-width: 750px) {
 
   h2 {
@@ -1841,14 +1839,14 @@ footer {
   }
 
   h3.big {
-    font-size: 40px;
-    line-height: 54px;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: 700;
   }
 
   h3 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 22px;
     color: #000;
     font-weight: 700;
   }
@@ -1879,14 +1877,27 @@ footer {
     font-size: 12px;
     line-height: 16px;
   }
-
+  .accordionOpen .accordion-title{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .accordion .accordion-title{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .accordion-content{
+    font-size: 11px;
+    line-height: 15px;
+  }
   main {
     min-width: 100% !important;
     overflow-x: hidden;
   }
-  .index_main{
+
+  .index_main {
     /* scroll-snap-type:none */
   }
+
   .main-index {
     background-position: top center;
     background-size: auto 100%;
@@ -1900,10 +1911,12 @@ footer {
     background: url(images/bg_index_2_m.png) center bottom no-repeat, linear-gradient(to bottom, #fff, #4AE2AB);
     background-size: cover
   }
-  .second-screen h4{
+
+  .second-screen h4 {
     width: 80%;
     margin: 0 auto;
   }
+
   .second-screen .status_box_m {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1980,7 +1993,7 @@ footer {
     font-size: 20px;
     height: 54px;
     line-height: 54px;
-    width: 54px;
+    width: 34px;
   }
 
   .roadmap-screen .season li {
@@ -1992,7 +2005,9 @@ footer {
 
   .roadmap-screen .bg_current {
     height: 50px;
-    right: 0;
+    right: 0px;
+    top: 20px;
+
   }
 
   .partner-screen {
@@ -2003,7 +2018,6 @@ footer {
   .partner-screen .partner_list {
     margin-top: 50px;
     width: 90%;
-    gap: 10px;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 20px;
   }
@@ -2073,7 +2087,7 @@ footer {
     width: 100%;
     padding: 20px 0;
   }
-  
+
   .about-main {
     background: linear-gradient(254.11deg, #FFEAC2 0%, #FF82EB 187.61%);
     min-height: 100%;
@@ -2109,9 +2123,10 @@ footer {
   }
 
   .about-block-1 .planet_2 {
-    bottom: 240px;
+    bottom: 200px;
     right: -10px;
     top: auto;
+    width: 40px;
     left: auto;
   }
 
@@ -2145,9 +2160,9 @@ footer {
   }
 
   .about-block-2 img.bird {
-    top: -50px;
-    right: -20px;
-    width: 130px;
+    top: 50px;
+    right: -30px;
+    width: 110px;
   }
 
   .about-block-2 img.cloud_1 {
@@ -2186,6 +2201,7 @@ footer {
     margin: 0;
     padding-left: 30px;
     text-align: left;
+    font-size: 30px;
   }
 
   .about-block-3 dl dd {
@@ -2485,9 +2501,12 @@ footer {
   .build-block-4 .content {
     width: 90%;
   }
-  .build-main p{
+
+  .build-main p {
     font-size: 14px;
+    line-height: 20px;
   }
+
   .eco-block-1 {
 
     background: url(images/bg_eco_m.png) top center no-repeat;
@@ -2512,6 +2531,7 @@ footer {
   .eco-block-2 .tabs-title span {
     margin-top: 12px;
   }
+
   .eco-block-2 .eco-item-m {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.125) 0%, rgba(255, 255, 255, 0.5) 100%);
     border: 1px solid #FFFFFF80;
@@ -2521,33 +2541,38 @@ footer {
     justify-content: space-between;
     margin-top: 20px;
   }
-  
- 
+
+
   .eco-block-2 .eco-item-m .eco-logo {
     width: 76px;
     text-align: center;
     margin-right: 12px;
     flex-grow: 0;
   }
+
   .eco-block-2 .eco-item-m .eco-info {
-    
+
     flex-grow: 1;
   }
+
   .eco-block-2 .eco-item-m .eco-logo img {
     width: 76px;
   }
-  .eco-block-2 .eco-item-m .eco-logo div{
+
+  .eco-block-2 .eco-item-m .eco-logo div {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 32px;
     margin-top: 6px;
   }
-  .eco-block-2 .eco-item-m .eco-logo div a{
-    margin:0 12px;
+
+  .eco-block-2 .eco-item-m .eco-logo div a {
+    margin: 0 12px;
     color: #000;
     font-size: 24px;
   }
+
   .eco-block-2 .eco-item-m .eco-title {
     display: flex;
     justify-content: space-between;
@@ -2555,21 +2580,24 @@ footer {
     height: 22px;
     line-height: 22px;
   }
-  .eco-block-2 .eco-item-m h6{
+
+  .eco-block-2 .eco-item-m h6 {
     font-size: 16px;
     line-height: 22px;
   }
- 
-  .eco-block-2 .eco-item-m .rgbpp{
+
+  .eco-block-2 .eco-item-m .rgbpp {
     height: 20px;
   }
-  .eco-list{
+
+  .eco-list {
     display: block;
   }
+
   .eco-block-2 .eco-item-m .tags {
     margin: 12px 0
   }
-  
+
   .eco-block-2 .eco-item-m .tags span {
     background: #fff;
     border: 1px solid #000;
@@ -2582,55 +2610,78 @@ footer {
     color: #000;
     margin-right: 6px;
   }
-  .main-index,.second-screen ,.third-screen,.roadmap-screen,.partner-screen,.faq-screen,.comm-block-1,.comm-main,.comm-block-4{
+
+  .main-index,
+  .second-screen,
+  .third-screen,
+  .roadmap-screen,
+  .partner-screen,
+  .faq-screen,
+  .comm-block-1,
+  .comm-main,
+  .comm-block-4 {
     min-height: 800px;
-    /* height: 100dvh; */
   }
+
   .comm-block-1 {
     z-index: 10;
     background: url(images/bg_comm_m.png) center bottom no-repeat, url(images/bg_comm_l.png) left 100px no-repeat;
     background-size: cover, 70% auto;
-  
+
   }
-  .comm-block-1 .block-main{
+
+  .comm-block-1 .block-main {
     width: 90%;
     padding-top: 60%;
   }
-  .comm-title{
+
+  .comm-title {
     padding-bottom: 30px;
   }
-  .comm-title h2{
+
+  .comm-title h2 {
     padding: 0;
     margin: 0;
   }
-  .news-list,.event-list{
+
+  .news-list,
+  .event-list {
     display: block;
     padding: 0 21px;
   }
-  .news-list .news-item,.event-list .event-item{
+
+  .news-list .news-item,
+  .event-list .event-item {
     width: 100%;
     margin-top: 24px;
   }
-  .news-list .news-item img,.news-list .news-item .news-head{
+
+  .news-list .news-item img,
+  .news-list .news-item .news-head {
     width: 100%;
   }
+
   .comm-block-4 .block-main {
     padding-top: 120px;
     width: 90%;
   }
-  .comm-block-4 .block-main h2{
+
+  .comm-block-4 .block-main h2 {
     text-align: left;
   }
-  .comm-block-4 .block-main h3{
+
+  .comm-block-4 .block-main h3 {
     margin-top: 20px;
   }
-  .comm-block-4 .block-main a{
+
+  .comm-block-4 .block-main a {
     margin-top: 12px;
   }
-  .build-dev-box-m{
+
+  .build-dev-box-m {
     position: fixed;
-    bottom:20px;
-    right:20px;
+    bottom: 20px;
+    right: 20px;
     background: #FFFFFF80;
     padding: 12px 24px;
     border-radius: 50px;
@@ -2642,5 +2693,5 @@ footer {
     z-index: 999;
     font-weight: 700;
   }
-  
+
 }

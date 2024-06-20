@@ -52,6 +52,9 @@ export default function Header() {
               className="drawer"
             >
               <Link href="/build">Build</Link>
+              <Link href="/#" onClick={()=>{
+                location.href ='/build'
+              }}>Build</Link>
               <Link href="/eco">Ecosystem</Link>
               <Link href="/community">Community</Link>
               <Link href="/about">About</Link>
