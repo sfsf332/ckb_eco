@@ -43,6 +43,10 @@ const Eco = () => {
     setShowType(type);
     setShowList(showListNew);
   };
+  const toggleShowCancel = ()=>{
+    setShowType("");
+    setShowList(EcoList)
+  }
   async function search(criteria: string) {
     const options = {
       keys: [
@@ -131,15 +135,26 @@ const Eco = () => {
                 typeList.map((tagName, index) => {
                   if (!tagName) return false;
                   return (
-                    <span
+                    <>
+                    {showType === tagName? <span
                       key={index}
                       onClick={() => {
-                        toggleShow(tagName);
+                        toggleShowCancel()
                       }}
-                      className={showType === tagName ? "sel" : ""}
+                      className="sel"
                     >
                       {tagName}
-                    </span>
+                    </span>:<span
+                      key={index}
+                      onClick={() => {
+                        
+                        toggleShow(tagName);
+                      }}
+                      
+                    >
+                      {tagName}
+                    </span>}
+                    </>
                   );
                 })}
             </div>

@@ -55,7 +55,7 @@ export default function Header() {
               <Link href="/eco">Ecosystem</Link>
               <Link href="/community">Community</Link>
               <Link href="/about">About</Link>
-              <div><IconLinks /></div>
+              <div className="nav_links"><IconLinks /></div>
             </Drawer>
           </>
         ) : (
