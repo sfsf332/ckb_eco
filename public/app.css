@@ -173,12 +173,12 @@ p {
 }
 
 .second-screen h2 {
-  z-index: 998;
+  z-index: 9;
 }
 
 .second-screen h4 {
   padding: 10px 0;
-  z-index: 999;
+  z-index: 8;
 }
 
 .second-screen .status_box {
@@ -365,6 +365,7 @@ p {
   right: 20px;
   top: 12px;
   height: 81px;
+  z-index: -2;
 }
 
 .roadmap-screen .season_4 {
@@ -1884,7 +1885,7 @@ footer {
     overflow-x: hidden;
   }
   .index_main{
-    scroll-snap-type:none
+    /* scroll-snap-type:none */
   }
   .main-index {
     background-position: top center;
@@ -1984,8 +1985,9 @@ footer {
 
   .roadmap-screen .season li {
     font-size: 11px;
-    height: 15px;
+    height: auto;
     line-height: 15px;
+    background-position: left 3px;
   }
 
   .roadmap-screen .bg_current {
@@ -2483,7 +2485,9 @@ footer {
   .build-block-4 .content {
     width: 90%;
   }
-
+  .build-main p{
+    font-size: 14px;
+  }
   .eco-block-1 {
 
     background: url(images/bg_eco_m.png) top center no-repeat;
@@ -2579,8 +2583,8 @@ footer {
     margin-right: 6px;
   }
   .main-index,.second-screen ,.third-screen,.roadmap-screen,.partner-screen,.faq-screen,.comm-block-1,.comm-main,.comm-block-4{
-    min-height: 100dvh;
-    height: 100dvh;
+    min-height: 800px;
+    /* height: 100dvh; */
   }
   .comm-block-1 {
     z-index: 10;

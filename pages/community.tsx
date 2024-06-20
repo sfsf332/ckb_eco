@@ -131,7 +131,6 @@ const Community = () => {
           </div>
         </div>
         <div className="comm-block-4 main-snap" id="hub">
-            <div className="bg"></div>
             <div className="block-main">
                 <h2 className={sharpieFont.className}>Community Hub</h2>
                 <h3>Community</h3>
