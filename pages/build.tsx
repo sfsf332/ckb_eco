@@ -24,7 +24,7 @@ const BuildPage = () => {
       <Header />
       <main className={"build-main " + RanadeFont.className}>
         <DevBox />
-        <div className="build-block-1">
+        <div className="build-block-1 ">
           <h2 className={sharpieFont.className}>
             Empower the Bitcoin Ecosystem with
             <br />
