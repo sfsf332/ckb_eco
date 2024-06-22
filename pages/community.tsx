@@ -19,10 +19,20 @@ const RanadeFont = localFont({
   src: "../public/font/Ranade-Variable.ttf",
   display: "swap",
 });
+interface EventProp {
 
+  timeStart: string;
+  timeEnd?: string;
+  locationName: string;
+  title: string;
+  eventLink?: string;
+  type: string;
+  eventImg: string;
+
+}
 const Community = () => {
   const [showNews, setShowNews] = React.useState(News);
-  const [showEvents, setShowEvents] = React.useState(EventsUpcoming);
+  const [showEvents, setShowEvents] = React.useState<EventProp[]>(EventsUpcoming);
   const [eventType, setEventType] = React.useState('upcoming');
   return (
     <>
@@ -48,7 +58,7 @@ const Community = () => {
                 Nervos Official Website
               </Link>
               <Link
-                href="https://github.com/ckb-cell/rgbpp-sdk"
+                href="https://messari.io/report/understanding-nervos-network"
                 target="_blank"
                 className="button_link button_link_2"
               >
@@ -126,13 +136,16 @@ const Community = () => {
               {showEvents.map((event, index) => {
                 return (
                   <div className="event-item" key={index}>
+                    <h5>{event.title}</h5>
+                    <div className="event-item-box">
                     <div className="event-info">
                       <span className="tag">{event.type}</span>
-                      <h5>{event.title}</h5>
+                     
                       <ul>
                         <li>
-                          <MdAccessTimeFilled size={18} /> {event.timeStart}-
-                          {event.timeEnd}
+                          <MdAccessTimeFilled size={18} /> {event.timeStart}
+                         
+                          {event.timeEnd&&" - "+event.timeEnd}
                         </li>
                         <li>
                           <MdLocationOn size={18} /> {event.locationName}
@@ -147,6 +160,7 @@ const Community = () => {
                     </div>
                     <div className="event-head">
                       <img src={event.eventImg}  height={150} />
+                    </div>
                     </div>
                   </div>
                 );
