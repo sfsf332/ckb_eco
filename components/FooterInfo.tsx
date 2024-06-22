@@ -8,7 +8,7 @@ const FooterInfo = (): JSX.Element => {
       <dl>
         <dt>Build</dt>
         <dd>
-          <Link href={"https://docs.nervos.org/"}>Doc</Link>
+          <Link href={"https://docs.nervos.org/"}>Docs</Link>
         </dd>
         <dd>
           <Link href={"/build#grant"}>Grants</Link>
@@ -26,7 +26,7 @@ const FooterInfo = (): JSX.Element => {
           <Link href={"https://explorer.nervos.org/"}>Explorer</Link>
         </dd>
         <dd>
-          <Link href={"https://forms.gle/CVCgHXaeBZadRxa7A"}>Submit Project</Link>
+          <Link href={"https://forms.gle/CVCgHXaeBZadRxa7A"}>Submit Projects</Link>
         </dd>
       </dl>
       <dl>

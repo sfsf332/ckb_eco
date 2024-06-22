@@ -1112,7 +1112,7 @@ footer {
 
 .build-links {
   margin: 36px auto;
-  width: 1200px;
+  width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1834,20 +1834,20 @@ footer {
     text-align: center;
     width: 90%;
     margin: 0 auto 20px auto;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   h3.big {
     font-size: 20px;
     line-height: 28px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   h3 {
     font-size: 16px;
     line-height: 22px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   h4 {
@@ -1861,20 +1861,27 @@ footer {
     font-size: 18px;
     line-height: 24px;
     color: #000;
-    font-weight: 700;
+    font-weight:500;
   }
 
   h6 {
     font-size: 16px;
     line-height: 22px;
     color: #000;
-    font-weight: 400;
+    font-weight: 300;
   }
 
 
   p {
     font-size: 12px;
     line-height: 16px;
+  }
+  .accordion{
+    height: 52px;
+    background-position: right 13px;
+  }
+  .accordionOpen {
+    height: auto;
   }
   .accordionOpen .accordion-title{
     font-size: 16px;
@@ -1990,6 +1997,7 @@ footer {
 
   .roadmap-screen .season {
     width: 80%;
+    background: linear-gradient(to bottom, #fff, #4AE2AB);
   }
 
   .roadmap-screen .season .label_season {

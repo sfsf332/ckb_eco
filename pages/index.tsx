@@ -61,7 +61,7 @@ const Homepage = () => {
         </div>
         <div className="main-snap third-screen">
           <h2 className={sharpieFont.className}>
-            The Role of CKB in the Bitcoin Ecosystem
+            The Role of CKB <br /> in the Bitcoin Ecosystem
           </h2>
           <Link className="img_box" href='images/img_eco.png' target="_blank"></Link>
           <div className="img_tree">
