@@ -1903,7 +1903,7 @@ footer {
     height: auto;
     overflow-x: hidden;
   }
-
+  .partner-screen{height: 700px;}
   .index_main {
     /* scroll-snap-type:none */
   }
