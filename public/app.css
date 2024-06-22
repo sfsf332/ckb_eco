@@ -1999,7 +1999,11 @@ footer {
     width: 80%;
     background: linear-gradient(to bottom, #fff, #4AE2AB);
   }
-
+  .roadmap-screen .season_3 {
+    background: radial-gradient(100% 100% at 0% 0%, #FFFFFF 0%, #D9D8FA 100%);
+    border: 1px solid #6664EA;
+    position: relative;
+  }
   .roadmap-screen .season .label_season {
     font-size: 20px;
     height: 54px;
