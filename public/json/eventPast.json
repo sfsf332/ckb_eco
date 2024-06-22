@@ -1,7 +1,7 @@
 [
     {
         
-        "timeStart":"2024/6/7 9:00",
+        "timeStart":"2024/6/7",
         "timeEnd":"2024/6/7 17:30",
         "locationName":"HCMC, Vietnam",
         "title":"GM Vietnam",
@@ -21,7 +21,7 @@
     {
         "timeStart":"2024/5/10 13:30",
         "timeEnd":"19:00",
-        "locationName":"Hongkong, China",
+        "locationName":"Hongkong, China", 
         "title":"Bitcoin RGB++ Meetup",
         "eventLink":"https://lu.ma/pjxzew9s",
         "type":"Meetup",

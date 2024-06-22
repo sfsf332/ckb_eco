@@ -1158,8 +1158,8 @@ footer {
 .build-main p {
   margin: 10px;
   color: #2B2B2B;
-  line-height: 22px;
-  font-size: 16px;
+  /* line-height: 22px;
+  font-size: 16px; */
 }
 
 .build-block-3 {
@@ -2133,8 +2133,9 @@ footer {
     height: 113px;
   }
 
-  .about-block-1 h6 {
+  .about-main h6 {
     margin-top: 20px;
+    font-size: 14px;
   }
 
   .about-block-1 .planet_2 {

@@ -23,11 +23,11 @@ const UserBlock: React.FC<user> = ({ item, index }) => {
         <div className="user-block-m">
           <img src={item.avatar} alt={item.name} />
           <div className="intro">
-            {item.link && (
+            {item.link ? (
               <Link href={item.link}>
                 <FaXTwitter />
               </Link>
-            )}
+            ):<a></a>}
 
             <h5>{item.name}</h5>
             <p>{item.title}</p>
