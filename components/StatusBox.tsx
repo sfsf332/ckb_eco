@@ -11,7 +11,8 @@ const StatusBox = () => {
       {is_mobile ? (
         <div className="status_box_m">
           <div className="status_img">
-            <img src="images/ckb_status_m.png" />
+            <img src="images/ckb_status_m_1.png" />
+            <h4>PoW Secures, RGB++ Empowers,<br /> Cell Scalability，Eco Prosperity</h4>
           </div>
           <div className="status_card ">
             <h4>415.12 PH/s</h4>

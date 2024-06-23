@@ -79,6 +79,17 @@
         "xlink": "https://x.com/Nervapes"
     },
     {
+        "img": "images/eco/omiga.png",
+        "name": "Omiga",
+        "desc": "First UTXO DEX for RGB++ Assets on CKB",
+        "rgbpp": true,
+        "tag": [
+            "DEX"
+        ],
+        "link": "https://omiga.io/",
+        "xlink": "https://x.com/OmigaHQ"
+    },
+    {
         "img": "images/eco/SEAL.png",
         "name": "SEAL",
         "rgbpp": true,

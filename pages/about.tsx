@@ -130,7 +130,7 @@ const AboutPage = () => {
             <img src="images/ckb_pink.png" className="title" />
             <img src="images/bird.png" className="bird" />
           </div>
-          <h6>
+          {/* <h6>
             CKB Ecosystem Fund is dedicated to fostering technical innovations
             that enhance the adoption, scalability, and accessibility of the
             Nervos network.
@@ -140,6 +140,9 @@ const AboutPage = () => {
             through funding, resources, and strategic guidance, accelerating
             their growth and driving breakthroughs to build a robust and
             sustainable CKB ecosystem.
+          </h6> */}
+          <h6>
+          CKB Eco Fund focused on incubating and investing in projects connecting CKB and the Bitcoin ecosystem. The fund supports projects building critical infrastructure and decentralized applications across various sectors, including DeFi, gaming, tooling, NFT marketplaces, and more.
           </h6>
         </div>
         <div className={"about-block-2"}>

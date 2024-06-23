@@ -51,7 +51,7 @@ const Homepage = () => {
             <Link href="https://docs.nervos.org/" target="_blank" className="button_link">
               Docs
             </Link>
-            <Link href="https://substack.com/home/post/p-145538638" target="_blank" className="button_link">
+            <Link href="https://ckbecofund.substack.com/p/ckb-is-an-ideal-bitcoin-layer-2" target="_blank" className="button_link">
               WHY CKB?
             </Link>
           </div>
@@ -119,8 +119,11 @@ const Homepage = () => {
             <Link href={"https://hashkey.capital/"} target="_blank">
               <img src="images/partner/partners-logo-1-5.png" />
             </Link>
-            <Link href={"http://www.ceyuan.com/"} target="_blank">
+            {/* <Link href={"https://www.ceyuan.com/"} target="_blank">
               <img src="images/partner/partners-logo-1-4.png" />
+            </Link> */}
+            <Link href={"https://dragonfly.xyz/"} target="_blank">
+              <img src="images/partner/DragonflyCapital.png" />
             </Link>
             <Link href={"https://polychain.capital/"} target="_blank">
               <img src="images/partner/partners-logo-2-1.png" />
