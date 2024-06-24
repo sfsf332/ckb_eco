@@ -43,6 +43,13 @@ const Eco = () => {
     setShowType(type);
     setShowList(showListNew);
   };
+  const toggleShowRGB = () => {
+    let showListNew = EcoList.filter(item=>{
+      return item.rgbpp
+    })
+    setShowType("RGB++");
+    setShowList(showListNew);
+  };
   const toggleShowCancel = ()=>{
     setShowType("");
     setShowList(EcoList)
@@ -131,6 +138,16 @@ const Eco = () => {
             />
 
             <div className="tabs-title">
+              <span
+                     
+                      onClick={() => {
+                        showType==='RGB++'?
+                        toggleShowCancel(): toggleShowRGB()
+                      }}
+                      className={showType==='RGB++'?"sel":''}
+                    >
+                      RGB++
+                    </span>
               {typeList &&
                 typeList.map((tagName, index) => {
                   if (!tagName) return false;
