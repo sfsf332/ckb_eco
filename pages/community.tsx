@@ -218,7 +218,7 @@ const Community = () => {
                 123 CKB
               </Link>
               <Link href={"https://ckbdapps.com/"} target="_blank">
-                CKBDapp
+                CKBDapps
               </Link>
             </div>
           </div>

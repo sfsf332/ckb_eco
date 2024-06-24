@@ -1158,8 +1158,8 @@ footer {
 .build-main p {
   margin: 10px;
   color: #2B2B2B;
-  /* line-height: 22px;
-  font-size: 16px; */
+ line-height: 18px;
+  font-size: 14px;
 }
 
 .build-block-3 {
@@ -1185,6 +1185,8 @@ footer {
   right: -20px;
   top: 500px;
   z-index: 0;
+  width: 800px;
+  z-index: -2;
   pointer-events: none;
 }
 

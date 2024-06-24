@@ -186,16 +186,7 @@
         ],
         "link": "https://token.im/ckb-wallet"
     },
-    {
-        "img": "images/eco/imToken.png",
-        "name": "imToken",
-        "rgbpp": false,
-        "desc": "Mobile Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://token.im/ckb-wallet"
-    },
+
     {
         "img": "images/eco/SafePal.png",
         "name": "SafePal",
