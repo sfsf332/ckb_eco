@@ -66,7 +66,7 @@ const StatusBox = () => {
         <div className="status_box_m">
           <div className="status_img">
             <img src="images/ckb_status_m_1.png" />
-            <h4>PoW Secures, RGB++ Empowers,<br /> Cell Scalability，Eco Prosperity</h4>
+            <h4>PoW Secures, RGB++ Empowers<br /> Cell Records, Eco Boosts</h4>
           </div>
           <div className="status_card ">
             <h4>{hashRate} PH/s</h4>
@@ -98,7 +98,8 @@ const StatusBox = () => {
             <p>LIVE CELL</p>
           </div>
           <div className="status_img">
-            <img src="images/ckb_status.png" />
+            <img src="images/ckb_status_1.png" />
+            <h4>PoW Secures, RGB++ Empowers, Cell Records, Eco Boosts</h4>
           </div>
           <div className="status_card status_3">
             <h4>{translations}</h4>
