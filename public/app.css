@@ -147,11 +147,17 @@ p {
 }
 
 .index_title {
-  width: 638px;
+  width: 416px;
   margin: 100px auto 0 auto;
   max-width: 90%;
 }
-
+.index_sub_title{
+  margin:20px auto;
+  width: 90%;
+  background: url(images/sub-text.png) top center no-repeat;
+  background-size: 100% auto;
+  height: 200px;
+}
 .index_banner1 {
   width: 598px;
   margin: 10px auto;
@@ -1927,9 +1933,15 @@ footer {
   }
 
   .index_title {
-    width: 90%;
+    width: 60%;
   }
-
+  .index_sub_title{
+    width: 90%;
+    margin:20px auto;
+    background: url(images/sub-text_m.png) top center no-repeat;
+    background-size: 100% auto;
+    height: 100px;
+  }
   .second-screen {
     background: url(images/bg_index_2_m.png) center bottom no-repeat, linear-gradient(to bottom, #fff, #4AE2AB);
     background-size: cover

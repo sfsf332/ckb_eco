@@ -27,7 +27,8 @@ const Homepage = () => {
       <Header />
       <main className={"index_main "+RanadeFont.className}>
         <div className={"main-snap main-index "}>
-          <img src="images/ckb.png" className="index_title" />
+          <img src="images/ckb_1.png" className="index_title" />
+          <div className="index_sub_title"></div>
         </div>
         <div className="main-snap second-screen">
           <h2 className={sharpieFont.className}>
