@@ -245,7 +245,10 @@ p {
   grid-row-start: 1;
   grid-row-end: 3;
 }
-
+.second-screen .status_box .status_img h4{
+  font-size: 20px;
+  line-height: 28px;
+}
 .third-screen {
   margin: 0 auto;
   width: 100%;
