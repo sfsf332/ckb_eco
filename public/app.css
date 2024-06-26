@@ -272,7 +272,7 @@ p {
 .third-screen .img_box {
   width: 80%;
   background: url(images/img_eco.png) top center no-repeat;
-  background-size: 100% auto;
+  background-size: contain;
   height: 70vh;
 }
 
