@@ -116,7 +116,7 @@ const Homepage = () => {
               <img src="images/partner/partners-logo-1-4.png" />
             </Link> */}
             <Link href={"https://dragonfly.xyz/"} target="_blank">
-              <img src="images/partner/DragonflyCapital.png" />
+              <img src="images/partner/partners-logo-dragonfly.png" />
             </Link>
             <Link href={"https://polychain.capital/"} target="_blank">
               <img src="images/partner/partners-logo-2-1.png" />
@@ -148,10 +148,10 @@ const Homepage = () => {
             <Link href={"https://1kx.network/"} target="_blank">
               <img src="images/partner/partners-logo-3-5.png" />
             </Link>
-            <Link href={"https://token.im/"} target="_blank">
+            <Link href={"https://www.1confirmation.com/"} target="_blank">
               <img src="images/partner/partners-logo-4-1.png" />
             </Link>
-            <Link href={"https://www.1confirmation.com/"} target="_blank">
+            <Link href={"https://token.im/"} target="_blank">
               <img src="images/partner/partners-logo-4-2.png" />
             </Link>
             <Link href={"https://www.matrixport.com/"} target="_blank">

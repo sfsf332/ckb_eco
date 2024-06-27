@@ -103,7 +103,7 @@ const StatusBox = () => {
           </div>
           <div className="status_card status_3">
             <h4>{translations}</h4>
-            <p>RGB++ TRANSLATIONS</p>
+            <p>RGB++ TRANSACTIONS</p>
           </div>
           <div className="status_card status_4">
             <h4>{addressCount}M+</h4>

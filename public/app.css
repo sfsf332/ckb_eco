@@ -87,41 +87,41 @@ h2 {
   text-align: center;
   width: 100%;
   margin-bottom: 50px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h3.big {
   font-size: 40px;
   line-height: 54px;
-  font-weight: 700;
+  font-weight:500;
 }
 
 h3 {
   font-size: 28px;
   line-height: 38px;
   color: #000;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h4 {
   font-size: 22px;
   line-height: 30px;
   color: #000;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h5 {
   font-size: 18px;
   line-height: 24px;
   color: #000;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h6 {
   font-size: 16px;
   line-height: 22px;
   color: #000;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -1144,7 +1144,9 @@ footer {
 .build-block-2 .content {
   width: 1200px;
   padding: 20px 25px;
-  background: url(images/bg_card.png) 0 0 repeat, radial-gradient(100% 100% at 0% 0%, rgba(226, 255, 216, 0.5) 0%, rgba(74, 226, 171, 0.5) 100%);
+
+  background: url(images/bg_card.png) 0 0 repeat, linear-gradient(0deg, rgba(74, 226, 171, 0.3), rgba(74, 226, 171, 0.3)),
+  radial-gradient(80% 80% at 0% 0%, rgba(226, 255, 216, 0.5) 0%, rgba(74, 226, 171, 0.5) 80%);
   /* background: repeating-conic-gradient(#fff 0 0.0001%, #E2FFD8 0 0.0002%), linear-gradient(to bottom, #fff, #4AE2AB); */
 
   border: 1px solid #4AE2AB;
@@ -1215,7 +1217,9 @@ footer {
 .build-block-3 .content-block p {
   margin-top: 10px;
 }
-
+.build-block-3 .content-block h3{
+  text-indent: 10px;
+}
 .build-block-3 .content-block .content-list {
   margin-top: 20px;
   background: #FFFFFF80;
@@ -1492,7 +1496,8 @@ footer {
 }
 
 .comm-main {
-  background: url(images/bg_main.png) bottom center no-repeat;
+  background: linear-gradient(167.35deg, #FDDB92 0%, #D1FDFF 100%);
+  
   background-size: cover;
   scroll-snap-type: y mandatory;
   overflow-y: auto;
@@ -1514,7 +1519,7 @@ footer {
 
 .comm-block-1 {
   z-index: 10;
-  background: url(images/bg_comm.png) center bottom no-repeat, url(images/bg_comm_l.png) left 100px no-repeat;
+  background: url(images/bg_comm_1.png) center bottom no-repeat, url(images/bg_comm_l.png) left 14px no-repeat;
   background-size: auto 810px, 560px auto;
   height: 100vh;
   min-height: 100vh;
@@ -2654,6 +2659,7 @@ footer {
   .comm-block-4 {
     min-height: 800px;
   }
+  
 
   .comm-block-1 {
     z-index: 10;

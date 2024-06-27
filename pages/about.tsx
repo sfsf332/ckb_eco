@@ -300,16 +300,16 @@ const AboutPage = () => {
               <h3>Logo</h3>
               <ul>
                 <li>
-                  <img src="images/logo/ckb-logo-black.png" />
+                  <img src="images/logo/ckb-black.png" />
                 </li>
                 <li>
-                  <img src="images/logo/ckb-logo-white.png" />
+                  <img src="images/logo/ckb-white.png" />
                 </li>
                 <li>
-                  <img src="images/logo/ckb-eco-logo-black.png" />
+                  <img src="images/logo/ckb-eco-fund-black.png" />
                 </li>
                 <li>
-                  <img src="images/logo/ckb-eco-logo-white.png" />
+                  <img src="images/logo/ckb-eco-fund-white.png" />
                 </li>
               </ul>
               <Link
