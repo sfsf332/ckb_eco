@@ -32,8 +32,8 @@ export default function Header() {
               <Link href="/">
                 <img
                   className="nav_logo"
-                  height={50}
-                  src="images/ckb-eco-fund-black-png.png"
+                  height={30}
+                  src="images/logo.png"
                 />
               </Link>
               <FiAlignJustify
@@ -63,8 +63,8 @@ export default function Header() {
             <Link href="/">
               <img
                 className="nav_logo"
-                height={80}
-                src="images/ckb-eco-fund-black-png.png"
+                height={30}
+                src="images/logo.png"
               />
             </Link>
             <div className={"nav-main " + RanadeFont.className}>
