@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-import Link from "next/link";
 import isMobile from "is-mobile";
 
 const IndexTitle3 = (): JSX.Element => {
