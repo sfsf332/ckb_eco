@@ -75,7 +75,7 @@ const StatusBox = () => {
           
           <div className="status_card ">
             <h4>{translations}</h4>
-            <p>RGB++ TRANSLATIONS</p>
+            <p>RGB++ TRANSACTIONS</p>
           </div>
           <div className="status_card ">
             <h4>{liveCell}M+</h4>
