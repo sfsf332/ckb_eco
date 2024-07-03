@@ -146,25 +146,24 @@ const BuildPage = () => {
             <h3 className="big block-2">Application Process</h3>
             <div className="process-block">
               <div>
-                <h3>A. Application Submission</h3>
-                <p>Craft a comprehensive proposal.</p>
+                <h3>A. Submit Application</h3>
+                <p>The application team shall craft a comprehensive proposal and submit it.</p>
                 <img src="images/arrow.png" height={72} />
               </div>
               <div>
-                <h3>B. Review and Voting</h3>
+                <h3>B. Review and Vote</h3>
                 <p>
-                  The fund team will review the application and be voted on by
-                  the grant committee.
+                The grant committee will review the application and then vote on it. 
                 </p>
                 <img src="images/arrow.png" height={72} />
               </div>
               <div>
-                <h3>C. Grant Agreement</h3>
-                <p>Signed agreement outlining the milestones to be achieved.</p>
+                <h3>C. Sign Agreement</h3>
+                <p>Sign an agreement outlining the milestones to be achieved.</p>
                 <img src="images/arrow.png" height={72} />
               </div>
               <div>
-                <h3>D. Grant Disbursement</h3>
+                <h3>D. Distribute Grants</h3>
                 <p>
                   With all the steps complete, the grants will be disbursed.
                 </p>

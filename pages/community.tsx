@@ -10,7 +10,9 @@ import News from "../public/json/news.json";
 import { FaTwitter, FaGlobe, FaLink } from "react-icons/fa";
 import { MdAccessTimeFilled, MdLocationOn } from "react-icons/md";
 import dynamic from "next/dynamic";
+// import ReportList from "components/ReportList";
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
+const ReportList = dynamic(() => import("../components/ReportList"), { ssr: false });
 const sharpieFont = localFont({
   src: "../public/font/Sharpie-Variable.ttf",
   display: "swap",
@@ -86,7 +88,8 @@ const Community = () => {
                 View all news
               </Link>
             </div>
-            <div className="news-list">
+            <ReportList />
+            {/* <div className="news-list">
               {showNews.map((news, index) => {
                 return (
                   <div className="news-item" key={index}>
@@ -108,7 +111,7 @@ const Community = () => {
                   </div>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="comm-block-3 main-snap" id="event">
@@ -201,7 +204,7 @@ const Community = () => {
                 href={"https://www.reddit.com/r/NervosNetwork/"}
                 target="_blank"
               >
-                CKB Community
+                Reddit
               </Link>
               <Link href={"https://talk.nervos.org/"} target="_blank">
                 Nervos Talk
