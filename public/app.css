@@ -692,7 +692,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 24px;
-  width: 1200px;
+  width: 1160px;
   margin: 20px auto;
 }
 
