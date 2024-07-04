@@ -144,6 +144,9 @@ const AboutPage = () => {
           <h6>
           CKB Eco Fund focused on incubating and investing in projects connecting CKB and the Bitcoin ecosystem. The fund supports projects building critical infrastructure and decentralized applications across various sectors, including DeFi, gaming, tooling, NFT marketplaces, and more.
           </h6>
+          <h6>
+          In January 2024, the CKB Eco Fund launched BTCKB, a development initiative to enhance integration between the Bitcoin and CKB blockchains through shared PoW consensus and the UTXO model. BTCKB intends to advance the capabilities of the Bitcoin blockchain by introducing new smart contract functionalities and leveraging BTC, Taproot, and RGB++ assets into the CKB blockchain.
+          </h6>
         </div>
         <div className={"about-block-2"}>
           <img src="images/img_bird.png" className="bird" />

@@ -634,7 +634,7 @@ footer {
   border-radius: 48px;
   position: relative;
   padding: 46px;
-  width: 1260px;
+  width: 1172px;
   margin: 240px auto 0 auto
 }
 
@@ -678,7 +678,7 @@ footer {
 }
 
 .about-block-2 .block-main {
-
+  width: 1172px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
   border-radius: 48px;
   padding: 46px;
@@ -956,7 +956,7 @@ footer {
 .about-block-4 {
   position: relative;
 
-  width: 1080px;
+  width: 1140px;
   margin: 0 auto;
   margin-top: 100px;
   background: #FFFFFF80;

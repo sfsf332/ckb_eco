@@ -11,20 +11,14 @@
     {
         
         "timeStart":"2024/6/7",
+        "timeEnd":"2024/6/8",
         "locationName":"HCMC, Vietnam",
         "title":"GM Vietnam",
         "eventLink":"https://gmvietnam.io/",
         "type":"Conference",
         "eventImg":"images/event/gm.png"
     },
-    {
-        "timeStart":"2024/5/31",
-        "locationName":"Seoul, South Korea",
-        "title":"Builders in Bitcoin Ecosystem: Seoul Edition",
-        "eventLink":"https://lu.ma/jiw1jbk6?tk=EvHjFL",
-        "type":"Meetup",
-        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/vc/fb88ff4e-a030-47c1-8d12-f3ccbf935750"
-    },
+   
     {
         "timeStart":"2024/5/31",
 
@@ -34,7 +28,24 @@
         "type":"Meetup",
         "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/7e/1f6bb834-567e-4367-8e55-a6534b88f53e"
     },
-  
+    {
+        "timeStart":"2024/5/30",
+        "locationName":"Seoul, South Korea",
+        "title":"Builders in Bitcoin Ecosystem: Seoul Edition",
+        "eventLink":"https://lu.ma/jiw1jbk6?tk=EvHjFL",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/vc/fb88ff4e-a030-47c1-8d12-f3ccbf935750"
+    },
+    {
+        "timeStart":"2024/5/29",
+        "timeEnd":"2024/5/31",
+
+        "locationName":"Seoul, South Korea",
+        "title":"Bitcoin Seoul",
+        "eventLink":"https://www.bitcoinseoul.kr/",
+        "type":"Conference",
+        "eventImg":"images/event/seoul_btc.jpg"
+    },
    
     {
         "timeStart":"2024/5/10",
