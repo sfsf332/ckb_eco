@@ -1,5 +1,12 @@
 [
   {
+  "time": "2024/07/04",
+  "tag": "Deep Dives",
+  "title": "UTXO Stack: The Complete Edition of the RGB++ Protocol",
+  "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93eb980e-4ea6-4ccc-88cf-ec7e2e78bc1c_1600x898.png",
+  "link": "https://ckbecofund.substack.com/p/utxo-stack-the-complete-edition-of"
+},
+  {
     "time": "2024/06/27",
     "tag": "Deep Dives",
     "title": "A Deep Dive into RGB++: Security Analysis",
@@ -7,53 +14,46 @@
     "link": "https://ckbecofund.substack.com/p/a-deep-dive-into-rgb-security-analysis"
   },
   {
-    "time": "2024/06/19",
+    "time": "2024/06/27",
     "tag": "Deep Dives",
-    "title": "Bitcoin UTXO’s Model, Powering A Unique Ecosystem",
-    "head": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2705e6eb-aff7-475e-9fb1-1f563adf7776_916x654.png",
-    "link": "https://ckbecofund.substack.com/p/bitcoin-utxos-model-powering-a-unique"
+    "title": "Isomorphic Binding: The Heartbeat of Cross-Chain Synchronization in RGB++",
+    "head": "https://substackcdn.com/image/fetch/w_400,h_264,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f942f2e-0e76-47a3-bc84-7ecab78e48ae_1200x858.png",
+    "link": "https://ckbecofund.substack.com/p/isomorphic-binding-the-heartbeat"
   },
   {
-    "time": "2024/06/19",
+    "time": "2024/06/27",
     "tag": "Deep Dives",
-    "title": "How CKB's Public Blockchain Tech Accelerates Bitcoin's Orthodox Layer 2",
-    "head": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bad06dd-0007-460b-8460-553124d937ed_916x652.png",
-    "link": "https://ckbecofund.substack.com/p/how-ckbs-public-blockchain-tech-accelerates"
+    "title": "RGB++ explanation",
+    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0e4d9f1-4e16-43c6-9292-de96cc7dc0b4_1200x858.png",
+    "link": "https://ckbecofund.substack.com/p/rgb-explanation"
   },
   {
-    "time": "2024/06/18",
-    "tag": "Event",
-    "title": "CKB in GM Vietnam",
-    "head": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbb9fb7c-a456-4e9e-b51a-504ae882b87c_2048x1362.jpeg",
-    "link": "https://ckbecofund.substack.com/p/ckb-in-gm-vietnam"
-  },
-  {
-    "time": "2024/06/15",
+    "time": "2024/06/27",
     "tag": "Deep Dives",
-    "title": "Bitcoin Renaissance: Why and How?",
-    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65d522c9-fa6d-4005-b31c-8adf1dba1940_1436x808.png",
-    "link": "https://ckbecofund.substack.com/p/bitcoin-renaissance-why-and-how"
+    "title": "Cipher：Overview and Prospects of the RGB++ Protocol",
+    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f32a4c9-4a74-498c-8e90-6c9846ad31aa_1600x900.jpeg",
+    "link": "https://ckbecofund.substack.com/p/cipheroverview-and-prospects-of-the"
   },
   {
-    "time": "2024/06/13",
+    "time": "2024/06/21",
     "tag": "Deep Dives",
-    "title": "CKB Is An Ideal Bitcoin Layer 2",
-    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f895c70-2798-45a2-9742-2244a2be06c5_1286x720.png",
-    "link": "https://ckbecofund.substack.com/p/ckb-is-an-ideal-bitcoin-layer-2"
+    "title": "CKB: A New Chapter in Bitcoin Programmability",
+    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4913c37-caac-465f-999a-af3798567413_918x656.png",
+    "link": "https://ckbecofund.substack.com/p/ckb-a-new-chapter-in-bitcoin-programmability"
   },
   {
-    "time": "2024/06/11",
+    "time": "2024/06/21",
     "tag": "Deep Dives",
-    "title": "What is CKB?",
-    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36388ce9-8ae9-4e81-baf0-7f6b0cb5a47a_762x422.png",
-    "link": "https://ckbecofund.substack.com/p/what-is-ckb"
+    "title": "Spore Protocol Simplified",
+    "head": "https://substackcdn.com/image/fetch/w_400,h_264,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F957921e7-3911-4040-94c9-d60394122480_918x654.jpeg",
+    "link": "https://ckbecofund.substack.com/p/spore-protocol-simplified"
   },
   {
-    "time": "2024/06/07",
-    "title": "CKB Steers the Bitcoin Ecosystem's Expansion in Seoul",
-    "tag": "Event",
-    "head": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F090e6a7e-f6b2-48e4-982e-121204fc84d7_1268x780.png",
-    "link": "https://ckbecofund.substack.com/p/ckb-steers-the-bitcoin-ecosystems"
+    "time": "2024/06/21",
+    "tag": "Deep Dives",
+    "title": "CKB, Version Control and Blockchain Evolution",
+    "head": "https://substackcdn.com/image/fetch/w_400,h_264,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10a5aaf0-ac7a-420b-b789-6be0004da4b8_916x654.png",
+    "link": "https://ckbecofund.substack.com/p/ckb-version-control-and-blockchain"
   }
   
 ]
