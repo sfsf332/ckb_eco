@@ -18,14 +18,24 @@
         "eventImg":"images/event/gm.png"
     },
     {
-        "timeStart":"2024/5/29",
-        "timeEnd":"2024/5/31",
+        "timeStart":"2024/5/31",
         "locationName":"Seoul, South Korea",
-        "title":"Bitcoin Seoul",
-        "eventLink":"https://www.bitcoinseoul.kr/",
-        "type":"Conference",
-        "eventImg":"images/event/seoul.png"
+        "title":"Builders in Bitcoin Ecosystem: Seoul Edition",
+        "eventLink":"https://lu.ma/jiw1jbk6?tk=EvHjFL",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/vc/fb88ff4e-a030-47c1-8d12-f3ccbf935750"
     },
+    {
+        "timeStart":"2024/5/31",
+
+        "locationName":"Seoul, South Korea",
+        "title":"CKB Korea Meetup",
+        "eventLink":"https://lu.ma/52pdtllm",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/7e/1f6bb834-567e-4367-8e55-a6534b88f53e"
+    },
+  
+   
     {
         "timeStart":"2024/5/10",
         "locationName":"Hongkong, China", 
@@ -57,7 +67,7 @@
         "title":"Blockchain Life",
         "eventLink":"https://blockchain-life.com/asia/en/",
         "type":"Conference",
-        "eventImg":"https://blockchain-life.com/wp-content/webp-express/webp-images/uploads/2024/04/1-min.jpg.webp"
+        "eventImg":"images/event/blockchain-life.jpg"
     },
     {
         "timeStart":"2024/4/6",
@@ -66,7 +76,7 @@
         "title":"Hongkong Web3 Festival 2024",
         "eventLink":"https://www.web3festival.org/",
         "type":"Conference",
-        "eventImg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJH114vkDFcoknkF7Mp2X1Do8GV2ioH3gnNg&s"
+        "eventImg":"images/event/web3-Festival.jpg"
     },
     {
         "timeStart":"2024/4/7",

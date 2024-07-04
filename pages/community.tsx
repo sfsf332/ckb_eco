@@ -40,7 +40,7 @@ const Community = () => {
     <>
       <Header />
       <main className={"comm-main " + RanadeFont.className}>
-        <div className="comm-block-1 main-snap">
+        <div className="comm-block-1 ">
           <div className="block-main">
             <h2 className={sharpieFont.className}>
               One Community,
@@ -76,7 +76,7 @@ const Community = () => {
             </div>
           </div>
         </div>
-        <div className="comm-block-2 main-snap" id="news">
+        <div className="comm-block-2 " id="news">
           <div className="block-main">
             <div className="comm-title">
               <h2 className={sharpieFont.className}>News</h2>
@@ -114,7 +114,7 @@ const Community = () => {
             </div> */}
           </div>
         </div>
-        <div className="comm-block-3 main-snap" id="event">
+        <div className="comm-block-3 " id="event">
           <div className="block-main">
             <div className="comm-title">
               <h2 className={sharpieFont.className}>Events</h2>
@@ -171,7 +171,7 @@ const Community = () => {
             </div>
           </div>
         </div>
-        <div className="comm-block-4 main-snap" id="hub">
+        <div className="comm-block-4 " id="hub">
           <div className="block-main">
             <h2 className={sharpieFont.className}>Community Hub</h2>
             <h3>Community</h3>
@@ -226,7 +226,7 @@ const Community = () => {
             </div>
           </div>
         </div>
-        <div className="footer-screen  main-snap">
+        <div className="footer-screen">
           <Footer />
         </div>
       </main>
