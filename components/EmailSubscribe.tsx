@@ -28,7 +28,7 @@ const EmailSubscribe = (): JSX.Element => {
       delete (window as any).CustomSubstackWidget;
     }
     (window as any).CustomSubstackWidget = {
-      substackUrl: "ckbeco.substack.com",
+      substackUrl: "ckbecofund.substack.com",
       placeholder: "example@gmail.com",
       buttonText: "Subscribe",
       theme: "custom",
