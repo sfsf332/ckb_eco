@@ -147,7 +147,7 @@
     {
         "img": "images/eco/UTXOstack.png",
         "name": "UTXO Stack",
-        "desc": "An BTC and RGB++ based “OP Stack”",
+        "desc": "A BTC and RGB++ based “OP Stack”",
         "rgbpp": true,
         "tag": [
             "Infra"
@@ -225,6 +225,28 @@
             "Wallet"
         ],
         "link": "https://onekey.so/"
+    },
+    {
+        "img": "images/eco/cellula.png",
+        "name": "Cellula",
+        "rgbpp": true,
+        "desc": "A fully on-chain AI game that offers users ability to create, compose and evolve digital life. ",
+        "tag": [
+            "AW"
+        ],
+        "link": "https://factory.cellula.life/welcome",
+         "xlink": "https://x.com/cellulalifegame"
+    },
+    {
+        "img": "images/eco/mobit.png",
+        "name": "Mobit",
+        "rgbpp": true,
+        "desc": "The most comprehensive BTC and CKB Assets Management App.",
+        "tag": [
+            "infra"
+        ],
+        "link": "https://mobit.app/",
+         "xlink": "https://x.com/mobitapp"
     }
     
     
