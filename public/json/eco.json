@@ -11,6 +11,17 @@
         "xlink": "https://x.com/ckbcell"
     },
     {
+        "img": "images/eco/cellula.png",
+        "name": "Cellula",
+        "rgbpp": true,
+        "desc": "A fully on-chain AI game that offers users ability to create, compose and evolve digital life. ",
+        "tag": [
+            "AW"
+        ],
+        "link": "https://factory.cellula.life/welcome",
+         "xlink": "https://x.com/cellulalifegame"
+    },
+    {
         "img": "images/eco/did.png",
         "name": "d.id",
         "desc": "A Decentralized Identity Protocol",
@@ -67,6 +78,19 @@
         "link": "https://metaforo.io/",
         "xlink": "https://x.com/realmetaforo"
     },
+   
+    {
+        "img": "images/eco/mobit.png",
+        "name": "Mobit",
+        "rgbpp": true,
+        "desc": "The most comprehensive BTC and CKB Assets Management App.",
+        "tag": [
+            "infra"
+        ],
+        "link": "https://mobit.app/",
+         "xlink": "https://x.com/mobitapp"
+    },
+    
     {
         "img": "images/eco/Nervape.png",
         "name": "Nervape",
@@ -225,28 +249,6 @@
             "Wallet"
         ],
         "link": "https://onekey.so/"
-    },
-    {
-        "img": "images/eco/cellula.png",
-        "name": "Cellula",
-        "rgbpp": true,
-        "desc": "A fully on-chain AI game that offers users ability to create, compose and evolve digital life. ",
-        "tag": [
-            "AW"
-        ],
-        "link": "https://factory.cellula.life/welcome",
-         "xlink": "https://x.com/cellulalifegame"
-    },
-    {
-        "img": "images/eco/mobit.png",
-        "name": "Mobit",
-        "rgbpp": true,
-        "desc": "The most comprehensive BTC and CKB Assets Management App.",
-        "tag": [
-            "infra"
-        ],
-        "link": "https://mobit.app/",
-         "xlink": "https://x.com/mobitapp"
     }
     
     
