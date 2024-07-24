@@ -1,5 +1,5 @@
 [
-    
+   
     {
         "timeStart":"2024/7/2",
         "locationName":"Singapore",
@@ -54,6 +54,16 @@
         "eventLink":"https://lu.ma/pjxzew9s",
         "type":"Meetup",
         "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,quality=75,width=800,height=450/editor-images/vb/9c3c48a8-1e4f-4a8d-9fec-f8b79c2c961e"
+    },
+      
+    {
+        "timeStart":"2024/5/9",
+        "timeEnd":"2024/5/10",
+        "locationName":"Hongkong, China",
+        "title":"Bitcoin Asia",
+        "type":"Conference",
+        "eventLink":"https://b.tc/conference/asia",
+        "eventImg":"images/event/BTCAsia.jpg"
     },
     {
         "timeStart":"2024/5/8",
