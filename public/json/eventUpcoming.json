@@ -18,16 +18,7 @@
         "type":"Meetup",
         "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/xw/1da5064e-4c7d-4040-9a51-634914856945"
     },
-    {
-        
-        "timeStart":"2024/7/26",
-
-        "locationName":"Nashville, USA",
-        "title":"RGB++ Community Meetup - Buidl on Bitcoin",
-        "eventLink":"https://lu.ma/392ph3qx?tk=UZzTX1",
-        "type":"Meetup",
-        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/0h/9554c7c9-b7c8-46fd-be1c-a9036b2bbdee"
-    },
+   
     {
         
         "timeStart":"2024/7/26",
@@ -51,13 +42,23 @@
     },
     {
         
+        "timeStart":"2024/7/30",
+
+        "locationName":"Nashville, USA",
+        "title":"RGB++ Community Meetup - Buidl on Bitcoin",
+        "eventLink":"https://lu.ma/392ph3qx?tk=UZzTX1",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/0h/9554c7c9-b7c8-46fd-be1c-a9036b2bbdee"
+    },
+    {
+        
         "timeStart":"2024/8/6",
         "timeEnd":"2024/8/8",
 
         "locationName":"Taipei, Taiwan",
         "title":"ABS 2024",
         "eventLink":"https://abs.io/",
-        "type":"Meetup",
+        "type":"Conference",
         "eventImg":"images/event/abs.png"
     }
     
