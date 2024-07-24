@@ -19,16 +19,6 @@
         "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/xw/1da5064e-4c7d-4040-9a51-634914856945"
     },
    
-    {
-        
-        "timeStart":"2024/7/30",
-
-        "locationName":"NYC, USA",
-        "title":"RGB++: Bitcoin Summer Mint (NYC)",
-        "eventLink":"https://lu.ma/gg7qafi4",
-        "type":"Meetup",
-        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=235,height=235/event-covers/25/74c483b4-f09e-4699-9cc7-de829dd3a189"
-    },
     
     {
         
@@ -49,6 +39,17 @@
         "eventLink":"https://lu.ma/392ph3qx?tk=UZzTX1",
         "type":"Meetup",
         "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/0h/9554c7c9-b7c8-46fd-be1c-a9036b2bbdee"
+    },
+    
+    {
+        
+        "timeStart":"2024/7/30",
+
+        "locationName":"NYC, USA",
+        "title":"RGB++: Bitcoin Summer Mint (NYC)",
+        "eventLink":"https://lu.ma/gg7qafi4",
+        "type":"Meetup",
+        "eventImg":"https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=235,height=235/event-covers/25/74c483b4-f09e-4699-9cc7-de829dd3a189"
     },
     {
         
