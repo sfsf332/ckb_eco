@@ -1,49 +1,12 @@
 [
   {
-    "timeStart": "2024/7/25",
-    "timeEnd": "2024/7/27",
-    "locationName": "Nashville, USA",
-    "title": "Bitcoin2024",
-    "eventLink": "https://bitcoin2024.b.tc/2024",
-    "type": "Conference",
-    "eventImg": "images/event/btc2024.png"
-  },
-  {
-    "timeStart": "2024/7/25",
-    "locationName": "Nashville, USA",
-    "title": "Friends of Bitcoin Nashville",
-    "eventLink": "https://lu.ma/0bwudqyt",
-    "type": "Meetup",
-    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/xw/1da5064e-4c7d-4040-9a51-634914856945"
-  },
+    "timeStart": "2024/8/7",
 
-  {
-    "timeStart": "2024/7/26",
-
-    "locationName": "Nashville, USA",
-    "title": "RGB++ Community Meetup - Buidl on Bitcoin",
-    "eventLink": "https://lu.ma/392ph3qx?tk=UZzTX1",
-    "type": "Meetup",
-    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/0h/9554c7c9-b7c8-46fd-be1c-a9036b2bbdee"
-  },
-  {
-    "timeStart": "2024/7/27",
-
-    "locationName": "Nashville, USA",
-    "title": "Bitcoin Brunch",
-    "eventLink": "https://lu.ma/cg7x2nhw?tk=5jnEmA",
-    "type": "Meetup",
-    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/h0/f359cae3-58ca-4ce6-9001-253be1fddd0c"
-  },
-
-  {
-    "timeStart": "2024/7/30",
-
-    "locationName": "NYC, USA",
-    "title": "RGB++: Bitcoin Summer Mint (NYC)",
-    "eventLink": "https://lu.ma/gg7qafi4",
-    "type": "Meetup",
-    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=235,height=235/event-covers/25/74c483b4-f09e-4699-9cc7-de829dd3a189"
+    "locationName": "Taipei, Taiwan",
+    "title": "Secure Scaling Bitcoin Ecosystem",
+    "eventLink": "https://lu.ma/4l8yjzns",
+    "type": "MeetUp",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/5d/d85849c9-b870-4a15-bf44-a5cdf33d14ac"
   },
   {
     "timeStart": "2024/8/6",
