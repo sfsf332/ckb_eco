@@ -1,23 +1,41 @@
 [
   {
     "timeStart": "2024/8/15",
-  
+
     "locationName": "Singapore",
     "title": "BTC Community Mixer Singapore Ⅱ: BTCFi",
     "eventLink": "https://lu.ma/n2zrfva8",
     "type": "MeetUp",
     "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/rk/8c5a3346-ad51-4328-b4ad-362603323429"
+  },{
+    "timeStart": "2024/8/7",
+
+    "locationName": "Taipei, Taiwan",
+    "title": "Secure Scaling Bitcoin Ecosystem",
+    "eventLink": "https://lu.ma/4l8yjzns",
+    "type": "MeetUp",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/5d/d85849c9-b870-4a15-bf44-a5cdf33d14ac"
   },
-{
-  "timeStart": "2024/8/4",
+  {
+    "timeStart": "2024/8/6",
+    "timeEnd": "2024/8/8",
 
-  "locationName": "Shenzhen, China",
-  "title": "Nostr Dev Meetup - Shenzhen",
-  "eventLink": "https://lu.ma/h6uki6d7",
-  "type": "MeetUp",
-  "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/v9/da818b78-3fe0-426e-9424-cbf05b4d2e71"
-},
+    "locationName": "Taipei, Taiwan",
+    "title": "ABS 2024",
+    "eventLink": "https://abs.io/",
+    "type": "Conference",
+    "eventImg": "images/event/abs.png"
+  },
+  {
+    "timeStart": "2024/8/4",
 
+    "locationName": "Shenzhen, China",
+    "title": "Nostr Dev Meetup - Shenzhen",
+    "eventLink": "https://lu.ma/h6uki6d7",
+    "type": "MeetUp",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/v9/da818b78-3fe0-426e-9424-cbf05b4d2e71"
+  },
+  
   {
     "timeStart": "2024/7/25",
     "timeEnd": "2024/7/27",
