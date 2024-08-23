@@ -1,5 +1,24 @@
 [
   {
+    "timeStart": "2024/8/15",
+  
+    "locationName": "Singapore",
+    "title": "BTC Community Mixer Singapore Ⅱ: BTCFi",
+    "eventLink": "https://lu.ma/n2zrfva8",
+    "type": "MeetUp",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/rk/8c5a3346-ad51-4328-b4ad-362603323429"
+  },
+{
+  "timeStart": "2024/8/4",
+
+  "locationName": "Shenzhen, China",
+  "title": "Nostr Dev Meetup - Shenzhen",
+  "eventLink": "https://lu.ma/h6uki6d7",
+  "type": "MeetUp",
+  "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/v9/da818b78-3fe0-426e-9424-cbf05b4d2e71"
+},
+
+  {
     "timeStart": "2024/7/25",
     "timeEnd": "2024/7/27",
     "locationName": "Nashville, USA",
