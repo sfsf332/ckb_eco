@@ -1,22 +1,22 @@
 [
   {
-    "timeStart": "2024/9/2",
+    "timeStart": "2024/9/6",
+    "timeEnd": "2024/9/8",
 
-    "locationName": "Seoul, Korea",
-    "title": "Bitcoin Community Assembly - Seoul",
-    "eventLink": "https://lu.ma/agmuimt5",
-    "type": "MeetUp",
-    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/mm/6aeb4788-da9c-4b12-a761-adcf5ede312a"
+    "locationName": "Taipei, Taiwan",
+    "title": "ABS 2024",
+    "eventLink": "https://lu.ma/yfh20rrr",
+    "type": "Conference",
+    "eventImg": "images/event/abs.png"
   },
   {
-    "timeStart": "2024/9/3",
-    "timeEnd": "2024/9/4",
+    "timeStart": "2024/9/9",
 
-    "locationName": "Singapore",
-    "title": "KBW2024: IMPACT",
-    "eventLink": "https://koreablockchainweek.com/",
+    "locationName": "Thailand, Chiang Mai",
+    "title": "CKCon: Common Knowledge Conference",
+    "eventLink": "https://lu.ma/ndem2rj8",
     "type": "Conference",
-    "eventImg": "images/event/kbw.webp"
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/i3/add799b4-2bb8-4927-9b0d-44fe9259c9e3"
   },
   {
     "timeStart": "2024/9/18",

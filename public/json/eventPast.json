@@ -1,4 +1,25 @@
 [
+  
+  {
+    "timeStart": "2024/9/3",
+    "timeEnd": "2024/9/4",
+
+    "locationName": "Singapore",
+    "title": "KBW2024: IMPACT",
+    "eventLink": "https://koreablockchainweek.com/",
+    "type": "Conference",
+    "eventImg": "images/event/kbw.webp"
+  },
+  {
+    "timeStart": "2024/9/2",
+
+    "locationName": "Seoul, Korea",
+    "title": "Bitcoin Community Assembly - Seoul",
+    "eventLink": "https://lu.ma/agmuimt5",
+    "type": "MeetUp",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/mm/6aeb4788-da9c-4b12-a761-adcf5ede312a"
+  },
+
   {
     "timeStart": "2024/8/15",
 
@@ -16,16 +37,7 @@
     "type": "MeetUp",
     "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/5d/d85849c9-b870-4a15-bf44-a5cdf33d14ac"
   },
-  {
-    "timeStart": "2024/8/6",
-    "timeEnd": "2024/8/8",
-
-    "locationName": "Taipei, Taiwan",
-    "title": "ABS 2024",
-    "eventLink": "https://abs.io/",
-    "type": "Conference",
-    "eventImg": "images/event/abs.png"
-  },
+  
   {
     "timeStart": "2024/8/4",
 
