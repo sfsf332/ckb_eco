@@ -1,23 +1,6 @@
 [
-  {
-    "timeStart": "2024/9/6",
-    "timeEnd": "2024/9/8",
 
-    "locationName": "Taipei, Taiwan",
-    "title": "ABS 2024",
-    "eventLink": "https://abs.io/",
-    "type": "Conference",
-    "eventImg": "images/event/abs.png"
-  },
-  {
-    "timeStart": "2024/9/9",
-
-    "locationName": "Thailand, Chiang Mai",
-    "title": "CKCon: Common Knowledge Conference",
-    "eventLink": "https://lu.ma/yfh20rrr",
-    "type": "Conference",
-    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/i3/add799b4-2bb8-4927-9b0d-44fe9259c9e3"
-  },
+ 
   {
     "timeStart": "2024/9/18",
     "timeEnd": "2024/9/19",
@@ -36,5 +19,14 @@
     "eventLink": "https://lu.ma/ndem2rj8",
     "type": "Conference",
     "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/y6/e0de205b-3816-4729-9c08-6b6d702400bc"
+  },
+  {
+    "timeStart": "2024/11/9",
+
+    "locationName": "Thailand, Chiang Mai",
+    "title": "CKCon: Common Knowledge Conference",
+    "eventLink": "https://lu.ma/yfh20rrr",
+    "type": "Conference",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/i3/add799b4-2bb8-4927-9b0d-44fe9259c9e3"
   }
 ]

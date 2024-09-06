@@ -19,7 +19,16 @@
     "type": "MeetUp",
     "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/mm/6aeb4788-da9c-4b12-a761-adcf5ede312a"
   },
+  {
+    "timeStart": "2024/8/6",
+    "timeEnd": "2024/8/8",
 
+    "locationName": "Taipei, Taiwan",
+    "title": "ABS 2024",
+    "eventLink": "https://abs.io/",
+    "type": "Conference",
+    "eventImg": "images/event/abs.png"
+  },
   {
     "timeStart": "2024/8/15",
 
