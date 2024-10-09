@@ -55,6 +55,14 @@ export default function Header() {
               <Link href="/eco">Ecosystem</Link>
               <Link href="/community">Community</Link>
               <Link href="/about">About</Link>
+              <Link
+                href="https://www.figma.com/design/I7TXxeVOjPeQHGCVUNKuMU/Website?node-id=2-2&node-type=frame&t=r9npZXFWOUlz7FWZ-0"
+                className="buylink"
+                target="_blank"
+              >
+                <img src="images/icon_buy.svg" width={16} />
+                Buy CKB
+              </Link>
               <div className="nav_links"><IconLinks /></div>
             </Drawer>
           </>
@@ -91,6 +99,14 @@ export default function Header() {
                 className={router.pathname === "/about" ? "sel" : ""}
               >
                 About
+              </Link>
+              <Link
+                href="https://www.figma.com/design/I7TXxeVOjPeQHGCVUNKuMU/Website?node-id=2-2&node-type=frame&t=r9npZXFWOUlz7FWZ-0"
+                className="buylink"
+                target="_blank"
+              >
+                <img src="images/icon_buy.svg" width={16} />
+                Buy CKB
               </Link>
               {/* <span onClick={()=>onToggleLanguageClick('en')}>{changeTo}</span> */}
             </div>
