@@ -56,7 +56,7 @@ export default function Header() {
               <Link href="/community">Community</Link>
               <Link href="/about">About</Link>
               <Link
-                href="https://www.figma.com/design/I7TXxeVOjPeQHGCVUNKuMU/Website?node-id=2-2&node-type=frame&t=r9npZXFWOUlz7FWZ-0"
+                href="https://ramp.alchemypay.org/?appId=0m511Et0hBStrnUB#/index"
                 className="buylink"
                 target="_blank"
               >
@@ -101,7 +101,7 @@ export default function Header() {
                 About
               </Link>
               <Link
-                href="https://www.figma.com/design/I7TXxeVOjPeQHGCVUNKuMU/Website?node-id=2-2&node-type=frame&t=r9npZXFWOUlz7FWZ-0"
+                href="https://ramp.alchemypay.org/?appId=0m511Et0hBStrnUB#/index"
                 className="buylink"
                 target="_blank"
               >
