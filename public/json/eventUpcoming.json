@@ -3,6 +3,16 @@
  
   
   {
+    "timeStart": "2024/10/31",
+
+    "locationName": "Dubai",
+    "title": "Binance Blockchain Week 2024",
+    "eventLink": "https://www.binanceblockchainweek.com/event/b7fbe2af-9ab6-4bb2-b78b-486c4d1fa80f/websitePage:9ec1ee53-cbdd-4234-8f04-fb70d6f7ad2e",
+    "type": "Conference",
+    "eventImg": "images/event/Binance-Blockchain.webp"
+  },
+  
+  {
     "timeStart": "2024/11/9",
 
     "locationName": "Thailand, Chiang Mai",
@@ -10,5 +20,14 @@
     "eventLink": "https://lu.ma/yfh20rrr",
     "type": "Conference",
     "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/i3/add799b4-2bb8-4927-9b0d-44fe9259c9e3"
+  },
+  {
+    "timeStart": "2024/11/14",
+
+    "locationName": "Bangkok, Chiang Mai",
+    "title": "BTCON Bangkok",
+    "eventLink": "https://lu.ma/u6q2xtha",
+    "type": "Conference",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/9q/c44a9aef-16e3-44bd-9822-ecf4439c8241"
   }
 ]
