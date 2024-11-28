@@ -2208,6 +2208,7 @@ footer {
 
   .about-block-2 .block-main {
     padding: 24px;
+    width: auto;
   }
 
   .about-block-2 h3 {
