@@ -34,8 +34,8 @@ interface EventProp {
 }
 const Community = () => {
   const [showNews, setShowNews] = React.useState(News);
-  const [showEvents, setShowEvents] = React.useState<EventProp[]>(EventsUpcoming);
-  const [eventType, setEventType] = React.useState('upcoming');
+  const [showEvents, setShowEvents] = React.useState<EventProp[]>(EventsPast);
+  const [eventType, setEventType] = React.useState('past');
   return (
     <>
       <Header />

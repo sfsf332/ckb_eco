@@ -1,9 +1,46 @@
 [
   {
+    "timeStart": "2024/12/9",
+    "timeEnd": "2024/12/11",
+    "locationName": "Abu Dhabi",
+    "title": "Bitcoin Mena",
+    "eventLink": "https://b.tc/conference/mena",
+    "type": "Conference",
+    "eventImg": "https://cdn.prod.website-files.com/6488b0b0fcd2d95f6b83c9d4/672a81c74e613b1954311115_bitcoin2024_mains_stage_crowd.jpg"
+  },
+  {
+    "timeStart": "2024/11/14",
+
+    "locationName": "Bangkok, Chiang Mai",
+    "title": "BTCON Bangkok",
+    "eventLink": "https://lu.ma/u6q2xtha",
+    "type": "Conference",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/9q/c44a9aef-16e3-44bd-9822-ecf4439c8241"
+  },
+  {
+    "timeStart": "2024/11/9",
+
+    "locationName": "Thailand, Chiang Mai",
+    "title": "CKCon: Common Knowledge Conference",
+    "eventLink": "https://lu.ma/yfh20rrr",
+    "type": "Conference",
+    "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/i3/add799b4-2bb8-4927-9b0d-44fe9259c9e3"
+  },
+  {
+    "timeStart": "2024/10/30",
+
+    "locationName": "Dubai",
+    "title": "Binance Blockchain Week 2024",
+    "eventLink": "https://www.binanceblockchainweek.com/event/b7fbe2af-9ab6-4bb2-b78b-486c4d1fa80f/websitePage:9ec1ee53-cbdd-4234-8f04-fb70d6f7ad2e",
+    "type": "Conference",
+    "eventImg": "images/event/Binance-Blockchain.webp"
+  },
+  
+  {
     "timeStart": "2024/9/19",
 
     "locationName": "Singapore",
-    "title": "Bitcoin Singapore: New Horizons",
+    "title": "Bitcoin Singapore: Lightning Returns",
     "eventLink": "https://lu.ma/ndem2rj8",
     "type": "Conference",
     "eventImg": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/y6/e0de205b-3816-4729-9c08-6b6d702400bc"
