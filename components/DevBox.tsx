@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-
 import Link from "next/link";
 import isMobile from "is-mobile";
+import { Tooltip } from 'react-tooltip';
 
 const DevBox = (): JSX.Element => {
   const is_mobile = isMobile();
@@ -43,6 +43,18 @@ const DevBox = (): JSX.Element => {
                 >
                   EN
                 </Link>
+                </div>
+                <div className="build-links">
+                 <Link
+                  href="https://discord.com/channels/657799690070523914/1253434681618333777"
+                  target="_blank"
+                  className="button_link button_link_1"
+                  data-tooltip-id="weekly-ama"
+                  data-tooltip-content="Weekly Dev AMA: Wednesday 22:00 (UTC+8)"
+                >
+                  Weekly Dev AMA
+                </Link>
+                <Tooltip id="weekly-ama" />
               </div>
             </div>
           )}

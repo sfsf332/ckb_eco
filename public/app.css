@@ -2454,6 +2454,7 @@ footer {
   .build-links {
     width: 90%;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .build-links .button_link {
