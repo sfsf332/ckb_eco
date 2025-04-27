@@ -2,7 +2,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import isMobile from "is-mobile";
-import { FaTwitter, FaGlobe } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 interface EcoProp {
   item: {
@@ -32,7 +33,7 @@ const EcoBlock: React.FC<EcoProp> = ({ item, index }) => {
                 <FaGlobe size={14} />
               </Link>}
               {item.xlink&&<Link href={item.xlink}>
-                <FaTwitter size={14} />
+                <FaSquareXTwitter size={14} />
               </Link>}
             </div>
           </div>
@@ -71,7 +72,7 @@ const EcoBlock: React.FC<EcoProp> = ({ item, index }) => {
                 <FaGlobe size={14} />
               </Link>}
               {item.xlink&&<Link href={item.xlink}>
-                <FaTwitter size={14} />
+                <FaSquareXTwitter size={14} />
               </Link>}
             </span>
           </div>

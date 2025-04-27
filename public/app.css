@@ -1434,8 +1434,8 @@ footer {
 
 .eco-block-2 .eco-item .eco-logo img {
   width: 150px;
-  border-radius: 50%;
-  border:1px solid #000;
+  /* border-radius: 50%; */
+  /* border:1px solid #000; */
 }
 
 .eco-block-2 .eco-item .eco-title {

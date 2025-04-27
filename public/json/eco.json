@@ -1,256 +1,356 @@
 [
-    {
-        "img": "images/eco/CELL_Studio.png",
-        "name": "CELL Studio",
-        "desc": "A Blockchain Software Development Company Committed to Advancing the BTCKB Initiative.",
-        "tag": [
-            "Infra"
-        ],
-        "rgbpp": true,
-        "link": "https://cell.studio",
-        "xlink": "https://x.com/ckbcell"
-    },
-    {
-        "img": "images/eco/cellula.png",
-        "name": "Cellula",
-        "rgbpp": true,
-        "desc": "A fully on-chain AI game that offers users ability to create, compose and evolve digital life. ",
-        "tag": [
-            "AW"
-        ],
-        "link": "https://factory.cellula.life/welcome",
-         "xlink": "https://x.com/cellulalifegame"
-    },
-    {
-        "img": "images/eco/did.png",
-        "name": "d.id",
-        "desc": "A Decentralized Identity Protocol",
-        "rgbpp": true,
-        "tag": [
-            "DID"
-        ],
-        "link": "https://d.id/",
-        "xlink": "https://x.com/DIDbased"
-    },
-    {
-        "img": "images/eco/Dobby.png",
-        "name": "Dobby",
-        "rgbpp": true,
-        "desc": "Marketplace for Digital Objects on Bitcoin",
-        "tag": [
-            "Marketplace",
-            "DEX"
-        ],
-        "link": "https://app.dobby.market/cluster/1"
-    },
-    {
-        "img": "images/eco/HueHub.png",
-        "name": "HueHub",
-        "desc": "First DEX for RGB++ Assets on Bitcoin",
-        "rgbpp": true,
-        "tag": [
-            "Marketplace",
-            "Launchpad"
-        ],
-        "link": "https://huehub.xyz/",
-        "xlink": "https://x.com/HueHubOfficial"
-    },
-    {
-        "img": "images/eco/JoyID.png",
-        "name": "JoyID",
-        "desc": "Universal Account Protocol for Web3 Mass-adoption",
-        "tag": [
-            "Marketplace",
-            "Wallet"
-        ],
-        "rgbpp": true,
-        "link": "https://app.joy.id",
-        "xlink": "https://x.com/joy_protocol"
-    },
-    {
-        "img": "images/eco/Metaforo.png",
-        "name": "Metaforo",
-        "rgbpp": true,
-        "desc": "Voting Governance Module Supporting the RGB++ Protocol",
-        "tag": [
-            "Infra"
-        ],
-        "link": "https://metaforo.io/",
-        "xlink": "https://x.com/realmetaforo"
-    },
-   
-    {
-        "img": "images/eco/mobit.png",
-        "name": "Mobit",
-        "rgbpp": true,
-        "desc": "The most comprehensive BTC and CKB Assets Management App.",
-        "tag": [
-            "infra"
-        ],
-        "link": "https://mobit.app/",
-         "xlink": "https://x.com/mobitapp"
-    },
-    
-    {
-        "img": "images/eco/Nervape.png",
-        "name": "Nervape",
-        "desc": "Multi-chain Composable Digital Objects Built on Bitcoin",
-        "rgbpp": true,
-        "tag": [
-            "DOBs"
-        ],
-        "link": "https://www.nervape.com/nervape",
-        "xlink": "https://x.com/Nervapes"
-    },
-    {
-        "img": "images/eco/omiga.png",
-        "name": "Omiga",
-        "desc": "First UTXO DEX for RGB++ Assets on CKB",
-        "rgbpp": true,
-        "tag": [
-            "DEX"
-        ],
-        "link": "https://omiga.io/",
-        "xlink": "https://x.com/OmigaHQ"
-    },
-    {
-        "img": "images/eco/SEAL.png",
-        "name": "SEAL",
-        "rgbpp": true,
-        "desc": "The First RGB++ Asset",
-        "tag": [
-            "Meme"
-        ],
-        "xlink": "https://x.com/btckbseal"
-    },
-    {
-        "img": "images/eco/SeeDAO.png",
-        "name": "SeeDAO",
-        "desc": "A Network Polis Connecting 1 Million Crypto Nomads",
-        "tag": [
-            "DAO"
-        ],
-        "rgbpp": false,
-        "link": "https://seedao.xyz/",
-        "xlink": "https://x.com/see_dao"
-    },
-    {
-        "img": "images/eco/Stable++.png",
-        "name": "Stable++",
-        "desc": "Stablecoin for Nervos & RGB++",
-        "tag": [
-            "DeFi"
-        ],
-        "rgbpp": true,
-        "link": "https://www.stablepp.xyz/ ",
-        "xlink": "https://x.com/stablepp"
-    },
-    {
-        "img": "images/eco/Unicorn.png",
-        "name": "Unicorn",
-        "rgbpp": true,
-        "desc": "The First Tradable Asset and the First DOBs (Digital Objects) on CKB Mainnet",
-        "tag": [
-            "DOBs"
-        ],
-        "link": "http://unidob.xyz",
-        "xlink": "https://x.com/unicorn_dobs"
-    },
-    {
-        "img": "images/eco/UTXOswap.png",
-        "name": "UTXOSwap",
-        "desc": "AMM DEX on CKB",
-        "rgbpp": true,
-        "tag": [
-            "Marketplace",
-            "DeFi"
-        ],
-        "link": "https://utxoswap.xyz/",
-        "xlink": "https://x.com/UTXOSwap"
-    },
-    {
-        "img": "images/eco/UTXOstack.png",
-        "name": "UTXO Stack",
-        "desc": "A BTC and RGB++ based “OP Stack”",
-        "rgbpp": true,
-        "tag": [
-            "Infra"
-        ],
-        "link": "https://www.utxostack.network/",
-        "xlink": "https://x.com/utxostack"
-    },
-    {
-        "img": "images/eco/world3.png",
-        "name": "World3",
-        "rgbpp": true,
-        "desc": "AW (Autonomous Worlds) game based on the RGB++ protocol and DOBs.",
-        "tag": [
-            "AW"
-        ],
-        "link": "https://world3.ai/",
-        "xlink": "https://x.com/WORLD3_AI"
-    },
-    {
-        "img": "images/eco/Neuron.png",
-        "name": "Neuron",
-        "rgbpp": false,
-        "desc": "Desktop Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://neuron.magickbase.com/"
-    },
-    {
-        "img": "images/eco/imToken.png",
-        "name": "imToken",
-        "rgbpp": false,
-        "desc": "Mobile Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://token.im/ckb-wallet"
-    },
+  {
+    "img": "images/eco/fiber.svg",
+    "name": "Fiber Network",
+    "desc": "Fiber Network is a next-generation, common lightning network built on Nervos CKB and off-chain channels. It is designed to provide fast, low-cost, and decentralized multi-token payments and peer-to-peer transactions for RGB++ assets.",
+    "tag": ["Network"],
+    "rgbpp": true,
+    "link": "https://www.fiber.world/",
+    "xlink": "https://x.com/FiberDevs"
+  },
+  {
+    "img": "https://www.rgbppfans.com/images/logo.svg",
+    "name": "RGB++ Layer",
+    "desc": "RGB++ utilizes one-time seals and client-side validation techniques to manage state changes and transaction validation. It maps the Bitcoin UTXO to the Cell of the Nervos CKB via isomorphic bindings, and utilizes scripting constraints on the CKB chain and the Bitcoin chain to validate the correctness of the state computation and the validity of the change ownership.",
+    "tag": ["Protocol"],
+    "rgbpp": true,
+    "link": "https://www.rgbppfans.com/",
+    "xlink": "https://x.com/rgbppfans"
+  },
+  {
+    "img": "images/eco/spore.webp",
+    "name": "Spore Protocol",
+    "desc": "Spore Protocol infuses digital objects(DOBs) with enduring value backed by tokenomics, redeemable at any time. Ensures true on-chain ownership, privacy, creative freedom and frictionless interaction.",
+    "tag": ["Protocol", "DOBs"],
+    "rgbpp": true,
+    "link": "https://spore.pro/",
+    "xlink": "https://x.com/sporeprotocol"
+  },
+  {
+    "img": "images/eco/JoyID.png",
+    "name": "JoyID",
+    "desc": "Universal Account Protocol for Web3 Mass-adoption",
+    "tag": ["Marketplace", "Wallet"],
+    "rgbpp": true,
+    "link": "https://app.joy.id",
+    "xlink": "https://x.com/joy_protocol"
+  },
+  {
+    "img": "images/eco/UTXOstack.webp",
+    "name": "UTXO Stack",
+    "desc": "A BTC and RGB++ based \"OP Stack\"",
+    "rgbpp": true,
+    "tag": ["Infra"],
+    "link": "https://www.utxostack.network/",
+    "xlink": "https://x.com/utxostack"
+  },
+  {
+    "img": "images/eco/UTXOswap.png",
+    "name": "UTXOSwap",
+    "desc": "AMM DEX on CKB",
+    "rgbpp": true,
+    "tag": ["Marketplace", "DeFi"],
+    "link": "https://utxoswap.xyz/",
+    "xlink": "https://x.com/UTXOSwap"
+  },
+  {
+    "img": "images/eco/Nervape.webp",
+    "name": "Nervape",
+    "desc": "Multi-chain Composable Digital Objects Built on Bitcoin",
+    "rgbpp": true,
+    "tag": ["DOBs"],
+    "link": "https://www.nervape.com/nervape",
+    "xlink": "https://x.com/Nervapes"
+  },
+  {
+    "img": "images/eco/ipn.webp",
+    "name": "IPN",
+    "desc": "Interstellar payment network, independent, intelligent with USDI.",
+    "rgbpp": false,
+    "tag": ["DeFi"],
+    "link": "https://www.interpaystellar.com/",
+    "xlink": "https://x.com/IPN_Intelligent"
+  },
+  {
+    "img": "images/eco/destbridge.webp",
+    "name": "Destbridge",
+    "desc": "Stablecoin cross-chain bridge",
+    "rgbpp": true,
+    "tag": ["Infra"],
+    "link": "https://app.destbridge.com/swap",
+    "xlink": "https://x.com/destbridge"
+  },
+  {
+    "img": "images/eco/fi5box.webp",
+    "name": "Fi5box",
+    "desc": "Pioneering the Future, Unveiling the New Era of  Lightning Network Hardware.",
+    "rgbpp": false,
+    "tag": ["Infra", "Hardware"],
+    "link": "https://fi5box.com/",
+    "xlink": "https://x.com/fi5box"
+  },
+  {
+    "img": "images/eco/element.webp",
+    "name": "Element",
+    "desc": "The biggest NFT Marketplace&Aggregator supports 23 chains include CKB and RGB++.",
+    "rgbpp": true,
+    "tag": ["Marketplace"],
+    "link": "https://element.market/btc?p=rgbpp",
+    "xlink": "https://x.com/Element_Market"
+  },
+  {
+    "img": "images/eco/utxoglobal.webp",
+    "name": "UTXO Global",
+    "desc": "Chrome Extension, UTXO Wallet built on CKB. Make the UTXO model more scalable, secure & interoperable.",
+    "rgbpp": false,
+    "tag": ["Wallet"],
+    "link": "https://utxo.global/",
+    "xlink": "https://x.com/Element_Market"
+  },
+  {
+    "img": "images/eco/nervdao.svg",
+    "name": "NervDAO",
+    "desc": "A gateway to effortless staking. Powered by CCC",
+    "rgbpp": false,
+    "tag": ["Infra"],
+    "link": "https://www.nervdao.com/",
+    "xlink": "https://x.com/CKBDevrel"
+  },
+  {
+    "img": "images/eco/did.png",
+    "name": "d.id",
+    "desc": "A Decentralized Identity Protocol",
+    "rgbpp": true,
+    "tag": ["DID"],
+    "link": "https://d.id/",
+    "xlink": "https://x.com/DIDbased"
+  },
+  {
+    "img": "images/eco/seal.webp",
+    "name": "SEAL",
+    "rgbpp": true,
+    "desc": "The First RGB++ Asset",
+    "tag": ["Meme"],
+    "xlink": "https://x.com/btckbseal"
+  },
+  {
+    "img": "images/eco/seedao.webp",
+    "name": "SeeDAO",
+    "desc": "A Network Polis Connecting 1 Million Crypto Nomads",
+    "tag": ["DAO"],
+    "rgbpp": false,
+    "link": "https://seedao.xyz/",
+    "xlink": "https://x.com/see_dao"
+  },
+  {
+    "img": "images/eco/gate.svg",
+    "name": "Gate Wallet",
+    "desc": "Mobile Wallet",
+    "tag": ["Wallet"],
+    "rgbpp": false,
+    "link": "https://www.gate.io/zh/web3"
+  },
+  {
+    "img": "images/eco/ckbull.webp",
+    "name": "CKBull",
+    "desc": "Mobile Wallet",
+    "tag": ["Wallet"],
+    "rgbpp": false,
+    "link": "https://ckbull.app/"
+  },
+  {
+    "img": "images/eco/opera.svg",
+    "name": "Opera Wallet",
+    "desc": "Mobile Wallet",
+    "tag": ["Wallet"],
+    "rgbpp": false,
+    "link": "https://www.opera.com/"
+  },
+  {
+    "img": "images/eco/rei.webp",
+    "name": "Rei Wallet",
+    "desc": "Chrome Extension",
+    "tag": ["Wallet"],
+    "rgbpp": false,
+    "link": "https://reiwallet.io/#home"
+  },
+  {
+    "img": "images/eco/world3.png",
+    "name": "World3",
+    "rgbpp": true,
+    "desc": "AW (Autonomous Worlds) game based on the RGB++ protocol and DOBs.",
+    "tag": ["AW"],
+    "link": "https://world3.ai/",
+    "xlink": "https://x.com/WORLD3_AI"
+  },
+  {
+    "img": "images/eco/cryptape.webp",
+    "name": "Cryptape",
+    "rgbpp": false,
+    "desc": "Building secure, open, and censorship-resistant blockchain infrastructure for ",
+    "tag": ["Infra"],
+    "link": "https://cryptape.com/",
+    "xlink": "https://x.com/Cryptape"
+  },
+  {
+    "img": "images/eco/cellula.png",
+    "name": "Cellula",
+    "rgbpp": true,
+    "desc": "A fully on-chain AI game that offers users ability to create, compose and evolve digital life. ",
+    "tag": ["AW"],
+    "link": "https://factory.cellula.life/welcome",
+    "xlink": "https://x.com/cellulalifegame"
+  },
+  {
+    "img": "images/eco/coinex.webp",
+    "name": "CoinEx Wallet",
+    "rgbpp": true,
+    "desc": "Mobile Wallet",
+    "tag": ["Wallet"],
+    "link": "https://wallet.coinex.com/zh-hans/"
+  },
+  {
+    "img": "images/eco/dobby.webp",
+    "name": "Dobby",
+    "rgbpp": true,
+    "desc": "Marketplace for Digital Objects on Bitcoin",
+    "tag": ["Marketplace", "DEX"],
+    "link": "https://app.dobby.market/cluster/1"
+  },
 
-    {
-        "img": "images/eco/SafePal.png",
-        "name": "SafePal",
-        "rgbpp": false,
-        "desc": "Mobile, Hardware Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://blog.safepal.com/ckb/"
-    },
-    {
-        "img": "images/eco/Ledger.png",
-        "name": "Ledger",
-        "rgbpp": false,
-        "desc": "Hardware Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://www.ledger.com/"
-    },{
-        "img": "images/eco/imKey.png",
-        "name": "imKey",
-        "rgbpp": false,
-        "desc": "Hardware Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://imkey.im/"
-    },
-    {
-        "img": "images/eco/OneKey.png",
-        "name": "OneKey",
-        "rgbpp": false,
-        "desc": "Mobile, Desktop, Hardware Wallet",
-        "tag": [
-            "Wallet"
-        ],
-        "link": "https://onekey.so/"
-    }
-    
-    
-    
+  {
+    "img": "images/eco/omiga.png",
+    "name": "Omiga",
+    "desc": "First UTXO DEX for RGB++ Assets on CKB",
+    "rgbpp": true,
+    "tag": ["DEX"],
+    "link": "https://omiga.io/",
+    "xlink": "https://x.com/OmigaHQ"
+  },
+  {
+    "img": "images/eco/ckbfi.webp",
+    "name": "CKB.FI",
+    "desc": "Tweet to launch memecoin on Bitcoin Ecosystem.",
+    "rgbpp": true,
+    "tag": ["Infra", "Meme"],
+    "link": "https://ckb.fi/",
+    "xlink": "https://x.com/ckbfight"
+  },
+  {
+    "img": "images/eco/Stable++.png",
+    "name": "Stable++",
+    "desc": "Stablecoin for Nervos & RGB++",
+    "tag": ["DeFi"],
+    "rgbpp": true,
+    "link": "https://www.stablepp.xyz/ ",
+    "xlink": "https://x.com/stablepp"
+  },
+  {
+    "img": "images/eco/slientberry.webp",
+    "name": "Slientberry",
+    "desc": "A Web3 digital content asset distribution platform based on the RGB++ protocol,providing one-stop ecosystem services.",
+    "tag": ["Marketplace"],
+    "rgbpp": true,
+    "link": "https://www.silentberry.co/",
+    "xlink": "https://x.com/SilentBerryNFT"
+  },
+  {
+    "img": "images/eco/apro.webp",
+    "name": "APRO Oracle",
+    "desc": "APRO is the first reliable data infrastructure for multi-AI agents, providing AI Oracle and ATTPs. ",
+    "tag": ["Oracle"],
+    "rgbpp": true,
+    "link": "https://www.apro.com/",
+    "xlink": "https://x.com/APRO_Oracle"
+  },
+  {
+    "img": "images/eco/dobhub.webp",
+    "name": "Dobhub",
+    "desc": "The first-ever launchpad on CKB. ",
+    "tag": ["Launchpad"],
+    "rgbpp": true,
+    "link": "https://dobhub.xyz/",
+    "xlink": "https://x.com/realdobhub"
+  },
+  {
+    "img": "images/eco/mobit.png",
+    "name": "Mobit",
+    "rgbpp": true,
+    "desc": "The most comprehensive BTC and CKB Assets Management App.",
+    "tag": ["Infra"],
+    "link": "https://mobit.app/",
+    "xlink": "https://x.com/mobitapp"
+  },
+  {
+    "img": "images/eco/gamebuild.webp",
+    "name": "GameBuild",
+    "rgbpp": false,
+    "desc": "GameBuild is a next-generation game infrastructure with powerful toolkits, bringing a brand new economics and experience for Gamers, Developers and Advertisers",
+    "tag": ["AW"],
+    "link": "https://www.game.build/",
+    "xlink": "https://x.com/GameBuild_"
+  },
+  {
+    "img": "images/eco/meson.webp",
+    "name": "Meson Finance ",
+    "rgbpp": true,
+    "desc": "Meson is the faster and safer way to execute low-cost, zero-slippage BTC, ETH and Stablecoin cross-chain swaps. ",
+    "tag": ["DeFi"],
+    "link": "https://meson.fi/",
+    "xlink": "https://x.com/mesonfi"
+  },
+  {
+    "img": "images/eco/bool.webp",
+    "name": "Bool Network",
+    "rgbpp": true,
+    "desc": "A fully self-custody scalability solution for Bitcoin users.",
+    "tag": ["Infra"],
+    "link": "https://bool.network/",
+    "xlink": "https://x.com/bool_official"
+  },
+
+  {
+    "img": "images/eco/Metaforo.png",
+    "name": "Metaforo",
+    "rgbpp": true,
+    "desc": "Voting Governance Module Supporting the RGB++ Protocol",
+    "tag": ["Infra"],
+    "link": "https://metaforo.io/",
+    "xlink": "https://x.com/realmetaforo"
+  },
+  {
+    "img": "images/eco/Unicorn.png",
+    "name": "Unicorn",
+    "rgbpp": true,
+    "desc": "The First Tradable Asset and the First DOBs (Digital Objects) on CKB Mainnet",
+    "tag": ["DOBs"],
+    "link": "http://unidob.xyz",
+    "xlink": "https://x.com/unicorn_dobs"
+  },
+  {
+    "img": "images/eco/HueHub.png",
+    "name": "HueHub",
+    "desc": "First DEX for RGB++ Assets on Bitcoin",
+    "rgbpp": true,
+    "tag": ["Marketplace", "Launchpad"],
+    "link": "https://huehub.xyz/",
+    "xlink": "https://x.com/HueHubOfficial"
+  },
+  {
+    "img": "images/eco/khalani.webp",
+    "name": "Khalani",
+    "desc": "Khalani is a decentralized solvers platform for intent-driven generative coordination. ",
+    "rgbpp": false,
+    "tag": ["Infra"],
+    "xlink": "https://x.com/khalani_network"
+  },
+  {
+    "img": "images/eco/CELL_Studio.png",
+    "name": "CELL Studio",
+    "desc": "A Blockchain Software Development Company Committed to Advancing the BTCKB Initiative.",
+    "tag": ["Infra"],
+    "rgbpp": true,
+    "link": "https://cell.studio",
+    "xlink": "https://x.com/ckbcell"
+  }
 ]

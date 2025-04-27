@@ -142,8 +142,7 @@ const AboutPage = () => {
             sustainable CKB ecosystem.
           </h6> */}
           <h6>
-          CKB Eco Fund focused on incubating and investing in projects connecting CKB and the Bitcoin ecosystem. The fund supports projects building critical infrastructure and decentralized applications across various sectors, including DeFi, gaming, tooling, NFT marketplaces, and more.
-          </h6>
+          CKB Eco Fund is dedicated to fostering innovations on Common Knowledge Base (CKB), the first Bitcoin-isomorphic L2. We enhance Bitcoin with RGB++, UTXO Stack, and Fiber Network, storing all kinds of common knowledge and accelerating the development of Web5, a genuinely decentralized peer-to-peer internet built on Bitcoin.          </h6>
           <h6>
           In January 2024, the CKB Eco Fund launched BTCKB, a development initiative to enhance integration between the Bitcoin and CKB blockchains through shared PoW consensus and the UTXO model. BTCKB intends to advance the capabilities of the Bitcoin blockchain by introducing new smart contract functionalities and leveraging BTC, Taproot, and RGB++ assets into the CKB blockchain.
           </h6>
