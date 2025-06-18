@@ -30,18 +30,18 @@ const DevBox = (): JSX.Element => {
               <h6>Please join our dev group: </h6>
               <div className="build-links">
                 <Link
-                  href="https://t.me/ckbrgben/6"
+                  href="https://discord.gg/NtWyJBWSP4"
                   target="_blank"
                   className="button_link button_link_1"
                 >
                   CN
                 </Link>
                 <Link
-                  href="https://t.me/ckbrgben/1"
+                  href="https://discord.gg/BzUmvWgbBV"
                   target="_blank"
                   className="button_link button_link_1"
                 >
-                  EN
+                  TG
                 </Link>
                 </div>
                 <div className="build-links">

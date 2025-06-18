@@ -20,9 +20,7 @@ const RanadeFont = localFont({
 });
 
 const Homepage = () => {
-  // console.log(1111111111)
-  // const staticData = await fetchData();
-  
+
   return (
     <>
       <Header />
@@ -44,7 +42,7 @@ const Homepage = () => {
             <Link href="https://docs.nervos.org/" target="_blank" className="button_link">
               Docs
             </Link>
-            <Link href="https://ckbecofund.substack.com/p/ckb-is-an-ideal-bitcoin-layer-2" target="_blank" className="button_link">
+            <Link href="https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0001-positioning/0001-positioning.md" target="_blank" className="button_link">
               WHY CKB?
             </Link>
           </div>
@@ -52,7 +50,7 @@ const Homepage = () => {
           
          
         </div>
-        <div className="main-snap third-screen">
+        {/* <div className="main-snap third-screen">
           <h2 className={sharpieFont.className}>
             <IndexTitle3 />
           </h2>
@@ -60,8 +58,8 @@ const Homepage = () => {
           <div className="img_tree">
             <img src="images/tree.png" />
           </div>
-        </div>
-        <div className="main-snap roadmap-screen">
+        </div> */}
+        {/* <div className="main-snap roadmap-screen">
           <h2 className={sharpieFont.className}>2024 Roadmap</h2>
           <div className="season season_1">
             <div className="label_season">Q1</div>
@@ -96,8 +94,8 @@ const Homepage = () => {
               <li>Host Common Knowledge Con</li>
             </ul>
           </div>
-        </div>
-        <div className="main-snap partner-screen">
+        </div> */}
+         <div className="main-snap partner-screen">
           <h2 className={sharpieFont.className}>Partners</h2>
           <div className="partner_list">
             <Link href={"https://www.cmbchina.com/"} target="_blank">
@@ -112,9 +110,9 @@ const Homepage = () => {
             <Link href={"https://hashkey.capital/"} target="_blank">
               <img src="images/partner/partners-logo-1-5.png" />
             </Link>
-            {/* <Link href={"https://www.ceyuan.com/"} target="_blank">
+            <Link href={"https://www.ceyuan.com/"} target="_blank">
               <img src="images/partner/partners-logo-1-4.png" />
-            </Link> */}
+            </Link> 
             <Link href={"https://dragonfly.xyz/"} target="_blank">
               <img src="images/partner/partners-logo-dragonfly.png" />
             </Link>
@@ -164,7 +162,7 @@ const Homepage = () => {
               <img src="images/partner/partners-logo-4-5.png" />
             </Link>
           </div>
-        </div>
+        </div> 
         <div className="main-snap faq-screen">
           <h2 className={sharpieFont.className}>FAQ</h2>
           <div className="faq_list">

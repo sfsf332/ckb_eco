@@ -1,23 +1,23 @@
 [
     {
-        "title": "1. Who can apply for the grant? ",
-        "content": "Anyone can apply for a grant, including individuals, teams, nonprofits and companies."
+        "title": "1. Who can apply for the Spark Program?",
+        "content": "Anyone with a great idea can apply, including individuals, teams, and developers from any background. We value creativity and execution ability above all else."
     },
     {
-        "title": "2. How long does the review process take?",
-        "content": "Timing varies depending upon the number of inbound applications, but it typically takes around 4 weeks to get from the application to the final decision."
+        "title": "2. How fast is the application process?",
+        "content": "Extremely fast. You can expect a final decision from our committee within one week of submitting your application. Our goal is to get you building, not waiting."
     },
     {
-        "title": "3. What size are the grants?",
-        "content": "Most grants range between $3k-50k USD. However, there is no minimum or maximum amount, which is assessed on how significant and realistic the application is as related to the deliverables."
+        "title": "3. What is the typical grant size?",
+        "content": "Spark grants are designed to be quick and lightweight, typically up to $1,000 USD. Exceptionally impactful projects may be considered for up to $2,000. The goal is to fund a specific prototype or validation phase within 1-2 months."
     },
     {
-        "title": "4. Are there any restrictions on how grants can be used?",
-        "content": "Grant funds must be used to achieve the mutually agreed-upon milestones outlined in the grant agreement. The eco fund may require an audit on a project’s use of the grant to ensure the use of proceeds is in accordance with the terms of the grant. "
+        "title": "4. Are there restrictions on how the funds can be used?",
+        "content": "We offer flexibility. Funds can be used for technical development, initial user testing and acquisition, or basic operational needs like content creation. The key is that the usage must directly support the project goals stated in your application."
     },
     {
-        "title":"5. What stage should my project be at to qualify for a grant?",
-        "content":"At CKB Eco Fund, we welcome projects at various stages of development, including early-stage projects. However, please note that our evaluation criteria consider your project proposal's feasibility, potential impact, and clarity, even if it is still in the early stages. We are also open to supporting projects already active on other blockchains and exploring integration with CKB."
+        "title":"5. What stage should my project be at to apply?",
+        "content":"The Spark Program is specifically for early-stage ideas and concepts. It's perfect if you want to build your first Proof-of-Concept, validate a core assumption, or iterate on a very early demo. For more mature projects seeking larger funding, we encourage you to apply to the Community Fund DAO after completing a Spark grant."
     }
    
 ]

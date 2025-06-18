@@ -1,11 +1,11 @@
 [
     {
         "title": "1. What is CKB?",
-        "content": "CKB is a highly flexible and interoperable blockchain built on RISC-V and secured by Proof-of-Work. As the foundation of the Nervos network, CKB ensures outstanding security, decentralization, and modularity. By mapping Bitcoin through RGB++, CKB empowers users and developers to explore boundless possibilities in autonomous worlds (AW)."
+        "content": "Built on RISC-V and secured by Proof-of-Work, CKB is the most flexible and interoperable blockchain. It serves as the ultimate foundation of Nervos, a modular blockchain network built from the ground up to ensure outstanding security, decentralization, flexibility, and interoperability."
     },
     {
         "title": "2. What makes CKB secure and flexible?",
-        "content": "The security and flexibility of CKB come from its innovative features: 1. PoW consensus, the same mechanism that secures Bitcoin, with Eaglesong hash function, ensuring robustness and decentralization. 2. Cell model, enabling flexible state storage and scalability. 3. RISC-V powered CKB-VM, supporting versatile smart contracts. 4. Protocol-level account abstraction, enhancing user experiences. These features lay a solid foundation for the decentralized economy and AW."
+        "content": "The security and flexibility of CKB come from its features: 1. PoW consensus, the same mechanism that secures Bitcoin, with Eaglesong hash function, ensuring robustness and decentralization. 2. Cell model, enabling flexible state storage and scalability. 3. RISC-V powered CKB-VM, supporting versatile smart contracts. 4. Protocol-level account abstraction, enhancing user experiences."
     },
     {
         "title": "3. What is the relationship between CKB and RGB++?",
@@ -20,12 +20,12 @@
         "content":"CKB's flexibility allows developers to build various decentralized applications, including DeFi protocols, games, social networks, and wallets. Visit the Ecosystem page to explore the growing range of applications on CKB."
     },
     {
-        "title":"6. What is the vision of the CKB Ecosystem Fund?",
-        "content":"The CKB Ecosystem Fund is dedicated to fostering innovations on CKB. It aims to invest in startups that drive adoption, scalability, and accessibility of CKB, cultivating a vibrant and sustainable ecosystem."
+        "title":"6. What is the vision of the CKB Eco Fund?",
+        "content":"CKB Eco Fund is dedicated to fostering innovations on the Common Knowledge Base (CKB).  "
     },
     {
         "title":"7. How can I participate in the CKB ecosystem?",
-        "content":"There are many ways to get involved: you can mine CKB, build applications on CKB, trade CKB tokens on exchanges, or join the Nervos DAO to earn rewards. Choose your path and become a part of the CKB community."
+        "content":"There are many ways to get involved: you can discuss within the community, apply for Spark grants and CKB Community Fund to build applications on CKB, mine or trade CKB, or join the Nervos DAO to earn rewards. Choose your path and become a part of the CKB community."
     },
     {
         "title":"8. Where can I buy CKB tokens?",

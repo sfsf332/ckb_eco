@@ -11,70 +11,26 @@ const StatusBox = () => {
   const is_mobile = isMobile();
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(
-        "https://mainnet-api.explorer.nervos.org/api/v1/statistics",
-        {
-          headers: {
-            Accept: "application/vnd.api+json",
-            "Content-Type": "application/vnd.api+json",
-          },
+      try {
+        const res = await fetch("/api/statistics");
+        if (!res.ok) {
+          throw new Error("Failed to fetch data");
         }
-      );
-      if (!res.ok) {
-        throw new Error("Failed to fetch data");
+        const data = await res.json();
+        
+        setHashRate(data.hashRate);
+        setTranslations(data.translations);
+        setLiveCell(data.liveCell);
+        setAddressCount(data.addressCount);
+      } catch (error) {
+        console.error("Error fetching statistics:", error);
       }
+    };
 
-      let data = await res.json();
-
-      setHashRate((data.data.attributes.hash_rate / 1000000000000).toFixed(2));
-      setTranslations(data.data.attributes.transactions_last_24hrs);
-    };
-    const fetchCellData = async () => {
-      const res = await fetch(
-        "https://mainnet-api.explorer.nervos.org/api/v1/daily_statistics/live_cells_count-dead_cells_count",
-        {
-          headers: {
-            Accept: "application/vnd.api+json",
-            "Content-Type": "application/vnd.api+json",
-          },
-        }
-      );
-      if (!res.ok) {
-        throw new Error("Failed to fetch data");
-      }
-      let data = await res.json();
-      let cellData = data.data;
-      setLiveCell(
-        (
-          cellData[cellData.length - 1].attributes.live_cells_count / 1000000
-        ).toFixed(2)
-      );
-    };
-    const fetchAddressData = async () => {
-      const res = await fetch(
-        "https://mainnet-api.explorer.nervos.org/api/v1/daily_statistics/addresses_count",
-        {
-          headers: {
-            Accept: "application/vnd.api+json",
-            "Content-Type": "application/vnd.api+json",
-          },
-        }
-      );
-      if (!res.ok) {
-        throw new Error("Failed to fetch data");
-      }
-      let data = await res.json();
-      let addressData = data.data;
-      setAddressCount(
-        (
-          addressData[addressData.length - 1].attributes.addresses_count /
-          1000000
-        ).toFixed(2)
-      );
-    };
     fetchData();
-    fetchCellData();
-    fetchAddressData();
+    // 每5分钟更新一次数据
+    const interval = setInterval(fetchData, 5 * 60 * 1000);
+    return () => clearInterval(interval);
   }, []);
   return (
     <>

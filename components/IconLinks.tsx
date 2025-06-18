@@ -12,15 +12,15 @@ const IconLinks = (): JSX.Element => {
     <Link href={"https://twitter.com/CKBEcoFund"} target="_blank">
       <FaXTwitter />
     </Link>
-    <Link href={"https://substack.com/@ckbecofund"} target="_blank">
+    {/* <Link href={"https://substack.com/@ckbecofund"} target="_blank">
       <SiSubstack />
     </Link>
     <Link href={"https://t.me/ckb_community"} target="_blank">
       <FaTelegramPlane />
-    </Link>
+    </Link> 
     <Link href={"https://discord.com/invite/FKh8Zzvwqa"}  target="_blank">
       <FaDiscord />
-    </Link>
+    </Link>*/}
   </div>
   );
 };

@@ -12,7 +12,9 @@ import { MdAccessTimeFilled, MdLocationOn } from "react-icons/md";
 import dynamic from "next/dynamic";
 // import ReportList from "components/ReportList";
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
-const ReportList = dynamic(() => import("../components/ReportList"), { ssr: false });
+const ReportList = dynamic(() => import("../components/ReportList"), {
+  ssr: false,
+});
 const sharpieFont = localFont({
   src: "../public/font/Sharpie-Variable.ttf",
   display: "swap",
@@ -22,7 +24,6 @@ const RanadeFont = localFont({
   display: "swap",
 });
 interface EventProp {
-
   timeStart: string;
   timeEnd?: string;
   locationName: string;
@@ -30,12 +31,11 @@ interface EventProp {
   eventLink?: string;
   type: string;
   eventImg: string;
-
 }
 const Community = () => {
   const [showNews, setShowNews] = React.useState(News);
   const [showEvents, setShowEvents] = React.useState<EventProp[]>(EventsPast);
-  const [eventType, setEventType] = React.useState('past');
+  const [eventType, setEventType] = React.useState("past");
   return (
     <>
       <Header />
@@ -47,12 +47,9 @@ const Community = () => {
               <br />
               Infinite Possibilities
             </h2>
-            <h4>
-              Stay up-to-date with the latest news, participate in events, and
-              connect with fellow CKB enthusiasts through our community.
-            </h4>
+            <h4>Connect with fellow CKB enthusiasts through our community</h4>
             <div className="build-links">
-              <Link
+              {/* <Link
                 href="https://www.nervos.org/"
                 target="_blank"
                 className="button_link button_link_2"
@@ -72,48 +69,11 @@ const Community = () => {
                 className="button_link button_link_2"
               >
                 Binance Academy
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
-        <div className="comm-block-2 " id="news">
-          <div className="block-main">
-            <div className="comm-title">
-              <h2 className={sharpieFont.className}>News</h2>
-              <Link
-                className="link_more"
-                href={"https://substack.com/@ckbecofund"}
-                target="_blank"
-              >
-                View all news
-              </Link>
-            </div>
-            <ReportList />
-            {/* <div className="news-list">
-              {showNews.map((news, index) => {
-                return (
-                  <div className="news-item" key={index}>
-                    <div className="news-head">
-                      <img src={news.head} />
-                    </div>
-                    <div className="news-content">
-                      <div className="news-time">
-                        <span>{news.time}</span>
-                        <span className="tag">{news.tag}</span>
-                      </div>
-                      <p>{news.title} </p>
-                      <div className="more">
-                        <Link href={news.link} target="_blank">
-                          Read more
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div> */}
-          </div>
-        </div>
+
         <div className="comm-block-3 " id="event">
           <div className="block-main">
             <div className="comm-title">
@@ -124,15 +84,24 @@ const Community = () => {
             </div>
             <div className="event-switch">
               <div className="switch-box">
-                <span className={eventType==='upcoming'?"sel":''} onClick={()=>{
-                  setEventType('upcoming');
-                  setShowEvents(EventsUpcoming)
-                }}>Upcoming</span>
-                <span className={eventType==='past'?"sel":''}onClick={()=>{
-                  setEventType('past')
-                  setShowEvents(EventsPast)
-
-                }}>Past</span>
+                <span
+                  className={eventType === "upcoming" ? "sel" : ""}
+                  onClick={() => {
+                    setEventType("upcoming");
+                    setShowEvents(EventsUpcoming);
+                  }}
+                >
+                  Upcoming
+                </span>
+                <span
+                  className={eventType === "past" ? "sel" : ""}
+                  onClick={() => {
+                    setEventType("past");
+                    setShowEvents(EventsPast);
+                  }}
+                >
+                  Past
+                </span>
               </div>
             </div>
             <div className="event-list">
@@ -141,29 +110,28 @@ const Community = () => {
                   <div className="event-item" key={index}>
                     <h5>{event.title}</h5>
                     <div className="event-item-box">
-                    <div className="event-info">
-                      <span className="tag">{event.type}</span>
-                     
-                      <ul>
-                        <li>
-                          <MdAccessTimeFilled size={18} /> {event.timeStart}
-                         
-                          {event.timeEnd&&" - "+event.timeEnd}
-                        </li>
-                        <li>
-                          <MdLocationOn size={18} /> {event.locationName}
-                        </li>
-                        {event.eventLink && (
+                      <div className="event-info">
+                        <span className="tag">{event.type}</span>
+
+                        <ul>
                           <li>
-                            <FaLink size={16} />
-                            <Link href={event.eventLink}>Detail</Link>
+                            <MdAccessTimeFilled size={18} /> {event.timeStart}
+                            {event.timeEnd && " - " + event.timeEnd}
                           </li>
-                        )}
-                      </ul>
-                    </div>
-                    <div className="event-head">
-                      <img src={event.eventImg}  height={150} />
-                    </div>
+                          <li>
+                            <MdLocationOn size={18} /> {event.locationName}
+                          </li>
+                          {event.eventLink && (
+                            <li>
+                              <FaLink size={16} />
+                              <Link href={event.eventLink}>Detail</Link>
+                            </li>
+                          )}
+                        </ul>
+                      </div>
+                      <div className="event-head">
+                        <img src={event.eventImg} height={150} />
+                      </div>
                     </div>
                   </div>
                 );
@@ -176,38 +144,39 @@ const Community = () => {
             <h2 className={sharpieFont.className}>Community Hub</h2>
             <h3>Community</h3>
             <div className="list">
-              <Link href={"https://t.me/ckb_community"} target="_blank">
-                CKB Community
-              </Link>
-              <Link href={"https://x.com/CKB_CN"} target="_blank">
-                CKB CN
-              </Link>
-              <Link href={"https://linktr.ee/ckbkorea"} target="_blank">
-                CKB Korea
+              <Link href={"https://discord.gg/NtWyJBWSP4"} target="_blank">
+                Nervos network DC
               </Link>
               <Link href={"https://t.me/NervosNetwork"} target="_blank">
-                Nervos Network
+                Nervos network TG
               </Link>
-              <Link href={"https://x.com/NervosNation"} target="_blank">
-                Nervos Nation
+              <Link href={"https://x.com/CKB_CN"} target="_blank">
+                CKB中文 X
               </Link>
-              <Link href={"https://x.com/rgbppfans"} target="_blank">
-                RGB++ Fans
+              <Link href={"https://t.me/CKBCNCommunity"} target="_blank">
+                CKB中文社区 TG
               </Link>
-              <Link href={"https://t.me/sealrgbpp"} target="_blank">
-                Seal Community
+              <Link href={"https://t.me/NervosNation "} target="_blank">
+                Nervos Nation TG
+              </Link>
+
+              <Link href={"https://x.com/CKB_Korea"} target="_blank">
+                CKB Korea X
+              </Link>
+              <Link href={"https://t.me/CKBKoreaUpdates"} target="_blank">
+                CKB Korea 공지방 TG
               </Link>
             </div>
             <h3>Forum</h3>
             <div className="list">
+              <Link href={"https://talk.nervos.org/"} target="_blank">
+                Nervos Talk
+              </Link>
               <Link
                 href={"https://www.reddit.com/r/NervosNetwork/"}
                 target="_blank"
               >
                 Reddit
-              </Link>
-              <Link href={"https://talk.nervos.org/"} target="_blank">
-                Nervos Talk
               </Link>
             </div>
             <h3>Community-Contributed Resources</h3>

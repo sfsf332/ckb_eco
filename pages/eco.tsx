@@ -117,7 +117,7 @@ const Eco = () => {
               blockchain technology with the power of UTXO Stack, RGB++ and
               Lightning Network.
             </h4>
-            <div className="eco-links">
+            {/* <div className="eco-links">
               <Link
                 href="https://forms.gle/CVCgHXaeBZadRxa7A"
                 target="_blank"
@@ -125,7 +125,7 @@ const Eco = () => {
               >
                 Submit Projects
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="eco-block-2">

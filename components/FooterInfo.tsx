@@ -8,7 +8,7 @@ const FooterInfo = (): JSX.Element => {
       <dl>
         <dt>Build</dt>
         <dd>
-          <Link href={"https://docs.nervos.org/"}>Docs</Link>
+          <Link href={"/build"}>Docs</Link>
         </dd>
         <dd>
           <Link href={"/build#grant"}>Grants</Link>
@@ -25,15 +25,15 @@ const FooterInfo = (): JSX.Element => {
         <dd>
           <Link href={"https://explorer.nervos.org/"}>Explorer</Link>
         </dd>
-        <dd>
+        {/* <dd>
           <Link href={"https://forms.gle/CVCgHXaeBZadRxa7A"}>Submit Projects</Link>
-        </dd>
+        </dd> */}
       </dl>
       <dl>
         <dt>Community</dt>
-        <dd>
+        {/* <dd>
           <Link href={"/community#news"}>News</Link>
-        </dd>
+        </dd> */}
         <dd>
           <Link href={"/community#event"}>Events</Link>
         </dd>
@@ -43,14 +43,14 @@ const FooterInfo = (): JSX.Element => {
       </dl>
       <dl>
         <dt>About</dt>
-        <dd>
+        {/* <dd>
           <Link href={"/about"}>Intro</Link>
         </dd>
         <dd>
           <Link href={"/about#team"}>Team</Link>
-        </dd>
+        </dd> */}
         <dd>
-          <Link href={"/about#media"}>Media Kit</Link>
+          <Link href={"https://www.ckbeco.fund/en/images/logo/Logo-CKB%20&%20CKB%20Eco%20Fund.zip"}>Media Kit</Link>
         </dd>
       </dl>
     </div>

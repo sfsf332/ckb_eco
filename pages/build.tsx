@@ -26,15 +26,13 @@ const BuildPage = () => {
         <DevBox />
         <div className="build-block-1 ">
           <h2 className={sharpieFont.className}>
-            Empower the Bitcoin Ecosystem with
+          Empower the Bitcoin Ecosystem with
             <br />
-            Contract Kernel of Bitcoin
+            Common Knowledge Base
           </h2>
           <h4>
-            Build with CKB, unleash the potential of assets on Bitcoin with
-            RGB++,
-            <br />
-            and build the autonomous world on DOBs through the Spore protocol.
+           We have the docs, grants, and support for you to get started.
+          
           </h4>
           <div className="build-links">
             <Link
@@ -45,18 +43,18 @@ const BuildPage = () => {
               CKB Docs
             </Link>
             <Link
-              href="https://github.com/ckb-cell/rgbpp-sdk"
+              href="https://www.rgbppfans.com/"
               target="_blank"
               className="button_link button_link_1"
             >
-              RGB++ SDK
+              RGB++ Fans
             </Link>
             <Link
-              href="https://docs.spore.pro/"
+              href="https://www.fiber.world/"
               target="_blank"
               className="button_link button_link_1"
             >
-              Spore Protocol
+              Fiber Network
             </Link>
           </div>
           <img
@@ -82,17 +80,17 @@ const BuildPage = () => {
             height={163}
           />
           <div className="content">
-            <h2 className={sharpieFont.className}>CKB Eco Fund Grants</h2>
+            <h2 className={sharpieFont.className}>CKB Eco Fund Spark Program</h2>
             <p>
-              The CKB Eco Fund is committed to fostering a thriving and
-              sustainable ecosystem around CKB.
-              <br />
-              We provide grants and support to projects that contribute to the
-              growth and adoption of CKB and related technologies.
+            Have an innovative concept for the Web5? 
+            <br />Whether you need to write the first lines of code or validate your prototype with seed users,
+            <br /> the Spark Program provides rapid, lightweight funding to help you take the critical next step in 1-2 months.
+              
+             
             </p>
             <div className="build-links">
               <Link
-                href="https://forms.gle/UQkKUWdCgJmisgb58"
+                href="https://talk.nervos.org/t/ckb-eco-fund-spark-program-mini-grant-initiative/8752"
                 target="_blank"
                 className="button_link button_link_1"
               >
@@ -111,61 +109,56 @@ const BuildPage = () => {
           <div className="block-main">
             <h3 className="big">Focus Areas</h3>
             <div className="content-block">
-              <h3>Infrastructure and Research</h3>
+              <h3>User-Centric Applications</h3>
               <p>
-                We support projects that focus on building critical
-                infrastructure or conducting research that benefits the CKB
-                ecosystem, even though they may not have immediate commercial
-                viability.
+              We are looking for applications that solve real user problems and explore new forms of digital interaction, whether that involves building the initial prototype or running structured tests to find your first seed users. 
               </p>
             </div>
             <div className="content-block">
-              <h3>Ecosystem Applications</h3>
+              <h3>Digital Sovereign Infrastructure & Primitives</h3>
               <p>
-                We support decentralized applications and tools that expand the
-                utility and accessibility of CKB. These projects should have the
-                potential for commercial viability and independent operation.
-                Projects must deploy their contracts on CKB.
+              We support the development of core protocols, developer tooling, and decentralized primitives that strengthen the entire ecosystem. Your work can become the foundational building block for countless other Web5 applications.
               </p>
               <div className="content-list">
                 <h5>
                   We are particularly interested in projects that contribute to:
                 </h5>
                 <div className="project-list">
-                  <span>Bitcoin Finance (BiFi)</span>
-                  <span>UTXO Stack-based</span>
-                  <span>Digital Objects (DOBs)</span>
-                  <span>Nostr-related</span>
-                  <span>Lightning Network on CKB</span>
-                  <span>Games</span>
-                  <span>Autonomous Worlds</span>
-                  <span>Other Innovative Projects</span>
+                  <span>Apps built on AT Protocol</span>
+                  <span>DID Solutions</span>
+                  <span>RGB++ Innovations</span>
+                  <span>Fiber Network</span>
+                  <span>Local-first and P2P</span>
+                  <span>DAOs & Online Communities</span>
+                  <span>Developer Tools</span>
+                  <span>Other innovative projects</span>
                 </div>
               </div>
             </div>
-            <h3 className="big block-2">Application Process</h3>
+            <h3 className="big block-2">Our Transparent Process</h3>
             <div className="process-block">
               <div>
-                <h3>A. Submit Application</h3>
-                <p>The application team shall craft a comprehensive proposal and submit it.</p>
+                <h3>A. Apply & Discuss</h3>
+                <p>Submit your proposal in our  <Link style={{color: "#000"}} href="https://discord.gg/fSVmtfAxyX" target="_blank">Spark Program </Link>channel. Our committee will engage with your idea immediately.</p>
                 <img src="images/arrow.png" height={72} />
               </div>
               <div>
-                <h3>B. Review and Vote</h3>
+                <h3>B. Review & Public Decision</h3>
                 <p>
-                The grant committee will review the application and then vote on it. 
+                Review and decide within one week. The decision and our reasoning behind it are announced publicly, ensuring full transparency.
                 </p>
                 <img src="images/arrow.png" height={72} />
               </div>
               <div>
-                <h3>C. Sign Agreement</h3>
-                <p>Sign an agreement outlining the milestones to be achieved.</p>
+                <h3>C. Launch with Initial Funding</h3>
+                <p>Once approved, you'll receive 20% grant to get started immediately and have a dedicated channel for collaboration.</p>
                 <img src="images/arrow.png" height={72} />
               </div>
               <div>
-                <h3>D. Distribute Grants</h3>
+                <h3>D. Iterate with Open Progress</h3>
                 <p>
-                  With all the steps complete, the grants will be disbursed.
+                Build in the open and draw the remaining 80% of funds flexibly based on your progress. All project updates and fund distributions are tracked on our public 
+                <Link style={{color: "#000"}} href="https://www.notion.so/CKB-Eco-Fund-Spark-Program-Dashboard-1f424205dae080faad8de72a438d576f?source=copy_link" target="_blank">Transparency Dashboard</Link>. 
                 </p>
                 <img src="images/arrow.png" height={72} />
               </div>
@@ -184,39 +177,16 @@ const BuildPage = () => {
         <div className="build-block-4">
           <div className="content">
             <h2 className={sharpieFont.className}>
-              CKB Community Fund DAO Grants
+            CKB Community Fund DAO Grants
             </h2>
             <p>
-              The CKB Community Fund DAO is a community fund initiated by the
-              Nervos community and jointly contributed by the community and the
-              Nervos Foundation to fund community members to do various things
-              around the CKB L1 ecosystem, such as code development, event
-              organization, content production etc.
+            The CKB Community Fund DAO is a community fund initiated by the Nervos community and jointly contributed by the community and the Nervos Foundation.
             </p>
             <p>
-              The CKB Community Fund DAO has an initial holding of 276,000,000
-              CKB. The list of funded projects can be found{" "}
-              <Link
-                href={"https://talk.nervos.org/t/list-of-funded-proposals/7793"}
-                target="_blank"
-              >
-                here
-              </Link>
-              .
+            It provides larger-scale funding for ambitious projects, governed directly by the community. If your vision is big, this is your next step.
+             
             </p>
-            <p>
-              For builders looking for grants and other support within Nervos
-              CKB, please read and follow this{" "}
-              <Link
-                href={
-                  "https://talk.nervos.org/t/ckb-community-fund-dao-rules-and-process/6874"
-                }
-                target="_blank"
-              >
-                guide
-              </Link>
-              .
-            </p>
+           
             <div className="build-links">
               <Link
                 href="https://talk.nervos.org/c/ckb-community-fund-dao/65"

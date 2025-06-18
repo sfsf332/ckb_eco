@@ -54,7 +54,7 @@ export default function Header() {
              
               <Link href="/eco">Ecosystem</Link>
               <Link href="/community">Community</Link>
-              <Link href="/about">About</Link>
+              {/* <Link href="/about">About</Link> */}
               <Link
                 href="https://ramp.alchemypay.org/?appId=0m511Et0hBStrnUB#/index"
                 className="buylink"
@@ -94,12 +94,12 @@ export default function Header() {
               >
                 Community
               </Link>
-              <Link
+              {/* <Link
                 href="/about"
                 className={router.pathname === "/about" ? "sel" : ""}
               >
                 About
-              </Link>
+              </Link> */}
               <Link
                 href="https://ramp.alchemypay.org/?appId=0m511Et0hBStrnUB#/index"
                 className="buylink"
