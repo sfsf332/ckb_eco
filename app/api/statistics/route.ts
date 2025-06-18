@@ -55,6 +55,7 @@ export async function GET() {
 
     // 更新缓存
     cache = {
+      //@ts-ignore
       data: processedData,
       timestamp: now
     };
