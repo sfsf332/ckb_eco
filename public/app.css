@@ -1810,7 +1810,7 @@ footer {
   display: inline-block;
   background: #FF9900;
   box-shadow: 0px 4px 4px 0px #FF990040;
-  padding: 12px;
+  padding: 12px 10px;
   border-radius: 12px;
   height: 25px;
   line-height: 25px;

@@ -110,9 +110,7 @@ const Homepage = () => {
             <Link href={"https://hashkey.capital/"} target="_blank">
               <img src="images/partner/partners-logo-1-5.png" />
             </Link>
-            <Link href={"https://www.ceyuan.com/"} target="_blank">
-              <img src="images/partner/partners-logo-1-4.png" />
-            </Link> 
+           
             <Link href={"https://dragonfly.xyz/"} target="_blank">
               <img src="images/partner/partners-logo-dragonfly.png" />
             </Link>
