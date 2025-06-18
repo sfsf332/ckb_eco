@@ -58,12 +58,7 @@ const EmailSubscribe = (): JSX.Element => {
       <div className="contentleft">
         <div>
           <img src="images/logo.png" height={32} />
-          <p>
-            CKB Ecosystem Fund is dedicated to fostering innovations on CKB.
-            <br />
-            We invest in early and growth-stage startups that drive the
-            adoption, scalability, and accessibility of CKB.
-          </p>
+         
         </div>
         <Link href="mailto:contact@ckbeco.fund" target="_blank">
           <MdEmail /> contact@ckbeco.fund
