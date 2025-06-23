@@ -78,9 +78,9 @@ const Community = () => {
           <div className="block-main">
             <div className="comm-title">
               <h2 className={sharpieFont.className}>Events</h2>
-              <Link className="link_more" href={"#"}>
+              {/* <Link className="link_more" href={"#"}>
                 View all events
-              </Link>
+              </Link> */}
             </div>
             <div className="event-switch">
               <div className="switch-box">
