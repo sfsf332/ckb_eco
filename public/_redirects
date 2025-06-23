@@ -1,8 +1,0 @@
-# 处理 Next.js 静态文件
-/_next/* /_next/:splat 200
-
-# 处理 API 路由
-/api/* /api/:splat 200
-
-# 处理其他所有路由
-/* /index.html 200 

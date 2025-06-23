@@ -71,7 +71,7 @@ export async function GET() {
       addressCount: (addressData.data[addressData.data.length - 1].attributes.addresses_count / 1000000).toFixed(2),
       occupied:(Number(toText(BigInt(parseDAO(data.dao)[3])-504000000000000000n))/1000000).toFixed(2)
     };
-    console.log(processedData)
+    // console.log(processedData)
     // 更新缓存
     cache = {
       //@ts-ignore

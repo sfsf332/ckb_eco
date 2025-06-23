@@ -12,6 +12,8 @@ class MyDocument extends Document<Props> {
       <Html lang="zh-CN" >
         <Head>
           <meta charSet="utf-8" />
+          <meta httpEquiv="Accept-Language" content="zh-CN,zh;q=0.9,en;q=0.8" />
+          <meta httpEquiv="Content-Language" content="zh-CN" />
           <link
             href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
             rel="stylesheet"

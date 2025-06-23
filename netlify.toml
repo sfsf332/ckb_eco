@@ -2,20 +2,7 @@
   command = "yarn build"
   publish = ".next"
 
-# 处理 Next.js 的静态文件
-[[redirects]]
-  from = "/_next/*"
-  to = "/_next/:splat"
-  status = 200
-
-# 处理 API 路由
-[[redirects]]
-  from = "/api/*"
-  to = "/api/:splat"
-  status = 200
-
-# 处理其他所有路由，让 Next.js 处理
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200 
+[build.environment]
+  NODE_ENV = "production"
+  LANG = "zh_CN.UTF-8"
+  LC_ALL = "zh_CN.UTF-8" 

@@ -10,12 +10,6 @@ const nextConfig = {
   experimental: {
     esmExternals, // https://nextjs.org/blog/next-11-1#es-modules-support
   },
-  // 移除国际化配置，直接显示中文内容
-  // i18n: {
-  //   ...i18n,
-  //   defaultLocale: 'zh',
-  //   localeDetection: false,
-  // },
   reactStrictMode: true,
   typescript: {
     tsconfigPath,
