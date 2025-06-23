@@ -4,7 +4,7 @@ import faqList from "../public/json/faq.json";
 import localFont from "next/font/local";
 import AnimatedAccordionList from "components/AnimatedAccordionList";
 import dynamic from 'next/dynamic';
-import IndexTitle3 from "components/IndexTitle3";
+// import IndexTitle3 from "components/IndexTitle3";
 
 const Header = dynamic(() => import('../components/Header'), { ssr: false });
 const StatusBox = dynamic(() => import('../components/StatusBox'), { ssr: false });

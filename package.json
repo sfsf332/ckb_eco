@@ -15,7 +15,10 @@
     "interface": "i18next-resources-for-ts interface -i ./public/locales/en -o ./@types/resources.d.ts"
   },
   "dependencies": {
+    "@ckb-lumos/lumos": "^0.23.0",
+    "@ickb/lumos-utils": "^1.4.2",
     "@next/font": "^14.2.3",
+    "@tanstack/react-query": "^5.81.2",
     "@types/lodash": "4.14.178",
     "fuse.js": "^7.0.0",
     "github-user-repo-card": "^0.6.9",
